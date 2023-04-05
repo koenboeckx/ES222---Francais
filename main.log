@@ -1,0 +1,4591 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.12.15)  5 APR 2023 14:53
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21>
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk11.clo
+File: bk11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/usr/share/texlive/texmf-dist/tex/latex/a4wide/a4wide.sty
+Package: a4wide 1994/08/30
+
+(/usr/share/texlive/texmf-dist/tex/latex/ntgclass/a4.sty
+Package: a4 2020/02/18 v1.2g A4 based page layout
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen141
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen142
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count194
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count195
+\leftroot@=\count196
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count197
+\DOTSCASE@=\count198
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box50
+\strutbox@=\box51
+\big@size=\dimen143
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count199
+\c@MaxMatrixCols=\count266
+\dotsspace@=\muskip16
+\c@parentequation=\count267
+\dspbrk@lvl=\count268
+\tag@help=\toks20
+\row@=\count269
+\column@=\count270
+\maxfields@=\count271
+\andhelp@=\toks21
+\eqnshift@=\dimen144
+\alignsep@=\dimen145
+\tagshift@=\dimen146
+\tagwidth@=\dimen147
+\totwidth@=\dimen148
+\lineht@=\dimen149
+\@envbody=\toks22
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen150
+\Hy@linkcounter=\count272
+\Hy@pagecounter=\count273
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
+nguages
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count274
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count275
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen151
+
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count276
+\Field@Width=\dimen152
+\Fld@charsize=\dimen153
+Package hyperref Info: Hyper figures OFF on input line 6076.
+Package hyperref Info: Link nesting OFF on input line 6081.
+Package hyperref Info: Hyper index ON on input line 6084.
+Package hyperref Info: backreferencing OFF on input line 6091.
+Package hyperref Info: Link coloring OFF on input line 6096.
+Package hyperref Info: Link coloring with OCG OFF on input line 6101.
+Package hyperref Info: PDF/A mode OFF on input line 6106.
+LaTeX Info: Redefining \ref on input line 6146.
+LaTeX Info: Redefining \pageref on input line 6150.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count277
+\c@Item=\count278
+\c@Hfootnote=\count279
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count280
+\c@bookmark@seq@number=\count281
+
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip52
+)
+(/usr/share/texlive/texmf-dist/tex/latex/esint/esint.sty
+Package: esint 
+\symlargesymbolsA=\mathgroup4
+)
+(/usr/share/texlive/texmf-dist/tex/latex/circuitikz/circuitikz.sty
+Package: circuitikz 2021/12/06{} The CircuiTikz circuit drawing package version
+ 1.4.5
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks24
+\pgfutil@tempdima=\dimen154
+\pgfutil@tempdimb=\dimen155
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box52
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks25
+\pgfkeys@temptoks=\toks26
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks27
+))
+\pgf@x=\dimen156
+\pgf@y=\dimen157
+\pgf@xa=\dimen158
+\pgf@ya=\dimen159
+\pgf@xb=\dimen160
+\pgf@yb=\dimen161
+\pgf@xc=\dimen162
+\pgf@yc=\dimen163
+\pgf@xd=\dimen164
+\pgf@yd=\dimen165
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count282
+\c@pgf@countb=\count283
+\c@pgf@countc=\count284
+\c@pgf@countd=\count285
+\t@pgf@toka=\toks28
+\t@pgf@tokb=\toks29
+\t@pgf@tokc=\toks30
+\pgf@sys@id@count=\count286
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count287
+\pgfsyssoftpath@bigbuffer@items=\count288
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen166
+\pgfmath@count=\count289
+\pgfmath@box=\box53
+\pgfmath@toks=\toks31
+\pgfmath@stack@operand=\toks32
+\pgfmath@stack@operation=\toks33
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count290
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen167
+\pgf@picmaxx=\dimen168
+\pgf@picminy=\dimen169
+\pgf@picmaxy=\dimen170
+\pgf@pathminx=\dimen171
+\pgf@pathmaxx=\dimen172
+\pgf@pathminy=\dimen173
+\pgf@pathmaxy=\dimen174
+\pgf@xx=\dimen175
+\pgf@xy=\dimen176
+\pgf@yx=\dimen177
+\pgf@yy=\dimen178
+\pgf@zx=\dimen179
+\pgf@zy=\dimen180
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen181
+\pgf@path@lasty=\dimen182
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen183
+\pgf@shorten@start@additional=\dimen184
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box54
+\pgf@hbox=\box55
+\pgf@layerbox@main=\box56
+\pgf@picture@serial@count=\count291
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen185
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen186
+\pgf@pt@y=\dimen187
+\pgf@pt@temp=\dimen188
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen189
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen190
+\pgf@sys@shading@range@num=\count292
+\pgf@shadingcount=\count293
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box57
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box58
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen191
+\pgf@nodesepend=\dimen192
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen193
+\pgffor@skip=\dimen194
+\pgffor@stack=\toks34
+\pgffor@toks=\toks35
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count294
+\pgfplotmarksize=\dimen195
+)
+\tikz@lastx=\dimen196
+\tikz@lasty=\dimen197
+\tikz@lastxsaved=\dimen198
+\tikz@lastysaved=\dimen199
+\tikz@lastmovetox=\dimen256
+\tikz@lastmovetoy=\dimen257
+\tikzleveldistance=\dimen258
+\tikzsiblingdistance=\dimen259
+\tikz@figbox=\box59
+\tikz@figbox@bg=\box60
+\tikz@tempbox=\box61
+\tikz@tempbox@bg=\box62
+\tikztreelevel=\count295
+\tikznumberofchildren=\count296
+\tikznumberofcurrentchild=\count297
+\tikz@fig@count=\count298
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count299
+\pgfmatrixcurrentcolumn=\count300
+\pgf@matrix@numberofcolumns=\count301
+)
+\tikz@expandcount=\count302
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
+code.tex
+File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowinset=\dimen260
+\pgfarrowlength=\dimen261
+\pgfarrowwidth=\dimen262
+\pgfarrowlinewidth=\dimen263
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarybending.code.tex
+File: tikzlibrarybending.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulebending.code.te
+x
+File: pgfmodulebending.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulenonlineartransf
+ormations.code.tex
+File: pgfmodulenonlineartransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgftransformnonlinearflatness=\dimen264
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibrarycurvilinear.
+code.tex
+File: pgflibrarycurvilinear.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@curvilinear@time@a=\dimen265
+\pgf@curvilinear@length@a=\dimen266
+\pgf@curvilinear@length@b=\dimen267
+\pgf@curvilinear@length@c=\dimen268
+\pgf@curvilinear@length@d=\dimen269
+)
+\pgf@arrows@the@rigidity=\dimen270
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryfpu.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
+)) (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirc.defines.tex
+\pgf@circ@count@a=\count303
+\pgf@circ@count@b=\count304
+\pgf@circ@count@c=\count305
+\pgf@circ@res@up=\dimen271
+\pgf@circ@res@down=\dimen272
+\pgf@circ@res@zero=\dimen273
+\pgf@circ@res@left=\dimen274
+\pgf@circ@res@right=\dimen275
+\pgf@circ@res@other=\dimen276
+\pgf@circ@res@step=\dimen277
+\pgf@circ@res@temp=\dimen278
+\pgf@circ@Rlen=\dimen279
+\pgf@circ@scaled@Rlen=\dimen280
+\pgfstartlinewidth=\dimen281
+)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircutils.tex
+\ctikz@scratchbox=\box63
+)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircpath.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircshapes.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircmonopoles.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircbipoles.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirctripoles.tex
+\pgf@circ@res@count=\count306
+)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircquadpoles.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircmultipoles.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirclabel.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircvoltage.tex
+\pgfcirc@labelshift=\dimen282
+)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircflow.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip53
+\multirow@cntb=\count307
+\multirow@dima=\skip54
+\bigstrutjot=\dimen283
+)
+(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen284
+\WF@size=\dimen285
+\c@WF@wrappedlines=\count308
+\WF@box=\box64
+\WF@everypar=\toks36
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2022/01/29 v0.5u Insert pages of external PDF documents (AM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count309
+\calc@Bcount=\count310
+\calc@Adimen=\dimen286
+\calc@Bdimen=\dimen287
+\calc@Askip=\skip55
+\calc@Bskip=\skip56
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count311
+\calc@Cskip=\skip57
+)
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen288
+\ESO@tempdimb=\dimen289
+)
+\AM@pagewidth=\dimen290
+\AM@pageheight=\dimen291
+\AM@fboxrule=\dimen292
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2022/01/29 v0.5u Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count312
+\AM@pagebox=\box65
+\AM@global@opts=\toks37
+\AM@pagecnt=\count313
+\AM@toc@title=\toks38
+\c@AM@survey=\count314
+\AM@templatesizebox=\box66
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen293
+\captionmargin@=\dimen294
+\captionwidth=\dimen295
+\caption@tempdima=\dimen296
+\caption@indent=\dimen297
+\caption@parindent=\dimen298
+\caption@hangindent=\dimen299
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count315
+\c@continuedfloat=\count316
+Package caption Info: hyperref package is loaded.
+Package caption Info: wrapfig package is loaded.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/doublestroke/dsfont.sty
+Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-01-21 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count317
+\l__pdf_internal_box=\box67
+))
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count318
+\l__lipsum_a_int=\count319
+\l__lipsum_b_int=\count320
+
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write4
+
+Excluding comment 'comment')
+(/usr/share/texlive/texmf-dist/tex/latex/circledsteps/circledsteps.sty
+Package: circledsteps 2020/01/12 v1.3.1 Circled steps that you can reference
+
+(/usr/share/texlive/texmf-dist/tex/latex/pict2e/pict2e.sty
+Package: pict2e 2020/09/30 v0.4b Improved picture commands (HjG,RN,JT)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pict2e/pict2e.cfg
+File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
+)
+Package pict2e Info: Driver file: pdftex.def on input line 112.
+Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 114.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pict2e/p2e-pdftex.def
+File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
+)
+\pIIe@GRAPH=\toks39
+\@arclen=\dimen300
+\@arcrad=\dimen301
+\pIIe@tempdima=\dimen302
+\pIIe@tempdimb=\dimen303
+\pIIe@tempdimc=\dimen304
+\pIIe@tempdimd=\dimen305
+\pIIe@tempdime=\dimen306
+\pIIe@tempdimf=\dimen307
+)
+(/usr/share/texlive/texmf-dist/tex/latex/picture/picture.sty
+Package: picture 2020-04-22 v1.6 Dimens for picture macros (HO)
+Package picture Info: Calculation method: calc.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count321
+)
+\csteps@CBox=\box68
+\csteps@XLength=\skip58
+\csteps@YLength=\skip59
+\csteps@YDepth=\skip60
+\csteps@tmplen=\skip61
+\c@cstepcnt=\count322
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks40
+\XKV@tempa@toks=\toks41
+)
+\XKV@depth=\count323
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+(/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box69
+)
+\tc@llx=\dimen308
+\tc@lly=\dimen309
+\tc@urx=\dimen310
+\tc@ury=\dimen311
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen312
+\adjbox@Height=\dimen313
+\adjbox@Depth=\dimen314
+\adjbox@Totalheight=\dimen315
+\adjbox@pwidth=\dimen316
+\adjbox@pheight=\dimen317
+\adjbox@pdepth=\dimen318
+\adjbox@ptotalheight=\dimen319
+
+(/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count324
+)
+(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box70
+\sift@deathcycles=\count325
+\@vwid@loff=\dimen320
+\@vwid@roff=\dimen321
+))
+(/usr/share/texlive/texmf-dist/tex/latex/units/units.sty
+Package: units 1998/08/04 v0.9b Typesetting units
+
+(/usr/share/texlive/texmf-dist/tex/latex/units/nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip62
+\L@UnitsRaiseTextstyle=\skip63
+\L@UnitsRaiseScriptstyle=\skip64
+)) (./main.aux
+
+LaTeX Warning: Label `fig:passive' multiply defined.
+
+)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count326
+\scratchdimen=\dimen322
+\scratchbox=\box71
+\nofMPsegments=\count327
+\nofMParguments=\count328
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count329
+\MPscratchDim=\dimen323
+\MPnumerator=\count330
+\makeMPintoPDFobject=\count331
+\everyMPtoPDFconversion=\toks43
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package hyperref Info: Link coloring OFF on input line 29.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count332
+)
+LaTeX Info: Redefining \ref on input line 29.
+LaTeX Info: Redefining \pageref on input line 29.
+LaTeX Info: Redefining \nameref on input line 29.
+
+(./main.out) (./main.out)
+\@outlinefile=\write5
+\openout5 = `main.out'.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+<erm.jpg, id=782, 243.91125pt x 447.92343pt>
+File: erm.jpg Graphic file (type jpg)
+<use erm.jpg>
+Package pdftex.def Info: erm.jpg  used on input line 36.
+(pdftex.def)             Requested size: 61.97137pt x 113.81102pt.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./erm.jpg>] [2
+
+] (./main.toc
+LaTeX Font Info:    Trying to load font information for U+esint on input line 2
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/esint/uesint.fd
+File: uesint.fd 
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [3] [4] [5] [6])
+\tf@toc=\write6
+\openout6 = `main.toc'.
+
+
+(./0-introduction.tex [7] [8
+
+]
+Chapter 1.
+
+Overfull \hbox (14.87424pt too wide) in paragraph at lines 18--19
+\OT1/cmr/m/n/10.95 d^^Secouvertes sci-en-tifiques, les in-no-va-tions tech-nolo
+giques et l'^^Sevolution des dis-posi-tifs ^^Selectroniques
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+Overfull \hbox (24.9625pt too wide) in paragraph at lines 24--25
+\OT1/cmr/m/n/10.95 ^^Selectrique dans un fil ^^Ra prox-imit^^Se. Ce ph^^Senom^^
+Rene, connu sous le nom d'induction ^^Selectromagn^^Setique,
+ []
+
+[10]) (./0b-circuit_theory.tex [11] [12
+
+]
+Chapter 2.
+[13]
+<figures/ch00/passive.jpg, id=1044, 796.47563pt x 220.57407pt>
+File: figures/ch00/passive.jpg Graphic file (type jpg)
+<use figures/ch00/passive.jpg>
+Package pdftex.def Info: figures/ch00/passive.jpg  used on input line 45.
+(pdftex.def)             Requested size: 398.33858pt x 110.31367pt.
+ [14 <./figures/ch00/passive.jpg>]
+File: figures/ch00/passive.jpg Graphic file (type jpg)
+<use figures/ch00/passive.jpg>
+Package pdftex.def Info: figures/ch00/passive.jpg  used on input line 82.
+(pdftex.def)             Requested size: 398.33858pt x 110.31367pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/ch00/kvl.jpg, id=1052, 141.52875pt x 118.19156pt>
+File: figures/ch00/kvl.jpg Graphic file (type jpg)
+<use figures/ch00/kvl.jpg>
+Package pdftex.def Info: figures/ch00/kvl.jpg  used on input line 98.
+(pdftex.def)             Requested size: 142.26378pt x 118.81526pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 99.
+See the caption package documentation for explanation.
+
+<figures/ch00/kcl.jpg, id=1053, 141.52875pt x 118.19156pt>
+File: figures/ch00/kcl.jpg Graphic file (type jpg)
+<use figures/ch00/kcl.jpg>
+Package pdftex.def Info: figures/ch00/kcl.jpg  used on input line 104.
+(pdftex.def)             Requested size: 142.26378pt x 118.81526pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 105.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 96--108
+[]$[]$ $[]$ 
+ []
+
+[15] [16 <./figures/ch00/kvl.jpg> <./figures/ch00/kcl.jpg>]
+<figures/ch00/example1.jpg, id=1072, 389.95688pt x 221.32687pt>
+File: figures/ch00/example1.jpg Graphic file (type jpg)
+<use figures/ch00/example1.jpg>
+Package pdftex.def Info: figures/ch00/example1.jpg  used on input line 143.
+(pdftex.def)             Requested size: 170.71652pt x 96.89104pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 144.
+See the caption package documentation for explanation.
+
+<figures/ch00/first_order.jpg, id=1073, 310.15875pt x 162.6075pt>
+File: figures/ch00/first_order.jpg Graphic file (type jpg)
+<use figures/ch00/first_order.jpg>
+Package pdftex.def Info: figures/ch00/first_order.jpg  used on input line 149.
+(pdftex.def)             Requested size: 256.0748pt x 134.25209pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 150.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (34.74792pt too wide) in paragraph at lines 149--150
+ [][] 
+ []
+
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 141--154
+[]$[]$ $[]$ 
+ []
+
+[17 <./figures/ch00/example1.jpg> <./figures/ch00/first_order.jpg>]
+<figures/ch00/steinmetz.jpg, id=1083, 367.3725pt x 154.32657pt>
+File: figures/ch00/steinmetz.jpg Graphic file (type jpg)
+<use figures/ch00/steinmetz.jpg>
+Package pdftex.def Info: figures/ch00/steinmetz.jpg  used on input line 166.
+(pdftex.def)             Requested size: 284.52756pt x 119.53354pt.
+
+Overfull \hbox (173.48451pt too wide) detected at line 191
+[]
+ []
+
+
+Overfull \hbox (1.38387pt too wide) detected at line 196
+[]
+ []
+
+[18 <./figures/ch00/steinmetz.jpg>]
+<figures/ch00/series.jpg, id=1093, 115.18031pt x 447.92343pt>
+File: figures/ch00/series.jpg Graphic file (type jpg)
+<use figures/ch00/series.jpg>
+Package pdftex.def Info: figures/ch00/series.jpg  used on input line 221.
+(pdftex.def)             Requested size: 43.89726pt x 170.71652pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 222.
+See the caption package documentation for explanation.
+
+<figures/ch00/parallel.jpg, id=1094, 245.41687pt x 292.09125pt>
+File: figures/ch00/parallel.jpg Graphic file (type jpg)
+<use figures/ch00/parallel.jpg>
+Package pdftex.def Info: figures/ch00/parallel.jpg  used on input line 227.
+(pdftex.def)             Requested size: 113.81102pt x 135.45554pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 228.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 219--231
+[]$[]$ $[]$ 
+ []
+
+<figures/ch00/millman.jpg, id=1097, 204.01219pt x 203.25937pt>
+File: figures/ch00/millman.jpg Graphic file (type jpg)
+<use figures/ch00/millman.jpg>
+Package pdftex.def Info: figures/ch00/millman.jpg  used on input line 243.
+(pdftex.def)             Requested size: 170.71652pt x 170.09468pt.
+[19 <./figures/ch00/series.jpg> <./figures/ch00/parallel.jpg>] [20 <./figures/c
+h00/millman.jpg>]
+<figures/ch00/bode.jpg, id=1114, 453.19313pt x 310.15875pt>
+File: figures/ch00/bode.jpg Graphic file (type jpg)
+<use figures/ch00/bode.jpg>
+Package pdftex.def Info: figures/ch00/bode.jpg  used on input line 292.
+(pdftex.def)             Requested size: 284.52756pt x 194.72427pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/ch00/thevenin.jpg, id=1116, 603.0028pt x 219.82124pt>
+File: figures/ch00/thevenin.jpg Graphic file (type jpg)
+<use figures/ch00/thevenin.jpg>
+Package pdftex.def Info: figures/ch00/thevenin.jpg  used on input line 308.
+(pdftex.def)             Requested size: 199.16928pt x 72.60495pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 309.
+See the caption package documentation for explanation.
+
+<figures/ch00/norton.jpg, id=1117, 604.50844pt x 199.49532pt>
+File: figures/ch00/norton.jpg Graphic file (type jpg)
+<use figures/ch00/norton.jpg>
+Package pdftex.def Info: figures/ch00/norton.jpg  used on input line 314.
+(pdftex.def)             Requested size: 199.16928pt x 65.7271pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 315.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 306--318
+[]$[]$ $[]$ 
+ []
+
+[21]
+Overfull \hbox (4.705pt too wide) in paragraph at lines 323--324
+\OT1/cmr/m/n/10.95 courant (ind^^Sependantes) cir-cuit ou-vert. Cela ^^Sequivau
+t ^^Ra cal-culer la r^^Sesistance de Th^^Sevenin
+ []
+
+<figures/ch00/two_port.jpg, id=1126, 733.23938pt x 338.01282pt>
+File: figures/ch00/two_port.jpg Graphic file (type jpg)
+<use figures/ch00/two_port.jpg>
+Package pdftex.def Info: figures/ch00/two_port.jpg  used on input line 331.
+(pdftex.def)             Requested size: 341.43306pt x 157.3961pt.
+[22 <./figures/ch00/bode.jpg> <./figures/ch00/thevenin.jpg> <./figures/ch00/nor
+ton.jpg>] [23 <./figures/ch00/two_port.jpg>]
+
+LaTeX Warning: Reference `fig:cascade' on page 24 undefined on input line 361.
+
+
+LaTeX Warning: Reference `fig:cascade' on page 24 undefined on input line 363.
+
+) [24] [25
+
+] [26] (./1-semiconductors.tex
+Chapter 3.
+<figures/ch01/crystal.jpg, id=1152, 773.13844pt x 376.40625pt>
+File: figures/ch01/crystal.jpg Graphic file (type jpg)
+<use figures/ch01/crystal.jpg>
+Package pdftex.def Info: figures/ch01/crystal.jpg  used on input line 11.
+(pdftex.def)             Requested size: 341.43306pt x 166.22806pt.
+
+LaTeX Warning: Command \r invalid in math mode on input line 18.
+
+[27
+
+]
+<figures/ch01/bandstructure.jpg, id=1160, 545.78906pt x 438.13687pt>
+File: figures/ch01/bandstructure.jpg Graphic file (type jpg)
+<use figures/ch01/bandstructure.jpg>
+Package pdftex.def Info: figures/ch01/bandstructure.jpg  used on input line 22.
+
+(pdftex.def)             Requested size: 341.43306pt x 274.08891pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package caption Warning: \label without proper reference on input line 34.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:breakingbond' on page 28 undefined on input line 
+28.
+
+[28 <./figures/ch01/crystal.jpg>]
+<figures/ch01/breakingbond.jpg, id=1167, 746.03719pt x 313.17pt>
+File: figures/ch01/breakingbond.jpg Graphic file (type jpg)
+<use figures/ch01/breakingbond.jpg>
+Package pdftex.def Info: figures/ch01/breakingbond.jpg  used on input line 33.
+(pdftex.def)             Requested size: 341.43306pt x 143.32404pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/ch01/indirectbandgap.jpg, id=1169, 636.12656pt x 410.2828pt>
+File: figures/ch01/indirectbandgap.jpg Graphic file (type jpg)
+<use figures/ch01/indirectbandgap.jpg>
+Package pdftex.def Info: figures/ch01/indirectbandgap.jpg  used on input line 4
+5.
+(pdftex.def)             Requested size: 341.43306pt x 220.20969pt.
+[29 <./figures/ch01/bandstructure.jpg>] [30 <./figures/ch01/breakingbond.jpg> <
+./figures/ch01/indirectbandgap.jpg>] [31]
+<figures/ch01/carrierdensity.jpg, id=1192, 796.47563pt x 283.81032pt>
+File: figures/ch01/carrierdensity.jpg Graphic file (type jpg)
+<use figures/ch01/carrierdensity.jpg>
+Package pdftex.def Info: figures/ch01/carrierdensity.jpg  used on input line 11
+1.
+(pdftex.def)             Requested size: 341.43306pt x 121.66362pt.
+ [32 <./figures/ch01/carrierdensity.jpg>]
+<figures/ch01/doping.jpg, id=1203, 682.04813pt x 315.42844pt>
+File: figures/ch01/doping.jpg Graphic file (type jpg)
+<use figures/ch01/doping.jpg>
+Package pdftex.def Info: figures/ch01/doping.jpg  used on input line 127.
+(pdftex.def)             Requested size: 341.43306pt x 157.90634pt.
+<figures/ch01/doping2.jpg, id=1206, 698.61pt x 274.77657pt>
+File: figures/ch01/doping2.jpg Graphic file (type jpg)
+<use figures/ch01/doping2.jpg>
+Package pdftex.def Info: figures/ch01/doping2.jpg  used on input line 149.
+(pdftex.def)             Requested size: 369.88582pt x 145.48413pt.
+ [33 <./figures/ch01/doping.jpg>] [34 <./figures/ch01/doping2.jpg>]
+<figures/ch01/bandbiasing.jpg, id=1220, 751.30687pt x 357.58594pt>
+File: figures/ch01/bandbiasing.jpg Graphic file (type jpg)
+<use figures/ch01/bandbiasing.jpg>
+Package pdftex.def Info: figures/ch01/bandbiasing.jpg  used on input line 190.
+(pdftex.def)             Requested size: 341.43306pt x 162.50542pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[35]
+<figures/ch01/diffusion.jpg, id=1228, 340.27126pt x 237.88875pt>
+File: figures/ch01/diffusion.jpg Graphic file (type jpg)
+<use figures/ch01/diffusion.jpg>
+Package pdftex.def Info: figures/ch01/diffusion.jpg  used on input line 207.
+(pdftex.def)             Requested size: 227.62204pt x 159.13416pt.
+ [36 <./figures/ch01/bandbiasing.jpg> <./figures/ch01/diffusion.jpg>]
+
+LaTeX Warning: Reference `fig:generationrecombination' on page 37 undefined on 
+input line 227.
+
+<figures/ch01/recombination.jpg, id=1236, 425.33907pt x 156.585pt>
+File: figures/ch01/recombination.jpg Graphic file (type jpg)
+<use figures/ch01/recombination.jpg>
+Package pdftex.def Info: figures/ch01/recombination.jpg  used on input line 230
+.
+(pdftex.def)             Requested size: 341.43306pt x 125.703pt.
+[37 <./figures/ch01/recombination.jpg>]) (./1b-pn-junction.tex [38]
+Chapter 4.
+<figures/ch01/pnjunction.png, id=1258, 1927.2pt x 646.415pt>
+File: figures/ch01/pnjunction.png Graphic file (type png)
+<use figures/ch01/pnjunction.png>
+Package pdftex.def Info: figures/ch01/pnjunction.png  used on input line 9.
+(pdftex.def)             Requested size: 341.43306pt x 114.51506pt.
+[39
+
+ <./figures/ch01/pnjunction.png>]
+<figures/ch01/pn_equilibrium.jpg, id=1277, 292.09125pt x 447.92343pt>
+File: figures/ch01/pn_equilibrium.jpg Graphic file (type jpg)
+<use figures/ch01/pn_equilibrium.jpg>
+Package pdftex.def Info: figures/ch01/pn_equilibrium.jpg  used on input line 42
+.
+(pdftex.def)             Requested size: 227.62204pt x 349.0713pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[40] [41 <./figures/ch01/pn_equilibrium.jpg>]
+<figures/ch01/pn_bias.jpg, id=1298, 475.02469pt x 431.36156pt>
+File: figures/ch01/pn_bias.jpg Graphic file (type jpg)
+<use figures/ch01/pn_bias.jpg>
+Package pdftex.def Info: figures/ch01/pn_bias.jpg  used on input line 108.
+(pdftex.def)             Requested size: 341.43306pt x 310.0601pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[42] [43 <./figures/ch01/pn_bias.jpg>]
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 149.
+
+[44]
+<figures/ch01/diode_charac.jpg, id=1339, 387.69844pt x 251.43938pt>
+File: figures/ch01/diode_charac.jpg Graphic file (type jpg)
+<use figures/ch01/diode_charac.jpg>
+Package pdftex.def Info: figures/ch01/diode_charac.jpg  used on input line 195.
+
+(pdftex.def)             Requested size: 227.62204pt x 147.6228pt.
+<figures/ch01/diode_charac2.jpg, id=1346, 426.09187pt x 198.7425pt>
+File: figures/ch01/diode_charac2.jpg Graphic file (type jpg)
+<use figures/ch01/diode_charac2.jpg>
+Package pdftex.def Info: figures/ch01/diode_charac2.jpg  used on input line 219
+.
+(pdftex.def)             Requested size: 341.43306pt x 159.2641pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/ch01/tunnel_effect.jpg, id=1349, 222.8325pt x 238.64156pt>
+File: figures/ch01/tunnel_effect.jpg Graphic file (type jpg)
+<use figures/ch01/tunnel_effect.jpg>
+Package pdftex.def Info: figures/ch01/tunnel_effect.jpg  used on input line 229
+.
+(pdftex.def)             Requested size: 159.40562pt x 170.71652pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 230.
+See the caption package documentation for explanation.
+
+<figures/ch01/avalanche.jpg, id=1350, 277.78781pt x 254.45062pt>
+File: figures/ch01/avalanche.jpg Graphic file (type jpg)
+<use figures/ch01/avalanche.jpg>
+Package pdftex.def Info: figures/ch01/avalanche.jpg  used on input line 235.
+(pdftex.def)             Requested size: 170.71652pt x 156.37555pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 236.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 226--241
+[]$ $[]$ 
+ []
+
+[45 <./figures/ch01/diode_charac.jpg>] [46 <./figures/ch01/diode_charac2.jpg> <
+./figures/ch01/tunnel_effect.jpg> <./figures/ch01/avalanche.jpg>]
+<figures/ch01/photodetector.jpg, id=1371, 444.91219pt x 274.02374pt>
+File: figures/ch01/photodetector.jpg Graphic file (type jpg)
+<use figures/ch01/photodetector.jpg>
+Package pdftex.def Info: figures/ch01/photodetector.jpg  used on input line 257
+.
+(pdftex.def)             Requested size: 284.52756pt x 175.24078pt.
+)
+(./1c-transistors.tex [47 <./figures/ch01/photodetector.jpg>] [48
+
+]
+Chapter 5.
+<figures/ch01/bjt1.jpg, id=1384, 596.98032pt x 447.92343pt>
+File: figures/ch01/bjt1.jpg Graphic file (type jpg)
+<use figures/ch01/bjt1.jpg>
+Package pdftex.def Info: figures/ch01/bjt1.jpg  used on input line 14.
+(pdftex.def)             Requested size: 341.43306pt x 256.18018pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/ch01/bjt2.jpg, id=1386, 246.9225pt x 359.09157pt>
+File: figures/ch01/bjt2.jpg Graphic file (type jpg)
+<use figures/ch01/bjt2.jpg>
+Package pdftex.def Info: figures/ch01/bjt2.jpg  used on input line 24.
+(pdftex.def)             Requested size: 227.62204pt x 331.02028pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[49]
+<figures/ch01/bjt3.jpg, id=1396, 292.84406pt x 447.92343pt>
+File: figures/ch01/bjt3.jpg Graphic file (type jpg)
+<use figures/ch01/bjt3.jpg>
+Package pdftex.def Info: figures/ch01/bjt3.jpg  used on input line 34.
+(pdftex.def)             Requested size: 227.62204pt x 348.17595pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[50 <./figures/ch01/bjt1.jpg>] [51 <./figures/ch01/bjt2.jpg>]
+<figures/ch01/bjt4.jpg, id=1410, 357.58594pt x 229.60782pt>
+File: figures/ch01/bjt4.jpg Graphic file (type jpg)
+<use figures/ch01/bjt4.jpg>
+Package pdftex.def Info: figures/ch01/bjt4.jpg  used on input line 66.
+(pdftex.def)             Requested size: 312.9803pt x 200.97641pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[52 <./figures/ch01/bjt3.jpg>] [53 <./figures/ch01/bjt4.jpg>]
+<figures/ch01/bjt5.jpg, id=1430, 539.01375pt x 360.59718pt>
+File: figures/ch01/bjt5.jpg Graphic file (type jpg)
+<use figures/ch01/bjt5.jpg>
+Package pdftex.def Info: figures/ch01/bjt5.jpg  used on input line 144.
+(pdftex.def)             Requested size: 284.52756pt x 190.35077pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/ch01/bjt_modes.jpg, id=1432, 545.03625pt x 447.92343pt>
+File: figures/ch01/bjt_modes.jpg Graphic file (type jpg)
+<use figures/ch01/bjt_modes.jpg>
+Package pdftex.def Info: figures/ch01/bjt_modes.jpg  used on input line 154.
+(pdftex.def)             Requested size: 341.43306pt x 280.59392pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[54] [55 <./figures/ch01/bjt5.jpg> <./figures/ch01/bjt_modes.jpg>]
+<figures/ch01/bjt6.jpg, id=1447, 653.44125pt x 444.15938pt>
+File: figures/ch01/bjt6.jpg Graphic file (type jpg)
+<use figures/ch01/bjt6.jpg>
+Package pdftex.def Info: figures/ch01/bjt6.jpg  used on input line 185.
+(pdftex.def)             Requested size: 284.52756pt x 193.39752pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[56]
+<figures/ch01/bjt7.jpg, id=1459, 429.10312pt x 234.1247pt>
+File: figures/ch01/bjt7.jpg Graphic file (type jpg)
+<use figures/ch01/bjt7.jpg>
+Package pdftex.def Info: figures/ch01/bjt7.jpg  used on input line 204.
+(pdftex.def)             Requested size: 284.52756pt x 155.2444pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[57 <./figures/ch01/bjt6.jpg>]
+<figures/ch01/mosfet1b.jpg, id=1470, 581.17125pt x 400.49625pt>
+File: figures/ch01/mosfet1b.jpg Graphic file (type jpg)
+<use figures/ch01/mosfet1b.jpg>
+Package pdftex.def Info: figures/ch01/mosfet1b.jpg  used on input line 224.
+(pdftex.def)             Requested size: 284.52756pt x 196.07376pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 229.
+
+[58 <./figures/ch01/bjt7.jpg>]
+<figures/ch01/moscap.jpg, id=1481, 255.95625pt x 447.92343pt>
+File: figures/ch01/moscap.jpg Graphic file (type jpg)
+<use figures/ch01/moscap.jpg>
+Package pdftex.def Info: figures/ch01/moscap.jpg  used on input line 237.
+(pdftex.def)             Requested size: 199.16928pt x 348.54503pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 5490) has occurred while \output is active []
+
+ [59 <./figures/ch01/mosfet1b.jpg>] [60 <./figures/ch01/moscap.jpg>]
+<figures/ch01/mosfet2.jpg, id=1501, 368.1253pt x 447.92343pt>
+File: figures/ch01/mosfet2.jpg Graphic file (type jpg)
+<use figures/ch01/mosfet2.jpg>
+Package pdftex.def Info: figures/ch01/mosfet2.jpg  used on input line 274.
+(pdftex.def)             Requested size: 341.43306pt x 415.47775pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/ch01/mosfet3.jpg, id=1503, 473.51906pt x 193.47281pt>
+File: figures/ch01/mosfet3.jpg Graphic file (type jpg)
+<use figures/ch01/mosfet3.jpg>
+Package pdftex.def Info: figures/ch01/mosfet3.jpg  used on input line 290.
+(pdftex.def)             Requested size: 284.52756pt x 116.2558pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[61]
+
+LaTeX Warning: Text page 62 contains only floats.
+
+[62 <./figures/ch01/mosfet2.jpg> <./figures/ch01/mosfet3.jpg>]) [63] [64
+
+]
+[65] [66] (./2-analog.tex
+Chapter 6.
+<figures/ch02/diode1.jpg, id=1544, 193.47281pt x 306.39468pt>
+File: figures/ch02/diode1.jpg Graphic file (type jpg)
+<use figures/ch02/diode1.jpg>
+Package pdftex.def Info: figures/ch02/diode1.jpg  used on input line 12.
+(pdftex.def)             Requested size: 85.35826pt x 135.17874pt.
+<figures/ch02/diode2.jpg, id=1546, 548.80031pt x 238.64156pt>
+File: figures/ch02/diode2.jpg Graphic file (type jpg)
+<use figures/ch02/diode2.jpg>
+Package pdftex.def Info: figures/ch02/diode2.jpg  used on input line 29.
+(pdftex.def)             Requested size: 341.43306pt x 148.4733pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[67
+
+ <./figures/ch02/diode1.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 36--38
+
+ []
+
+<figures/ch02/diode3.jpg, id=1558, 212.29312pt x 151.3153pt>
+File: figures/ch02/diode3.jpg Graphic file (type jpg)
+<use figures/ch02/diode3.jpg>
+Package pdftex.def Info: figures/ch02/diode3.jpg  used on input line 44.
+(pdftex.def)             Requested size: 142.26378pt x 101.40611pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 45.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (46.7014pt too wide) in paragraph at lines 39--48
+[]$[]$ $[]$ 
+ []
+
+<figures/ch02/bjt_load1.jpg, id=1561, 391.4625pt x 216.05719pt>
+File: figures/ch02/bjt_load1.jpg Graphic file (type jpg)
+<use figures/ch02/bjt_load1.jpg>
+Package pdftex.def Info: figures/ch02/bjt_load1.jpg  used on input line 54.
+(pdftex.def)             Requested size: 341.43306pt x 188.45613pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 4518) has occurred while \output is active []
+
+ [68 <./figures/ch02/diode2.jpg> <./figures/ch02/diode3.jpg>] [69 <./figures/ch
+02/bjt_load1.jpg>]
+<figures/ch02/bjt_load2.jpg, id=1578, 769.37437pt x 345.54094pt>
+File: figures/ch02/bjt_load2.jpg Graphic file (type jpg)
+<use figures/ch02/bjt_load2.jpg>
+Package pdftex.def Info: figures/ch02/bjt_load2.jpg  used on input line 101.
+(pdftex.def)             Requested size: 341.43306pt x 153.34605pt.
+<figures/ch02/bjt_load3.jpg, id=1580, 664.73344pt x 271.0125pt>
+File: figures/ch02/bjt_load3.jpg Graphic file (type jpg)
+<use figures/ch02/bjt_load3.jpg>
+Package pdftex.def Info: figures/ch02/bjt_load3.jpg  used on input line 120.
+(pdftex.def)             Requested size: 398.33858pt x 162.40611pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/ch02/mos_load1.jpg, id=1583, 361.35pt x 183.68625pt>
+File: figures/ch02/mos_load1.jpg Graphic file (type jpg)
+<use figures/ch02/mos_load1.jpg>
+Package pdftex.def Info: figures/ch02/mos_load1.jpg  used on input line 130.
+(pdftex.def)             Requested size: 284.52756pt x 144.63684pt.
+[70 <./figures/ch02/bjt_load2.jpg>]
+<figures/ch02/mos_load2.jpg, id=1595, 717.43031pt x 261.22594pt>
+File: figures/ch02/mos_load2.jpg Graphic file (type jpg)
+<use figures/ch02/mos_load2.jpg>
+Package pdftex.def Info: figures/ch02/mos_load2.jpg  used on input line 153.
+(pdftex.def)             Requested size: 398.33858pt x 145.04189pt.
+ [71 <./figures/ch02/bjt_load3.jpg> <./figures/ch02/mos_load1.jpg>]
+<figures/ch02/overview.jpg, id=1605, 598.48593pt x 347.79938pt>
+File: figures/ch02/overview.jpg Graphic file (type jpg)
+<use figures/ch02/overview.jpg>
+Package pdftex.def Info: figures/ch02/overview.jpg  used on input line 167.
+(pdftex.def)             Requested size: 341.43306pt x 198.42282pt.
+ [72 <./figures/ch02/mos_load2.jpg> <./figures/ch02/overview.jpg>]
+<figures/ch02/general1a.jpg, id=1614, 160.34906pt x 174.6525pt>
+File: figures/ch02/general1a.jpg Graphic file (type jpg)
+<use figures/ch02/general1a.jpg>
+Package pdftex.def Info: figures/ch02/general1a.jpg  used on input line 179.
+(pdftex.def)             Requested size: 113.81102pt x 123.96683pt.
+<figures/ch02/general1b.jpg, id=1615, 180.675pt x 168.63pt>
+File: figures/ch02/general1b.jpg Graphic file (type jpg)
+<use figures/ch02/general1b.jpg>
+Package pdftex.def Info: figures/ch02/general1b.jpg  used on input line 185.
+(pdftex.def)             Requested size: 142.26378pt x 132.78137pt.
+<figures/ch02/general2.jpg, id=1617, 583.42969pt x 286.06876pt>
+File: figures/ch02/general2.jpg Graphic file (type jpg)
+<use figures/ch02/general2.jpg>
+Package pdftex.def Info: figures/ch02/general2.jpg  used on input line 209.
+(pdftex.def)             Requested size: 341.43306pt x 167.4172pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/ch02/mos_load3.jpg, id=1620, 177.66376pt x 214.55156pt>
+File: figures/ch02/mos_load3.jpg Graphic file (type jpg)
+<use figures/ch02/mos_load3.jpg>
+Package pdftex.def Info: figures/ch02/mos_load3.jpg  used on input line 219.
+(pdftex.def)             Requested size: 142.26378pt x 171.80516pt.
+<figures/ch02/mos_load4.jpg, id=1621, 228.10219pt x 214.55156pt>
+File: figures/ch02/mos_load4.jpg Graphic file (type jpg)
+<use figures/ch02/mos_load4.jpg>
+Package pdftex.def Info: figures/ch02/mos_load4.jpg  used on input line 225.
+(pdftex.def)             Requested size: 170.71652pt x 160.57933pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[73 <./figures/ch02/general1a.jpg> <./figures/ch02/general1b.jpg>]
+<figures/ch02/small_signal_resp1.jpg, id=1633, 330.48468pt x 197.98969pt>
+File: figures/ch02/small_signal_resp1.jpg Graphic file (type jpg)
+<use figures/ch02/small_signal_resp1.jpg>
+Package pdftex.def Info: figures/ch02/small_signal_resp1.jpg  used on input lin
+e 245.
+(pdftex.def)             Requested size: 227.62204pt x 136.37134pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Font Info:    Trying to load font information for U+dsrom on input line 2
+55.
+(/usr/share/texlive/texmf-dist/tex/latex/doublestroke/Udsrom.fd
+File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
+)
+<figures/ch02/small_signal_resp2.jpg, id=1636, 202.50656pt x 195.73125pt>
+File: figures/ch02/small_signal_resp2.jpg Graphic file (type jpg)
+<use figures/ch02/small_signal_resp2.jpg>
+Package pdftex.def Info: figures/ch02/small_signal_resp2.jpg  used on input lin
+e 268.
+(pdftex.def)             Requested size: 142.26378pt x 137.5067pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 269.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 257--272
+[]$[]$ $[]$ 
+ []
+
+[74 <./figures/ch02/general2.jpg> <./figures/ch02/mos_load3.jpg> <./figures/ch0
+2/mos_load4.jpg>]
+<figures/ch02/small_signal_resp4.jpg, id=1644, 289.83281pt x 337.26pt>
+File: figures/ch02/small_signal_resp4.jpg Graphic file (type jpg)
+<use figures/ch02/small_signal_resp4.jpg>
+Package pdftex.def Info: figures/ch02/small_signal_resp4.jpg  used on input lin
+e 286.
+(pdftex.def)             Requested size: 170.71652pt x 198.65231pt.
+<figures/ch02/small_signal_resp6.jpg, id=1645, 289.83281pt x 337.26pt>
+File: figures/ch02/small_signal_resp6.jpg Graphic file (type jpg)
+<use figures/ch02/small_signal_resp6.jpg>
+Package pdftex.def Info: figures/ch02/small_signal_resp6.jpg  used on input lin
+e 292.
+(pdftex.def)             Requested size: 170.71652pt x 198.65231pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[75 <./figures/ch02/small_signal_resp1.jpg> <./figures/ch02/small_signal_resp2.
+jpg>]
+<figures/ch02/small_signal_resp7.jpg, id=1659, 596.98032pt x 173.14688pt>
+File: figures/ch02/small_signal_resp7.jpg Graphic file (type jpg)
+<use figures/ch02/small_signal_resp7.jpg>
+Package pdftex.def Info: figures/ch02/small_signal_resp7.jpg  used on input lin
+e 334.
+(pdftex.def)             Requested size: 341.43306pt x 99.02763pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/ch02/small_signal_resp8.jpg, id=1662, 375.65344pt x 145.29282pt>
+File: figures/ch02/small_signal_resp8.jpg Graphic file (type jpg)
+<use figures/ch02/small_signal_resp8.jpg>
+Package pdftex.def Info: figures/ch02/small_signal_resp8.jpg  used on input lin
+e 347.
+(pdftex.def)             Requested size: 284.52756pt x 110.05565pt.
+[76 <./figures/ch02/small_signal_resp4.jpg> <./figures/ch02/small_signal_resp6.
+jpg>] [77 <./figures/ch02/small_signal_resp7.jpg> <./figures/ch02/small_signal_
+resp8.jpg>]
+<figures/ch02/loadline1.jpg, id=1685, 344.03531pt x 254.45062pt>
+File: figures/ch02/loadline1.jpg Graphic file (type jpg)
+<use figures/ch02/loadline1.jpg>
+Package pdftex.def Info: figures/ch02/loadline1.jpg  used on input line 365.
+(pdftex.def)             Requested size: 170.71652pt x 126.2621pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 366.
+See the caption package documentation for explanation.
+
+<figures/ch02/loadline2.jpg, id=1686, 252.945pt x 229.60782pt>
+File: figures/ch02/loadline2.jpg Graphic file (type jpg)
+<use figures/ch02/loadline2.jpg>
+Package pdftex.def Info: figures/ch02/loadline2.jpg  used on input line 371.
+(pdftex.def)             Requested size: 142.26378pt x 129.14006pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 372.
+See the caption package documentation for explanation.
+
+<figures/ch02/loadline3.jpg, id=1689, 253.69781pt x 172.39406pt>
+File: figures/ch02/loadline3.jpg Graphic file (type jpg)
+<use figures/ch02/loadline3.jpg>
+Package pdftex.def Info: figures/ch02/loadline3.jpg  used on input line 399.
+(pdftex.def)             Requested size: 227.62204pt x 154.67972pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 400.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (6.29517pt too wide) in paragraph at lines 399--400
+ [][] 
+ []
+
+<figures/ch02/loadline4.jpg, id=1690, 203.25937pt x 172.39406pt>
+File: figures/ch02/loadline4.jpg Graphic file (type jpg)
+<use figures/ch02/loadline4.jpg>
+Package pdftex.def Info: figures/ch02/loadline4.jpg  used on input line 405.
+(pdftex.def)             Requested size: 170.71652pt x 144.79686pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 406.
+See the caption package documentation for explanation.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [78 <./figures/ch02/loadline1.jpg> <./figures/ch02/loadline2.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 410--411
+
+ []
+
+<figures/ch02/loadline5.jpg, id=1701, 322.95656pt x 357.58594pt>
+File: figures/ch02/loadline5.jpg Graphic file (type jpg)
+<use figures/ch02/loadline5.jpg>
+Package pdftex.def Info: figures/ch02/loadline5.jpg  used on input line 414.
+(pdftex.def)             Requested size: 227.62204pt x 252.02718pt.
+[79 <./figures/ch02/loadline3.jpg> <./figures/ch02/loadline4.jpg> <./figures/ch
+02/loadline5.jpg>]
+<figures/ch02/loadline6.jpg, id=1713, 231.11343pt x 162.6075pt>
+File: figures/ch02/loadline6.jpg Graphic file (type jpg)
+<use figures/ch02/loadline6.jpg>
+Package pdftex.def Info: figures/ch02/loadline6.jpg  used on input line 427.
+(pdftex.def)             Requested size: 170.71652pt x 120.11427pt.
+
+
+LaTeX Warning: Reference `fig:general1' on page 80 undefined on input line 433.
+
+
+<figures/ch02/loadline7.jpg, id=1715, 469.755pt x 222.8325pt>
+File: figures/ch02/loadline7.jpg Graphic file (type jpg)
+<use figures/ch02/loadline7.jpg>
+Package pdftex.def Info: figures/ch02/loadline7.jpg  used on input line 436.
+(pdftex.def)             Requested size: 398.33858pt x 188.9563pt.
+[80 <./figures/ch02/loadline6.jpg> <./figures/ch02/loadline7.jpg>]
+
+LaTeX Warning: Reference `fig:general1' on page 81 undefined on input line 474.
+
+
+File: figures/ch02/general1b.jpg Graphic file (type jpg)
+<use figures/ch02/general1b.jpg>
+Package pdftex.def Info: figures/ch02/general1b.jpg  used on input line 502.
+(pdftex.def)             Requested size: 142.26378pt x 132.78137pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 503.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 477--506
+[]$[]$ $[]$ 
+ []
+
+[81] [82]
+<figures/ch02/biasing2.jpg, id=1748, 705.38531pt x 447.92343pt>
+File: figures/ch02/biasing2.jpg Graphic file (type jpg)
+<use figures/ch02/biasing2.jpg>
+Package pdftex.def Info: figures/ch02/biasing2.jpg  used on input line 533.
+(pdftex.def)             Requested size: 284.52756pt x 180.67667pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 539--540
+
+ []
+
+<figures/ch02/biasing3.jpg, id=1750, 207.02344pt x 251.43938pt>
+File: figures/ch02/biasing3.jpg Graphic file (type jpg)
+<use figures/ch02/biasing3.jpg>
+Package pdftex.def Info: figures/ch02/biasing3.jpg  used on input line 553.
+(pdftex.def)             Requested size: 142.26378pt x 172.79124pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 554.
+See the caption package documentation for explanation.
+
+
+Underfull \vbox (badness 7981) has occurred while \output is active []
+
+ [83 <./figures/ch02/biasing2.jpg>]
+<figures/ch02/biasing4.jpg, id=1760, 430.60875pt x 322.95656pt>
+File: figures/ch02/biasing4.jpg Graphic file (type jpg)
+<use figures/ch02/biasing4.jpg>
+Package pdftex.def Info: figures/ch02/biasing4.jpg  used on input line 565.
+(pdftex.def)             Requested size: 221.32687pt x 165.99677pt.
+<figures/ch02/biasing5.jpg, id=1761, 737.00343pt x 447.92343pt>
+File: figures/ch02/biasing5.jpg Graphic file (type jpg)
+<use figures/ch02/biasing5.jpg>
+Package pdftex.def Info: figures/ch02/biasing5.jpg  used on input line 571.
+(pdftex.def)             Requested size: 221.32687pt x 134.50792pt.
+
+Underfull \vbox (badness 5036) has occurred while \output is active []
+
+ [84 <./figures/ch02/biasing3.jpg> <./figures/ch02/biasing4.jpg> <./figures/ch0
+2/biasing5.jpg>]
+<figures/ch02/small_signal_model1.jpg, id=1771, 350.81062pt x 261.97874pt>
+File: figures/ch02/small_signal_model1.jpg Graphic file (type jpg)
+<use figures/ch02/small_signal_model1.jpg>
+Package pdftex.def Info: figures/ch02/small_signal_model1.jpg  used on input li
+ne 594.
+(pdftex.def)             Requested size: 177.05879pt x 132.22826pt.
+ [85 <./figures/ch02/small_signal_model1.jpg>]
+<figures/ch02/small_signal_model2.jpg, id=1783, 312.41719pt x 240.14719pt>
+File: figures/ch02/small_signal_model2.jpg Graphic file (type jpg)
+<use figures/ch02/small_signal_model2.jpg>
+Package pdftex.def Info: figures/ch02/small_signal_model2.jpg  used on input li
+ne 619.
+(pdftex.def)             Requested size: 199.16928pt x 153.10004pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 620.
+See the caption package documentation for explanation.
+
+<figures/ch02/small_signal_model3.jpg, id=1784, 298.11375pt x 179.92218pt>
+File: figures/ch02/small_signal_model3.jpg Graphic file (type jpg)
+<use figures/ch02/small_signal_model3.jpg>
+Package pdftex.def Info: figures/ch02/small_signal_model3.jpg  used on input li
+ne 625.
+(pdftex.def)             Requested size: 199.16928pt x 120.2068pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 626.
+See the caption package documentation for explanation.
+
+<figures/ch02/small_signal_model4.jpg, id=1785, 302.63063pt x 181.42781pt>
+File: figures/ch02/small_signal_model4.jpg Graphic file (type jpg)
+<use figures/ch02/small_signal_model4.jpg>
+Package pdftex.def Info: figures/ch02/small_signal_model4.jpg  used on input li
+ne 644.
+(pdftex.def)             Requested size: 199.16928pt x 119.4022pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[86 <./figures/ch02/small_signal_model2.jpg> <./figures/ch02/small_signal_model
+3.jpg>]) (./2b-amplifiers.tex [87 <./figures/ch02/small_signal_model4.jpg>]
+[88
+
+]
+Chapter 7.
+<figures/ch02/amplifier0.jpg, id=1810, 358.33875pt x 364.36125pt>
+File: figures/ch02/amplifier0.jpg Graphic file (type jpg)
+<use figures/ch02/amplifier0.jpg>
+Package pdftex.def Info: figures/ch02/amplifier0.jpg  used on input line 11.
+(pdftex.def)             Requested size: 170.71652pt x 173.58487pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/ch02/amplifier1.jpg, id=1815, 280.79906pt x 415.5525pt>
+File: figures/ch02/amplifier1.jpg Graphic file (type jpg)
+<use figures/ch02/amplifier1.jpg>
+Package pdftex.def Info: figures/ch02/amplifier1.jpg  used on input line 29.
+(pdftex.def)             Requested size: 85.35826pt x 126.32166pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 30.
+See the caption package documentation for explanation.
+
+<figures/ch02/amplifier2.jpg, id=1816, 243.15843pt x 227.34938pt>
+File: figures/ch02/amplifier2.jpg Graphic file (type jpg)
+<use figures/ch02/amplifier2.jpg>
+Package pdftex.def Info: figures/ch02/amplifier2.jpg  used on input line 35.
+(pdftex.def)             Requested size: 142.26378pt x 133.01445pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 36.
+See the caption package documentation for explanation.
+
+[89]
+Underfull \hbox (badness 2865) in paragraph at lines 43--44
+\OT1/cmr/m/n/10.95 equiv-a-lent cir-cuit, by re-plac-ing the npn-
+ []
+
+<figures/ch02/amplifier3.jpg, id=1826, 459.21562pt x 296.60812pt>
+File: figures/ch02/amplifier3.jpg Graphic file (type jpg)
+<use figures/ch02/amplifier3.jpg>
+Package pdftex.def Info: figures/ch02/amplifier3.jpg  used on input line 47.
+(pdftex.def)             Requested size: 170.71652pt x 110.26828pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 48.
+See the caption package documentation for explanation.
+
+[90 <./figures/ch02/amplifier0.jpg> <./figures/ch02/amplifier1.jpg> <./figures/
+ch02/amplifier2.jpg> <./figures/ch02/amplifier3.jpg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 73.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 73.
+
+<figures/ch02/amplifier4.jpg, id=1836, 796.47563pt x 382.42876pt>
+File: figures/ch02/amplifier4.jpg Graphic file (type jpg)
+<use figures/ch02/amplifier4.jpg>
+Package pdftex.def Info: figures/ch02/amplifier4.jpg  used on input line 78.
+(pdftex.def)             Requested size: 398.33858pt x 191.26057pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[91]
+<figures/ch02/amplifier5.jpg, id=1848, 424.58624pt x 343.2825pt>
+File: figures/ch02/amplifier5.jpg Graphic file (type jpg)
+<use figures/ch02/amplifier5.jpg>
+Package pdftex.def Info: figures/ch02/amplifier5.jpg  used on input line 104.
+(pdftex.def)             Requested size: 142.26378pt x 115.0226pt.
+
+Overfull \hbox (13.2752pt too wide) detected at line 116
+[][]\OML/cmm/m/it/10.95 A[] \OT1/cmr/m/n/10.95 = [][]
+ []
+
+[92 <./figures/ch02/amplifier4.jpg> <./figures/ch02/amplifier5.jpg>]
+<figures/ch02/amplifier6.jpg, id=1860, 350.81062pt x 233.37187pt>
+File: figures/ch02/amplifier6.jpg Graphic file (type jpg)
+<use figures/ch02/amplifier6.jpg>
+Package pdftex.def Info: figures/ch02/amplifier6.jpg  used on input line 125.
+(pdftex.def)             Requested size: 256.0748pt x 170.3636pt.
+
+Overfull \hbox (5.58463pt too wide) in paragraph at lines 134--135
+[]$\OML/cmm/m/it/10.95 ! > A[]=\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 A[]T[]\O
+T1/cmr/m/n/10.95 )$: the max-i-mum gain (with by-passed $\OML/cmm/m/it/10.95 R[
+]$\OT1/cmr/m/n/10.95 ) is reached: $\OML/cmm/m/it/10.95 A[] \OT1/cmr/m/n/10.95 
+= \OMS/cmsy/m/n/10.95 ^^@\OML/cmm/m/it/10.95 g\OT1/cmr/m/n/10.95 (\OML/cmm/m/it
+/10.95 R[]\OMS/cmsy/m/n/10.95 jj\OML/cmm/m/it/10.95 r[]\OT1/cmr/m/n/10.95 )$.
+ []
+
+[93 <./figures/ch02/amplifier6.jpg>]
+<figures/ch02/amplifier7.jpg, id=1873, 551.81157pt x 216.81pt>
+File: figures/ch02/amplifier7.jpg Graphic file (type jpg)
+<use figures/ch02/amplifier7.jpg>
+Package pdftex.def Info: figures/ch02/amplifier7.jpg  used on input line 146.
+(pdftex.def)             Requested size: 398.33858pt x 156.5166pt.
+<figures/ch02/amplifier8.jpg, id=1876, 798.73407pt x 395.22656pt>
+File: figures/ch02/amplifier8.jpg Graphic file (type jpg)
+<use figures/ch02/amplifier8.jpg>
+Package pdftex.def Info: figures/ch02/amplifier8.jpg  used on input line 169.
+(pdftex.def)             Requested size: 398.33858pt x 197.10622pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[94 <./figures/ch02/amplifier7.jpg>] Excluding 'comment' comment.
+<figures/ch02/amplifier9.jpg, id=1883, 909.3975pt x 411.03563pt>
+File: figures/ch02/amplifier9.jpg Graphic file (type jpg)
+<use figures/ch02/amplifier9.jpg>
+Package pdftex.def Info: figures/ch02/amplifier9.jpg  used on input line 229.
+(pdftex.def)             Requested size: 398.33858pt x 180.04715pt.
+ [95 <./figures/ch02/amplifier8.jpg>] [96 <./figures/ch02/amplifier9.jpg>]
+<figures/ch02/amplifier10.jpg, id=1900, 238.64156pt x 92.59593pt>
+File: figures/ch02/amplifier10.jpg Graphic file (type jpg)
+<use figures/ch02/amplifier10.jpg>
+Package pdftex.def Info: figures/ch02/amplifier10.jpg  used on input line 288.
+(pdftex.def)             Requested size: 170.71652pt x 66.23949pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 289.
+See the caption package documentation for explanation.
+
+<figures/ch02/amplifier11.jpg, id=1901, 432.11438pt x 117.43875pt>
+File: figures/ch02/amplifier11.jpg Graphic file (type jpg)
+<use figures/ch02/amplifier11.jpg>
+Package pdftex.def Info: figures/ch02/amplifier11.jpg  used on input line 294.
+(pdftex.def)             Requested size: 142.26378pt x 38.6635pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 295.
+See the caption package documentation for explanation.
+
+[97 <./figures/ch02/amplifier10.jpg> <./figures/ch02/amplifier11.jpg>]
+<figures/ch02/diff_amp1.jpg, id=1913, 188.95593pt x 185.94469pt>
+File: figures/ch02/diff_amp1.jpg Graphic file (type jpg)
+<use figures/ch02/diff_amp1.jpg>
+Package pdftex.def Info: figures/ch02/diff_amp1.jpg  used on input line 312.
+(pdftex.def)             Requested size: 142.26378pt x 139.99724pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 335--336
+
+ []
+
+[98 <./figures/ch02/diff_amp1.jpg>]
+<figures/ch02/diff_amp2.jpg, id=1921, 414.79968pt x 429.85594pt>
+File: figures/ch02/diff_amp2.jpg Graphic file (type jpg)
+<use figures/ch02/diff_amp2.jpg>
+Package pdftex.def Info: figures/ch02/diff_amp2.jpg  used on input line 341.
+(pdftex.def)             Requested size: 227.62204pt x 235.88365pt.
+ [99 <./figures/ch02/diff_amp2.jpg>]
+<figures/ch02/diff_amp3.jpg, id=1929, 320.69812pt x 344.03531pt>
+File: figures/ch02/diff_amp3.jpg Graphic file (type jpg)
+<use figures/ch02/diff_amp3.jpg>
+Package pdftex.def Info: figures/ch02/diff_amp3.jpg  used on input line 353.
+(pdftex.def)             Requested size: 170.71652pt x 183.14102pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 354.
+See the caption package documentation for explanation.
+
+<figures/ch02/diff_amp4.jpg, id=1930, 228.10219pt x 345.54094pt>
+File: figures/ch02/diff_amp4.jpg Graphic file (type jpg)
+<use figures/ch02/diff_amp4.jpg>
+Package pdftex.def Info: figures/ch02/diff_amp4.jpg  used on input line 359.
+(pdftex.def)             Requested size: 113.81102pt x 172.40623pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 360.
+See the caption package documentation for explanation.
+
+<figures/ch02/diff_amp5.jpg, id=1932, 527.72156pt x 248.42813pt>
+File: figures/ch02/diff_amp5.jpg Graphic file (type jpg)
+<use figures/ch02/diff_amp5.jpg>
+Package pdftex.def Info: figures/ch02/diff_amp5.jpg  used on input line 370.
+(pdftex.def)             Requested size: 341.43306pt x 160.7296pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [100 <./figures/ch02/diff_amp3.jpg> <./figures/ch02/diff_amp4.jpg> <./figures/
+ch02/diff_amp5.jpg>]
+<figures/ch02/diff_amp6.jpg, id=1941, 436.63126pt x 423.08063pt>
+File: figures/ch02/diff_amp6.jpg Graphic file (type jpg)
+<use figures/ch02/diff_amp6.jpg>
+Package pdftex.def Info: figures/ch02/diff_amp6.jpg  used on input line 389.
+(pdftex.def)             Requested size: 199.16928pt x 192.98616pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 390.
+See the caption package documentation for explanation.
+
+<figures/ch02/diff_amp7.jpg, id=1942, 796.47563pt x 447.92343pt>
+File: figures/ch02/diff_amp7.jpg Graphic file (type jpg)
+<use figures/ch02/diff_amp7.jpg>
+Package pdftex.def Info: figures/ch02/diff_amp7.jpg  used on input line 395.
+(pdftex.def)             Requested size: 256.0748pt x 144.00822pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 396.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (34.74792pt too wide) in paragraph at lines 395--396
+ [][] 
+ []
+
+[101 <./figures/ch02/diff_amp6.jpg> <./figures/ch02/diff_amp7.jpg>]
+<figures/ch02/diff_amp8.jpg, id=1956, 606.01407pt x 392.21532pt>
+File: figures/ch02/diff_amp8.jpg Graphic file (type jpg)
+<use figures/ch02/diff_amp8.jpg>
+Package pdftex.def Info: figures/ch02/diff_amp8.jpg  used on input line 417.
+(pdftex.def)             Requested size: 341.43306pt x 220.97964pt.
+<figures/ch02/diff_amp9.jpg, id=1960, 350.81062pt x 214.55156pt>
+File: figures/ch02/diff_amp9.jpg Graphic file (type jpg)
+<use figures/ch02/diff_amp9.jpg>
+Package pdftex.def Info: figures/ch02/diff_amp9.jpg  used on input line 432.
+(pdftex.def)             Requested size: 284.52756pt x 174.02478pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Excluding 'comment' comment. [102 <./figures/ch02/diff_amp8.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 485--487
+
+ []
+
+[103 <./figures/ch02/diff_amp9.jpg>]
+<figures/ch02/diff_amp10.jpg, id=1983, 234.8775pt x 233.37187pt>
+File: figures/ch02/diff_amp10.jpg Graphic file (type jpg)
+<use figures/ch02/diff_amp10.jpg>
+Package pdftex.def Info: figures/ch02/diff_amp10.jpg  used on input line 490.
+(pdftex.def)             Requested size: 142.26378pt x 141.35243pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 491.
+See the caption package documentation for explanation.
+
+<figures/ch02/diff_amp11.jpg, id=1984, 392.96812pt x 347.79938pt>
+File: figures/ch02/diff_amp11.jpg Graphic file (type jpg)
+<use figures/ch02/diff_amp11.jpg>
+Package pdftex.def Info: figures/ch02/diff_amp11.jpg  used on input line 496.
+(pdftex.def)             Requested size: 199.16928pt x 176.28209pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 497.
+See the caption package documentation for explanation.
+
+[104 <./figures/ch02/diff_amp10.jpg> <./figures/ch02/diff_amp11.jpg>]
+<figures/ch02/opamp1.jpg, id=1994, 595.47469pt x 105.74242pt>
+File: figures/ch02/opamp1.jpg Graphic file (type jpg)
+<use figures/ch02/opamp1.jpg>
+Package pdftex.def Info: figures/ch02/opamp1.jpg  used on input line 535.
+(pdftex.def)             Requested size: 398.33858pt x 70.73572pt.
+<figures/ch02/opamp2.jpg, id=1996, 383.93437pt x 188.20313pt>
+File: figures/ch02/opamp2.jpg Graphic file (type jpg)
+<use figures/ch02/opamp2.jpg>
+Package pdftex.def Info: figures/ch02/opamp2.jpg  used on input line 545.
+(pdftex.def)             Requested size: 142.26378pt x 69.73744pt.
+<figures/ch02/opamp3.jpg, id=2000, 310.91156pt x 176.15813pt>
+File: figures/ch02/opamp3.jpg Graphic file (type jpg)
+<use figures/ch02/opamp3.jpg>
+Package pdftex.def Info: figures/ch02/opamp3.jpg  used on input line 560.
+(pdftex.def)             Requested size: 170.71652pt x 96.72598pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 561.
+See the caption package documentation for explanation.
+
+<figures/ch02/opamp4.jpg, id=2001, 302.63063pt x 175.40532pt>
+File: figures/ch02/opamp4.jpg Graphic file (type jpg)
+<use figures/ch02/opamp4.jpg>
+Package pdftex.def Info: figures/ch02/opamp4.jpg  used on input line 566.
+(pdftex.def)             Requested size: 170.71652pt x 98.94894pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 567.
+See the caption package documentation for explanation.
+
+[105 <./figures/ch02/opamp1.jpg> <./figures/ch02/opamp2.jpg>]
+Underfull \vbox (badness 1354) has occurred while \output is active []
+
+ [106 <./figures/ch02/opamp3.jpg> <./figures/ch02/opamp4.jpg>]
+<figures/ch02/opamp10.jpg, id=2032, 240.9pt x 179.92218pt>
+File: figures/ch02/opamp10.jpg Graphic file (type jpg)
+<use figures/ch02/opamp10.jpg>
+Package pdftex.def Info: figures/ch02/opamp10.jpg  used on input line 622.
+(pdftex.def)             Requested size: 227.62204pt x 170.01088pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/ch02/741_opamp.png, id=2033, 366.61969pt x 366.61969pt>
+File: figures/ch02/741_opamp.png Graphic file (type png)
+<use figures/ch02/741_opamp.png>
+Package pdftex.def Info: figures/ch02/741_opamp.png  used on input line 632.
+(pdftex.def)             Requested size: 142.26378pt x 142.26505pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 633.
+See the caption package documentation for explanation.
+
+<figures/ch02/opamp5.jpg, id=2034, 161.85469pt x 121.95563pt>
+File: figures/ch02/opamp5.jpg Graphic file (type jpg)
+<use figures/ch02/opamp5.jpg>
+Package pdftex.def Info: figures/ch02/opamp5.jpg  used on input line 638.
+(pdftex.def)             Requested size: 142.26378pt x 107.2003pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 639.
+See the caption package documentation for explanation.
+
+[107]
+<figures/ch02/opamp6.jpg, id=2044, 329.73187pt x 121.95563pt>
+File: figures/ch02/opamp6.jpg Graphic file (type jpg)
+<use figures/ch02/opamp6.jpg>
+Package pdftex.def Info: figures/ch02/opamp6.jpg  used on input line 649.
+(pdftex.def)             Requested size: 256.0748pt x 94.71559pt.
+<figures/ch02/opamp8.jpg, id=2047, 392.96812pt x 170.13562pt>
+File: figures/ch02/opamp8.jpg Graphic file (type jpg)
+<use figures/ch02/opamp8.jpg>
+Package pdftex.def Info: figures/ch02/opamp8.jpg  used on input line 656.
+(pdftex.def)             Requested size: 341.43306pt x 147.83246pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[108 <./figures/ch02/opamp10.jpg> <./figures/ch02/741_opamp.png> <./figures/ch0
+2/opamp5.jpg>] [109 <./figures/ch02/opamp6.jpg> <./figures/ch02/opamp8.jpg>]
+[110]
+<figures/ch02/opamp11.jpg, id=2082, 507.39563pt x 447.92343pt>
+File: figures/ch02/opamp11.jpg Graphic file (type jpg)
+<use figures/ch02/opamp11.jpg>
+Package pdftex.def Info: figures/ch02/opamp11.jpg  used on input line 727.
+(pdftex.def)             Requested size: 284.52756pt x 251.18398pt.
+ [111 <./figures/ch02/opamp11.jpg>]
+<figures/app/opamp_ex2.jpg, id=2091, 271.0125pt x 148.30406pt>
+File: figures/app/opamp_ex2.jpg Graphic file (type jpg)
+<use figures/app/opamp_ex2.jpg>
+Package pdftex.def Info: figures/app/opamp_ex2.jpg  used on input line 748.
+(pdftex.def)             Requested size: 170.71652pt x 93.42299pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 749.
+See the caption package documentation for explanation.
+
+<figures/app/opamp_ex3b.jpg, id=2092, 741.52031pt x 358.33875pt>
+File: figures/app/opamp_ex3b.jpg Graphic file (type jpg)
+<use figures/app/opamp_ex3b.jpg>
+Package pdftex.def Info: figures/app/opamp_ex3b.jpg  used on input line 754.
+(pdftex.def)             Requested size: 227.62204pt x 109.99577pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 755.
+See the caption package documentation for explanation.
+
+[112 <./figures/app/opamp_ex2.jpg> <./figures/app/opamp_ex3b.jpg>])
+(./3-highfreq.tex
+Underfull \hbox (badness 10000) in paragraph at lines 783--1
+
+ []
+
+[113] [114
+
+]
+Chapter 8.
+<figures/ch03/hf_model1.jpg, id=2112, 435.12563pt x 220.57407pt>
+File: figures/ch03/hf_model1.jpg Graphic file (type jpg)
+<use figures/ch03/hf_model1.jpg>
+Package pdftex.def Info: figures/ch03/hf_model1.jpg  used on input line 13.
+(pdftex.def)             Requested size: 227.62204pt x 115.38913pt.
+[115 <./figures/ch03/hf_model1.jpg>]
+<figures/ch03/hf_model2.jpg, id=2122, 796.47563pt x 227.34938pt>
+File: figures/ch03/hf_model2.jpg Graphic file (type jpg)
+<use figures/ch03/hf_model2.jpg>
+Package pdftex.def Info: figures/ch03/hf_model2.jpg  used on input line 43.
+(pdftex.def)             Requested size: 341.43306pt x 97.45998pt.
+ [116 <./figures/ch03/hf_model2.jpg>]
+<figures/ch03/milcap1.jpg, id=2130, 341.02406pt x 205.5178pt>
+File: figures/ch03/milcap1.jpg Graphic file (type jpg)
+<use figures/ch03/milcap1.jpg>
+Package pdftex.def Info: figures/ch03/milcap1.jpg  used on input line 52.
+(pdftex.def)             Requested size: 170.71652pt x 102.88408pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 53.
+See the caption package documentation for explanation.
+
+<figures/ch03/milcap2.jpg, id=2131, 567.62062pt x 209.28188pt>
+File: figures/ch03/milcap2.jpg Graphic file (type jpg)
+<use figures/ch03/milcap2.jpg>
+Package pdftex.def Info: figures/ch03/milcap2.jpg  used on input line 58.
+(pdftex.def)             Requested size: 199.16928pt x 73.43495pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 59.
+See the caption package documentation for explanation.
+
+<figures/ch03/milcap4.jpg, id=2133, 567.62062pt x 209.28188pt>
+File: figures/ch03/milcap4.jpg Graphic file (type jpg)
+<use figures/ch03/milcap4.jpg>
+Package pdftex.def Info: figures/ch03/milcap4.jpg  used on input line 67.
+(pdftex.def)             Requested size: 284.52756pt x 104.9089pt.
+<figures/ch03/milcap5.jpg, id=2136, 796.47563pt x 201.00093pt>
+File: figures/ch03/milcap5.jpg Graphic file (type jpg)
+<use figures/ch03/milcap5.jpg>
+Package pdftex.def Info: figures/ch03/milcap5.jpg  used on input line 90.
+(pdftex.def)             Requested size: 341.43306pt x 86.16495pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[117 <./figures/ch03/milcap1.jpg> <./figures/ch03/milcap2.jpg> <./figures/ch03/
+milcap4.jpg>]
+<figures/ch03/milcap6.jpg, id=2147, 758.835pt x 234.1247pt>
+File: figures/ch03/milcap6.jpg Graphic file (type jpg)
+<use figures/ch03/milcap6.jpg>
+Package pdftex.def Info: figures/ch03/milcap6.jpg  used on input line 109.
+(pdftex.def)             Requested size: 227.62204pt x 70.22722pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 110.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (6.29517pt too wide) in paragraph at lines 109--110
+ [][] 
+ []
+
+<figures/ch03/milcap7.jpg, id=2148, 747.54282pt x 268.00125pt>
+File: figures/ch03/milcap7.jpg Graphic file (type jpg)
+<use figures/ch03/milcap7.jpg>
+Package pdftex.def Info: figures/ch03/milcap7.jpg  used on input line 115.
+(pdftex.def)             Requested size: 199.16928pt x 71.40439pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 116.
+See the caption package documentation for explanation.
+
+<figures/ch03/miller.jpg, id=2153, 496.85625pt x 173.14688pt>
+File: figures/ch03/miller.jpg Graphic file (type jpg)
+<use figures/ch03/miller.jpg>
+Package pdftex.def Info: figures/ch03/miller.jpg  used on input line 140.
+(pdftex.def)             Requested size: 341.43306pt x 118.98534pt.
+[118 <./figures/ch03/milcap5.jpg> <./figures/ch03/milcap6.jpg> <./figures/ch03/
+milcap7.jpg>] [119 <./figures/ch03/miller.jpg>]
+<figures/ch03/milcap8.jpg, id=2173, 447.17062pt x 234.1247pt>
+File: figures/ch03/milcap8.jpg Graphic file (type jpg)
+<use figures/ch03/milcap8.jpg>
+Package pdftex.def Info: figures/ch03/milcap8.jpg  used on input line 174.
+(pdftex.def)             Requested size: 341.43306pt x 178.76898pt.
+) (./4a-power_amplifiers.tex
+[120 <./figures/ch03/milcap8.jpg>]
+Chapter 9.
+<figures/ch09/pa_circuit1.jpg, id=2181, 171.64125pt x 234.8775pt>
+File: figures/ch09/pa_circuit1.jpg Graphic file (type jpg)
+<use figures/ch09/pa_circuit1.jpg>
+Package pdftex.def Info: figures/ch09/pa_circuit1.jpg  used on input line 12.
+(pdftex.def)             Requested size: 124.75491pt x 170.71652pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 13.
+See the caption package documentation for explanation.
+
+<figures/ch09/pa_circuit2.jpg, id=2182, 367.3725pt x 285.31593pt>
+File: figures/ch09/pa_circuit2.jpg Graphic file (type jpg)
+<use figures/ch09/pa_circuit2.jpg>
+Package pdftex.def Info: figures/ch09/pa_circuit2.jpg  used on input line 18.
+(pdftex.def)             Requested size: 227.62204pt x 176.7852pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 19.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (6.29517pt too wide) in paragraph at lines 18--19
+ [][] 
+ []
+
+[121
+
+ <./figures/ch09/pa_circuit1.jpg> <./figures/ch09/pa_circuit2.jpg>]
+<figures/ch09/pa_cycle1.jpg, id=2193, 331.99031pt x 276.28218pt>
+File: figures/ch09/pa_cycle1.jpg Graphic file (type jpg)
+<use figures/ch09/pa_cycle1.jpg>
+Package pdftex.def Info: figures/ch09/pa_cycle1.jpg  used on input line 40.
+(pdftex.def)             Requested size: 199.16928pt x 165.7495pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 41.
+See the caption package documentation for explanation.
+
+<figures/ch09/pa_cycle2.jpg, id=2194, 322.20375pt x 213.04594pt>
+File: figures/ch09/pa_cycle2.jpg Graphic file (type jpg)
+<use figures/ch09/pa_cycle2.jpg>
+Package pdftex.def Info: figures/ch09/pa_cycle2.jpg  used on input line 46.
+(pdftex.def)             Requested size: 199.16928pt x 131.697pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 47.
+See the caption package documentation for explanation.
+
+[122 <./figures/ch09/pa_cycle1.jpg> <./figures/ch09/pa_cycle2.jpg>] [123]
+<figures/ch09/pa_cycle3.jpg, id=2214, 349.305pt x 261.22594pt>
+File: figures/ch09/pa_cycle3.jpg Graphic file (type jpg)
+<use figures/ch09/pa_cycle3.jpg>
+Package pdftex.def Info: figures/ch09/pa_cycle3.jpg  used on input line 101.
+(pdftex.def)             Requested size: 170.71652pt x 127.67097pt.
+<figures/ch09/classA1.jpg, id=2217, 225.84375pt x 252.945pt>
+File: figures/ch09/classA1.jpg Graphic file (type jpg)
+<use figures/ch09/classA1.jpg>
+Package pdftex.def Info: figures/ch09/classA1.jpg  used on input line 109.
+(pdftex.def)             Requested size: 170.71652pt x 191.21353pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 110.
+See the caption package documentation for explanation.
+
+<figures/ch09/classA2.jpg, id=2218, 357.58594pt x 279.29344pt>
+File: figures/ch09/classA2.jpg Graphic file (type jpg)
+<use figures/ch09/classA2.jpg>
+Package pdftex.def Info: figures/ch09/classA2.jpg  used on input line 115.
+(pdftex.def)             Requested size: 256.0748pt x 200.01718pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 116.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (34.74792pt too wide) in paragraph at lines 115--116
+ [][] 
+ []
+
+[124 <./figures/ch09/pa_cycle3.jpg> <./figures/ch09/classA1.jpg> <./figures/ch0
+9/classA2.jpg>]
+<figures/ch09/classA3.jpg, id=2228, 338.01282pt x 256.70906pt>
+File: figures/ch09/classA3.jpg Graphic file (type jpg)
+<use figures/ch09/classA3.jpg>
+Package pdftex.def Info: figures/ch09/classA3.jpg  used on input line 129.
+(pdftex.def)             Requested size: 170.71652pt x 129.65466pt.
+<figures/ch09/classA4.jpg, id=2231, 299.61937pt x 349.305pt>
+File: figures/ch09/classA4.jpg Graphic file (type jpg)
+<use figures/ch09/classA4.jpg>
+Package pdftex.def Info: figures/ch09/classA4.jpg  used on input line 139.
+(pdftex.def)             Requested size: 170.71652pt x 199.0313pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 140.
+See the caption package documentation for explanation.
+
+<figures/ch09/classA5.jpg, id=2232, 300.3722pt x 155.83218pt>
+File: figures/ch09/classA5.jpg Graphic file (type jpg)
+<use figures/ch09/classA5.jpg>
+Package pdftex.def Info: figures/ch09/classA5.jpg  used on input line 145.
+(pdftex.def)             Requested size: 199.16928pt x 103.33224pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 146.
+See the caption package documentation for explanation.
+
+
+Underfull \vbox (badness 3735) has occurred while \output is active []
+
+ [125 <./figures/ch09/classA3.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 166--168
+
+ []
+
+[126 <./figures/ch09/classA4.jpg> <./figures/ch09/classA5.jpg>]
+<figures/ch09/classB1.jpg, id=2248, 378.66469pt x 420.82219pt>
+File: figures/ch09/classB1.jpg Graphic file (type jpg)
+<use figures/ch09/classB1.jpg>
+Package pdftex.def Info: figures/ch09/classB1.jpg  used on input line 171.
+(pdftex.def)             Requested size: 142.26378pt x 158.1033pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 172.
+See the caption package documentation for explanation.
+
+<figures/ch09/classB2.jpg, id=2249, 313.17pt x 118.94438pt>
+File: figures/ch09/classB2.jpg Graphic file (type jpg)
+<use figures/ch09/classB2.jpg>
+Package pdftex.def Info: figures/ch09/classB2.jpg  used on input line 177.
+(pdftex.def)             Requested size: 199.16928pt x 75.64862pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 178.
+See the caption package documentation for explanation.
+
+<figures/ch09/classB3.jpg, id=2255, 432.86719pt x 239.39438pt>
+File: figures/ch09/classB3.jpg Graphic file (type jpg)
+<use figures/ch09/classB3.jpg>
+Package pdftex.def Info: figures/ch09/classB3.jpg  used on input line 188.
+(pdftex.def)             Requested size: 199.16928pt x 110.14832pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 189.
+See the caption package documentation for explanation.
+
+<figures/ch09/classB4.jpg, id=2256, 393.72093pt x 322.20375pt>
+File: figures/ch09/classB4.jpg Graphic file (type jpg)
+<use figures/ch09/classB4.jpg>
+Package pdftex.def Info: figures/ch09/classB4.jpg  used on input line 194.
+(pdftex.def)             Requested size: 199.16928pt x 162.98938pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 195.
+See the caption package documentation for explanation.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [127 <./figures/ch09/classB1.jpg> <./figures/ch09/classB2.jpg>]
+<figures/ch09/classB7.jpg, id=2269, 484.05844pt x 377.91188pt>
+File: figures/ch09/classB7.jpg Graphic file (type jpg)
+<use figures/ch09/classB7.jpg>
+Package pdftex.def Info: figures/ch09/classB7.jpg  used on input line 209.
+(pdftex.def)             Requested size: 170.71652pt x 133.28026pt.
+ [128 <./figures/ch09/classB3.jpg> <./figures/ch09/classB4.jpg> <./figures/ch09
+/classB7.jpg>]
+<figures/ch02/phase_splitter.jpg, id=2277, 234.1247pt x 207.02344pt>
+File: figures/ch02/phase_splitter.jpg Graphic file (type jpg)
+<use figures/ch02/phase_splitter.jpg>
+Package pdftex.def Info: figures/ch02/phase_splitter.jpg  used on input line 23
+7.
+(pdftex.def)             Requested size: 142.26378pt x 125.80078pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 238.
+See the caption package documentation for explanation.
+
+<figures/ch09/classB8.jpg, id=2278, 226.59656pt x 147.55125pt>
+File: figures/ch09/classB8.jpg Graphic file (type jpg)
+<use figures/ch09/classB8.jpg>
+Package pdftex.def Info: figures/ch09/classB8.jpg  used on input line 243.
+(pdftex.def)             Requested size: 170.71652pt x 111.16522pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 244.
+See the caption package documentation for explanation.
+
+<figures/ch09/classB6.jpg, id=2280, 542.025pt x 305.64188pt>
+File: figures/ch09/classB6.jpg Graphic file (type jpg)
+<use figures/ch09/classB6.jpg>
+Package pdftex.def Info: figures/ch09/classB6.jpg  used on input line 252.
+(pdftex.def)             Requested size: 199.16928pt x 112.30687pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 253.
+See the caption package documentation for explanation.
+
+<figures/ch09/classB5.jpg, id=2281, 510.40688pt x 234.1247pt>
+File: figures/ch09/classB5.jpg Graphic file (type jpg)
+<use figures/ch09/classB5.jpg>
+Package pdftex.def Info: figures/ch09/classB5.jpg  used on input line 258.
+(pdftex.def)             Requested size: 199.16928pt x 91.36185pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 259.
+See the caption package documentation for explanation.
+
+[129 <./figures/ch02/phase_splitter.jpg> <./figures/ch09/classB8.jpg> <./figure
+s/ch09/classB6.jpg> <./figures/ch09/classB5.jpg>]
+<figures/ch09/pushpull1.jpg, id=2296, 453.94594pt x 414.79968pt>
+File: figures/ch09/pushpull1.jpg Graphic file (type jpg)
+<use figures/ch09/pushpull1.jpg>
+Package pdftex.def Info: figures/ch09/pushpull1.jpg  used on input line 270.
+(pdftex.def)             Requested size: 227.62204pt x 207.9943pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 271.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (6.29517pt too wide) in paragraph at lines 270--271
+ [][] 
+ []
+
+<figures/ch09/pushpull2.jpg, id=2297, 482.55281pt x 430.60875pt>
+File: figures/ch09/pushpull2.jpg Graphic file (type jpg)
+<use figures/ch09/pushpull2.jpg>
+Package pdftex.def Info: figures/ch09/pushpull2.jpg  used on input line 276.
+(pdftex.def)             Requested size: 227.62204pt x 203.11546pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 277.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (6.29517pt too wide) in paragraph at lines 276--277
+ [][] 
+ []
+
+<figures/ch09/pushpull3.jpg, id=2302, 549.55313pt x 357.58594pt>
+File: figures/ch09/pushpull3.jpg Graphic file (type jpg)
+<use figures/ch09/pushpull3.jpg>
+Package pdftex.def Info: figures/ch09/pushpull3.jpg  used on input line 285.
+(pdftex.def)             Requested size: 227.62204pt x 148.1062pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[130 <./figures/ch09/pushpull1.jpg> <./figures/ch09/pushpull2.jpg>]
+<figures/ch09/classC1.jpg, id=2312, 387.69844pt x 432.11438pt>
+File: figures/ch09/classC1.jpg Graphic file (type jpg)
+<use figures/ch09/classC1.jpg>
+Package pdftex.def Info: figures/ch09/classC1.jpg  used on input line 300.
+(pdftex.def)             Requested size: 170.71652pt x 190.27596pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 301.
+See the caption package documentation for explanation.
+
+<figures/ch09/classC2.jpg, id=2313, 466.74374pt x 131.74219pt>
+File: figures/ch09/classC2.jpg Graphic file (type jpg)
+<use figures/ch09/classC2.jpg>
+Package pdftex.def Info: figures/ch09/classC2.jpg  used on input line 306.
+(pdftex.def)             Requested size: 227.62204pt x 64.24867pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 307.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (6.29517pt too wide) in paragraph at lines 306--307
+ [][] 
+ []
+
+[131 <./figures/ch09/pushpull3.jpg> <./figures/ch09/classC1.jpg> <./figures/ch0
+9/classC2.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 317--319
+
+ []
+
+<figures/ch09/classC3.jpg, id=2322, 297.36093pt x 259.7203pt>
+File: figures/ch09/classC3.jpg Graphic file (type jpg)
+<use figures/ch09/classC3.jpg>
+Package pdftex.def Info: figures/ch09/classC3.jpg  used on input line 322.
+(pdftex.def)             Requested size: 170.71652pt x 149.10419pt.
+<figures/ch09/rlc.jpg, id=2328, 138.5175pt x 173.14688pt>
+File: figures/ch09/rlc.jpg Graphic file (type jpg)
+<use figures/ch09/rlc.jpg>
+Package pdftex.def Info: figures/ch09/rlc.jpg  used on input line 335.
+(pdftex.def)             Requested size: 113.81102pt x 142.26405pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 336.
+See the caption package documentation for explanation.
+
+<figures/ch09/rlc2.jpg, id=2329, 344.78813pt x 228.855pt>
+File: figures/ch09/rlc2.jpg Graphic file (type jpg)
+<use figures/ch09/rlc2.jpg>
+Package pdftex.def Info: figures/ch09/rlc2.jpg  used on input line 341.
+(pdftex.def)             Requested size: 227.62204pt x 151.08665pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 342.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (6.29517pt too wide) in paragraph at lines 341--342
+ [][] 
+ []
+
+[132 <./figures/ch09/classC3.jpg> <./figures/ch09/rlc.jpg> <./figures/ch09/rlc2
+.jpg>]
+<figures/ch09/classD1.jpg, id=2343, 318.43968pt x 426.84468pt>
+File: figures/ch09/classD1.jpg Graphic file (type jpg)
+<use figures/ch09/classD1.jpg>
+Package pdftex.def Info: figures/ch09/classD1.jpg  used on input line 378.
+(pdftex.def)             Requested size: 113.81102pt x 152.55022pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 379.
+See the caption package documentation for explanation.
+
+<figures/ch09/classD2.jpg, id=2344, 192.72pt x 200.24812pt>
+File: figures/ch09/classD2.jpg Graphic file (type jpg)
+<use figures/ch09/classD2.jpg>
+Package pdftex.def Info: figures/ch09/classD2.jpg  used on input line 384.
+(pdftex.def)             Requested size: 113.81102pt x 118.25536pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 385.
+See the caption package documentation for explanation.
+
+[133]
+<figures/ch09/classS1.jpg, id=2354, 636.12656pt x 116.68594pt>
+File: figures/ch09/classS1.jpg Graphic file (type jpg)
+<use figures/ch09/classS1.jpg>
+Package pdftex.def Info: figures/ch09/classS1.jpg  used on input line 404.
+(pdftex.def)             Requested size: 312.9803pt x 57.40984pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
+
+ []
+
+[134 <./figures/ch09/classD1.jpg> <./figures/ch09/classD2.jpg> <./figures/ch09/
+classS1.jpg>]
+<figures/ch09/classS2.jpg, id=2362, 263.48438pt x 204.765pt>
+File: figures/ch09/classS2.jpg Graphic file (type jpg)
+<use figures/ch09/classS2.jpg>
+Package pdftex.def Info: figures/ch09/classS2.jpg  used on input line 413.
+(pdftex.def)             Requested size: 227.62204pt x 176.90369pt.
+
+Overfull \hbox (6.13783pt too wide) detected at line 434
+[]
+ []
+
+[135 <./figures/ch09/classS2.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 443--445
+
+ []
+
+File: figures/ch09/rlc2.jpg Graphic file (type jpg)
+<use figures/ch09/rlc2.jpg>
+Package pdftex.def Info: figures/ch09/rlc2.jpg  used on input line 448.
+(pdftex.def)             Requested size: 199.16928pt x 132.2017pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 449.
+See the caption package documentation for explanation.
+
+<figures/ch09/selective1.jpg, id=2371, 233.37187pt x 177.66376pt>
+File: figures/ch09/selective1.jpg Graphic file (type jpg)
+<use figures/ch09/selective1.jpg>
+Package pdftex.def Info: figures/ch09/selective1.jpg  used on input line 454.
+(pdftex.def)             Requested size: 142.26378pt x 108.30695pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 455.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 463--467
+
+ []
+
+[136 <./figures/ch09/selective1.jpg>]
+<figures/ch09/selective2.jpg, id=2380, 645.91313pt x 308.65312pt>
+File: figures/ch09/selective2.jpg Graphic file (type jpg)
+<use figures/ch09/selective2.jpg>
+Package pdftex.def Info: figures/ch09/selective2.jpg  used on input line 470.
+(pdftex.def)             Requested size: 284.52756pt x 135.9632pt.
+<figures/ch09/selective3.jpg, id=2383, 733.99219pt x 136.25906pt>
+File: figures/ch09/selective3.jpg Graphic file (type jpg)
+<use figures/ch09/selective3.jpg>
+Package pdftex.def Info: figures/ch09/selective3.jpg  used on input line 478.
+(pdftex.def)             Requested size: 398.33858pt x 73.94887pt.
+<figures/ch09/selective4.jpg, id=2386, 391.4625pt x 107.65219pt>
+File: figures/ch09/selective4.jpg Graphic file (type jpg)
+<use figures/ch09/selective4.jpg>
+Package pdftex.def Info: figures/ch09/selective4.jpg  used on input line 492.
+(pdftex.def)             Requested size: 341.43306pt x 93.89975pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./4b-feedback.tex [137 <./figures/ch09/selective2.jpg> <./figures/ch09/selec
+tive3.jpg>] [138 <./figures/ch09/selective4.jpg>]
+Chapter 10.
+<figures/ch10/feedback_general.jpg, id=2399, 366.61969pt x 160.51547pt>
+File: figures/ch10/feedback_general.jpg Graphic file (type jpg)
+<use figures/ch10/feedback_general.jpg>
+Package pdftex.def Info: figures/ch10/feedback_general.jpg  used on input line 
+31.
+(pdftex.def)             Requested size: 256.0748pt x 112.12247pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 32.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (34.74792pt too wide) in paragraph at lines 31--32
+ [][] 
+ []
+
+<figures/ch10/feedback2.jpg, id=2400, 450.9347pt x 223.58531pt>
+File: figures/ch10/feedback2.jpg Graphic file (type jpg)
+<use figures/ch10/feedback2.jpg>
+Package pdftex.def Info: figures/ch10/feedback2.jpg  used on input line 37.
+(pdftex.def)             Requested size: 199.16928pt x 98.75311pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 38.
+See the caption package documentation for explanation.
+
+
+Underfull \vbox (badness 1983) has occurred while \output is active []
+
+ [139
+
+]
+File: figures/ch02/opamp4.jpg Graphic file (type jpg)
+<use figures/ch02/opamp4.jpg>
+Package pdftex.def Info: figures/ch02/opamp4.jpg  used on input line 53.
+(pdftex.def)             Requested size: 199.16928pt x 115.43864pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 54.
+See the caption package documentation for explanation.
+
+<figures/ch10/feedback3.jpg, id=2410, 329.73187pt x 210.7875pt>
+File: figures/ch10/feedback3.jpg Graphic file (type jpg)
+<use figures/ch10/feedback3.jpg>
+Package pdftex.def Info: figures/ch10/feedback3.jpg  used on input line 59.
+(pdftex.def)             Requested size: 199.16928pt x 127.3258pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 60.
+See the caption package documentation for explanation.
+
+[140 <./figures/ch10/feedback_general.jpg> <./figures/ch10/feedback2.jpg> <./fi
+gures/ch10/feedback3.jpg>]
+<figures/ch10/feedback4.jpg, id=2428, 365.86688pt x 254.45062pt>
+File: figures/ch10/feedback4.jpg Graphic file (type jpg)
+<use figures/ch10/feedback4.jpg>
+Package pdftex.def Info: figures/ch10/feedback4.jpg  used on input line 96.
+(pdftex.def)             Requested size: 199.16928pt x 138.5156pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 97.
+See the caption package documentation for explanation.
+
+<figures/ch10/feedback5.jpg, id=2429, 502.12593pt x 253.69781pt>
+File: figures/ch10/feedback5.jpg Graphic file (type jpg)
+<use figures/ch10/feedback5.jpg>
+Package pdftex.def Info: figures/ch10/feedback5.jpg  used on input line 102.
+(pdftex.def)             Requested size: 199.16928pt x 100.62955pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 103.
+See the caption package documentation for explanation.
+
+[141 <./figures/ch10/feedback4.jpg> <./figures/ch10/feedback5.jpg>]
+<figures/ch10/feedback6.jpg, id=2440, 640.64343pt x 262.73157pt>
+File: figures/ch10/feedback6.jpg Graphic file (type jpg)
+<use figures/ch10/feedback6.jpg>
+Package pdftex.def Info: figures/ch10/feedback6.jpg  used on input line 133.
+(pdftex.def)             Requested size: 341.43306pt x 140.0248pt.
+ [142 <./figures/ch10/feedback6.jpg>] [143]
+Underfull \hbox (badness 10000) in paragraph at lines 179--182
+
+ []
+
+<figures/ch10/feedback7.jpg, id=2462, 286.06876pt x 160.51547pt>
+File: figures/ch10/feedback7.jpg Graphic file (type jpg)
+<use figures/ch10/feedback7.jpg>
+Package pdftex.def Info: figures/ch10/feedback7.jpg  used on input line 186.
+(pdftex.def)             Requested size: 199.16928pt x 111.75752pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 187.
+See the caption package documentation for explanation.
+
+<figures/ch10/feedback8.jpg, id=2463, 298.86656pt x 173.89969pt>
+File: figures/ch10/feedback8.jpg Graphic file (type jpg)
+<use figures/ch10/feedback8.jpg>
+Package pdftex.def Info: figures/ch10/feedback8.jpg  used on input line 192.
+(pdftex.def)             Requested size: 199.16928pt x 115.89125pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 193.
+See the caption package documentation for explanation.
+
+[144 <./figures/ch10/feedback7.jpg> <./figures/ch10/feedback8.jpg>]
+<figures/ch10/feedback9.jpg, id=2473, 517.935pt x 291.33844pt>
+File: figures/ch10/feedback9.jpg Graphic file (type jpg)
+<use figures/ch10/feedback9.jpg>
+Package pdftex.def Info: figures/ch10/feedback9.jpg  used on input line 207.
+(pdftex.def)             Requested size: 199.16928pt x 112.0345pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 208.
+See the caption package documentation for explanation.
+
+<figures/ch10/feedback10.jpg, id=2474, 311.66437pt x 319.94531pt>
+File: figures/ch10/feedback10.jpg Graphic file (type jpg)
+<use figures/ch10/feedback10.jpg>
+Package pdftex.def Info: figures/ch10/feedback10.jpg  used on input line 213.
+(pdftex.def)             Requested size: 142.26378pt x 146.044pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 214.
+See the caption package documentation for explanation.
+
+[145 <./figures/ch10/feedback9.jpg> <./figures/ch10/feedback10.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 239--241
+
+ []
+
+<figures/ch10/feedback11.jpg, id=2485, 612.03656pt x 322.20375pt>
+File: figures/ch10/feedback11.jpg Graphic file (type jpg)
+<use figures/ch10/feedback11.jpg>
+Package pdftex.def Info: figures/ch10/feedback11.jpg  used on input line 244.
+(pdftex.def)             Requested size: 398.33858pt x 209.70035pt.
+<figures/ch10/feedback12.jpg, id=2487, 796.47563pt x 347.04657pt>
+File: figures/ch10/feedback12.jpg Graphic file (type jpg)
+<use figures/ch10/feedback12.jpg>
+Package pdftex.def Info: figures/ch10/feedback12.jpg  used on input line 253.
+(pdftex.def)             Requested size: 398.33858pt x 173.56522pt.
+[146 <./figures/ch10/feedback11.jpg>]) (./4c-oscillators.tex [147 <./figures/ch
+10/feedback12.jpg>] [148
+
+]
+Chapter 11.
+<figures/ch11/phaseshift1.jpg, id=2508, 300.3722pt x 208.52907pt>
+File: figures/ch11/phaseshift1.jpg Graphic file (type jpg)
+<use figures/ch11/phaseshift1.jpg>
+Package pdftex.def Info: figures/ch11/phaseshift1.jpg  used on input line 9.
+(pdftex.def)             Requested size: 227.62204pt x 158.02872pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[149]
+<figures/ch11/phaseshift2.jpg, id=2519, 432.86719pt x 138.5175pt>
+File: figures/ch11/phaseshift2.jpg Graphic file (type jpg)
+<use figures/ch11/phaseshift2.jpg>
+Package pdftex.def Info: figures/ch11/phaseshift2.jpg  used on input line 35.
+(pdftex.def)             Requested size: 341.43306pt x 109.26276pt.
+
+Underfull \vbox (badness 2671) has occurred while \output is active []
+
+ [150 <./figures/ch11/phaseshift1.jpg> <./figures/ch11/phaseshift2.jpg>]
+<figures/ch11/wienbridge1.jpg, id=2525, 456.20438pt x 330.48468pt>
+File: figures/ch11/wienbridge1.jpg Graphic file (type jpg)
+<use figures/ch11/wienbridge1.jpg>
+Package pdftex.def Info: figures/ch11/wienbridge1.jpg  used on input line 66.
+(pdftex.def)             Requested size: 227.62204pt x 164.89398pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[151]
+<figures/ch11/collpits1.jpg, id=2532, 377.91188pt x 266.49562pt>
+File: figures/ch11/collpits1.jpg Graphic file (type jpg)
+<use figures/ch11/collpits1.jpg>
+Package pdftex.def Info: figures/ch11/collpits1.jpg  used on input line 102.
+(pdftex.def)             Requested size: 227.62204pt x 160.51262pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/ch11/collpits2.jpg, id=2534, 406.51875pt x 150.5625pt>
+File: figures/ch11/collpits2.jpg Graphic file (type jpg)
+<use figures/ch11/collpits2.jpg>
+Package pdftex.def Info: figures/ch11/collpits2.jpg  used on input line 111.
+(pdftex.def)             Requested size: 284.52756pt x 105.38382pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 112.
+See the caption package documentation for explanation.
+
+<figures/ch11/collpits3.jpg, id=2535, 148.30406pt x 161.85469pt>
+File: figures/ch11/collpits3.jpg Graphic file (type jpg)
+<use figures/ch11/collpits3.jpg>
+Package pdftex.def Info: figures/ch11/collpits3.jpg  used on input line 117.
+(pdftex.def)             Requested size: 85.35826pt x 93.15956pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 118.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 109--121
+[]$[]$ $[]$ 
+ []
+
+
+Underfull \vbox (badness 2547) has occurred while \output is active []
+
+ [152 <./figures/ch11/wienbridge1.jpg>] [153 <./figures/ch11/collpits1.jpg> <./
+figures/ch11/collpits2.jpg> <./figures/ch11/collpits3.jpg>]
+<figures/ch11/quartz1.jpg, id=2548, 566.115pt x 152.06813pt>
+File: figures/ch11/quartz1.jpg Graphic file (type jpg)
+<use figures/ch11/quartz1.jpg>
+Package pdftex.def Info: figures/ch11/quartz1.jpg  used on input line 159.
+(pdftex.def)             Requested size: 284.52756pt x 76.43065pt.
+ [154 <./figures/ch11/quartz1.jpg>]
+<figures/ch11/quartz2.jpg, id=2556, 379.4175pt x 316.93407pt>
+File: figures/ch11/quartz2.jpg Graphic file (type jpg)
+<use figures/ch11/quartz2.jpg>
+Package pdftex.def Info: figures/ch11/quartz2.jpg  used on input line 181.
+(pdftex.def)             Requested size: 170.71652pt x 142.60449pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 182.
+See the caption package documentation for explanation.
+
+<figures/ch11/quartz3.jpg, id=2557, 508.14844pt x 354.57469pt>
+File: figures/ch11/quartz3.jpg Graphic file (type jpg)
+<use figures/ch11/quartz3.jpg>
+Package pdftex.def Info: figures/ch11/quartz3.jpg  used on input line 187.
+(pdftex.def)             Requested size: 199.16928pt x 138.97609pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 188.
+See the caption package documentation for explanation.
+
+[155 <./figures/ch11/quartz2.jpg> <./figures/ch11/quartz3.jpg>]
+<figures/ch11/relaxation1.jpg, id=2567, 368.87813pt x 182.93344pt>
+File: figures/ch11/relaxation1.jpg Graphic file (type jpg)
+<use figures/ch11/relaxation1.jpg>
+Package pdftex.def Info: figures/ch11/relaxation1.jpg  used on input line 216.
+(pdftex.def)             Requested size: 199.16928pt x 98.77141pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 217.
+See the caption package documentation for explanation.
+
+<figures/ch11/relaxation2.jpg, id=2568, 287.57437pt x 252.945pt>
+File: figures/ch11/relaxation2.jpg Graphic file (type jpg)
+<use figures/ch11/relaxation2.jpg>
+Package pdftex.def Info: figures/ch11/relaxation2.jpg  used on input line 222.
+(pdftex.def)             Requested size: 142.26378pt x 125.13675pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 223.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--227
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--241
+
+ []
+
+<figures/ch11/relaxation3.jpg, id=2571, 414.79968pt x 263.48438pt>
+File: figures/ch11/relaxation3.jpg Graphic file (type jpg)
+<use figures/ch11/relaxation3.jpg>
+Package pdftex.def Info: figures/ch11/relaxation3.jpg  used on input line 245.
+(pdftex.def)             Requested size: 227.62204pt x 144.58716pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[156 <./figures/ch11/relaxation1.jpg> <./figures/ch11/relaxation2.jpg>]
+<figures/ch11/relaxation4.jpg, id=2579, 420.06938pt x 447.92343pt>
+File: figures/ch11/relaxation4.jpg Graphic file (type jpg)
+<use figures/ch11/relaxation4.jpg>
+Package pdftex.def Info: figures/ch11/relaxation4.jpg  used on input line 277.
+(pdftex.def)             Requested size: 170.71652pt x 182.03679pt.
+
+[157 <./figures/ch11/relaxation3.jpg>]
+<figures/ch11/fantastron1.jpg, id=2589, 648.92438pt x 231.86626pt>
+File: figures/ch11/fantastron1.jpg Graphic file (type jpg)
+<use figures/ch11/fantastron1.jpg>
+Package pdftex.def Info: figures/ch11/fantastron1.jpg  used on input line 300.
+(pdftex.def)             Requested size: 341.43306pt x 121.99695pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[158 <./figures/ch11/relaxation4.jpg>]
+<figures/ch11/fantastron2.jpg, id=2599, 796.47563pt x 160.51547pt>
+File: figures/ch11/fantastron2.jpg Graphic file (type jpg)
+<use figures/ch11/fantastron2.jpg>
+Package pdftex.def Info: figures/ch11/fantastron2.jpg  used on input line 313.
+(pdftex.def)             Requested size: 398.33858pt x 80.27711pt.
+) (./4d-dc_generators.tex [159 <./figures/ch11/fantastron1.jpg> <./figures/ch11
+/fantastron2.jpg>] [160
+
+]
+Chapter 12.
+Excluding 'comment' comment.
+<figures/ch12/dc_source1.jpg, id=2609, 319.94531pt x 304.13625pt>
+File: figures/ch12/dc_source1.jpg Graphic file (type jpg)
+<use figures/ch12/dc_source1.jpg>
+Package pdftex.def Info: figures/ch12/dc_source1.jpg  used on input line 26.
+(pdftex.def)             Requested size: 113.81102pt x 108.18954pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 27.
+See the caption package documentation for explanation.
+
+<figures/ch12/dc_source2.jpg, id=2610, 303.38344pt x 243.91125pt>
+File: figures/ch12/dc_source2.jpg Graphic file (type jpg)
+<use figures/ch12/dc_source2.jpg>
+Package pdftex.def Info: figures/ch12/dc_source2.jpg  used on input line 32.
+(pdftex.def)             Requested size: 142.26378pt x 114.37776pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 33.
+See the caption package documentation for explanation.
+
+[161 <./figures/ch12/dc_source1.jpg> <./figures/ch12/dc_source2.jpg>]
+<figures/ch12/transformer1.jpg, id=2621, 501.37312pt x 235.63031pt>
+File: figures/ch12/transformer1.jpg Graphic file (type jpg)
+<use figures/ch12/transformer1.jpg>
+Package pdftex.def Info: figures/ch12/transformer1.jpg  used on input line 49.
+(pdftex.def)             Requested size: 227.62204pt x 106.97466pt.
+<figures/ch12/rectifier1.jpg, id=2623, 557.83406pt x 208.52907pt>
+File: figures/ch12/rectifier1.jpg Graphic file (type jpg)
+<use figures/ch12/rectifier1.jpg>
+Package pdftex.def Info: figures/ch12/rectifier1.jpg  used on input line 59.
+(pdftex.def)             Requested size: 227.62204pt x 85.08699pt.
+<figures/ch12/graetz.jpg, id=2625, 536.0025pt x 216.05719pt>
+File: figures/ch12/graetz.jpg Graphic file (type jpg)
+<use figures/ch12/graetz.jpg>
+Package pdftex.def Info: figures/ch12/graetz.jpg  used on input line 76.
+(pdftex.def)             Requested size: 227.62204pt x 91.7522pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[162 <./figures/ch12/transformer1.jpg> <./figures/ch12/rectifier1.jpg>]
+<figures/ch12/dc_source3.jpg, id=2634, 578.16pt x 225.09094pt>
+File: figures/ch12/dc_source3.jpg Graphic file (type jpg)
+<use figures/ch12/dc_source3.jpg>
+Package pdftex.def Info: figures/ch12/dc_source3.jpg  used on input line 85.
+(pdftex.def)             Requested size: 227.62204pt x 88.61627pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 86.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (6.29517pt too wide) in paragraph at lines 85--86
+ [][] 
+ []
+
+<figures/ch12/dc_source4.jpg, id=2635, 570.63188pt x 262.73157pt>
+File: figures/ch12/dc_source4.jpg Graphic file (type jpg)
+<use figures/ch12/dc_source4.jpg>
+Package pdftex.def Info: figures/ch12/dc_source4.jpg  used on input line 91.
+(pdftex.def)             Requested size: 170.71652pt x 78.59958pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 92.
+See the caption package documentation for explanation.
+
+[163 <./figures/ch12/graetz.jpg> <./figures/ch12/dc_source3.jpg> <./figures/ch1
+2/dc_source4.jpg>]
+<figures/ch12/stabilizer1.jpg, id=2644, 796.47563pt x 447.92343pt>
+File: figures/ch12/stabilizer1.jpg Graphic file (type jpg)
+<use figures/ch12/stabilizer1.jpg>
+Package pdftex.def Info: figures/ch12/stabilizer1.jpg  used on input line 114.
+(pdftex.def)             Requested size: 227.62204pt x 128.00807pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 115.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (6.29517pt too wide) in paragraph at lines 114--115
+ [][] 
+ []
+
+<figures/ch12/stabilizer3.jpg, id=2645, 289.08pt x 136.25906pt>
+File: figures/ch12/stabilizer3.jpg Graphic file (type jpg)
+<use figures/ch12/stabilizer3.jpg>
+Package pdftex.def Info: figures/ch12/stabilizer3.jpg  used on input line 120.
+(pdftex.def)             Requested size: 170.71652pt x 80.46698pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 121.
+See the caption package documentation for explanation.
+
+<figures/ch12/stabilizer2.jpg, id=2647, 301.8778pt x 447.92343pt>
+File: figures/ch12/stabilizer2.jpg Graphic file (type jpg)
+<use figures/ch12/stabilizer2.jpg>
+Package pdftex.def Info: figures/ch12/stabilizer2.jpg  used on input line 141.
+(pdftex.def)             Requested size: 153.40288pt x 227.62204pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[164 <./figures/ch12/stabilizer1.jpg> <./figures/ch12/stabilizer3.jpg>]
+<figures/ch12/stabilizer4.jpg, id=2657, 794.2172pt x 264.99pt>
+File: figures/ch12/stabilizer4.jpg Graphic file (type jpg)
+<use figures/ch12/stabilizer4.jpg>
+Package pdftex.def Info: figures/ch12/stabilizer4.jpg  used on input line 165.
+(pdftex.def)             Requested size: 284.52756pt x 94.93536pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/ch12/stabilizer5.jpg, id=2659, 594.72188pt x 234.8775pt>
+File: figures/ch12/stabilizer5.jpg Graphic file (type jpg)
+<use figures/ch12/stabilizer5.jpg>
+Package pdftex.def Info: figures/ch12/stabilizer5.jpg  used on input line 182.
+(pdftex.def)             Requested size: 284.52756pt x 112.36719pt.
+[165 <./figures/ch12/stabilizer2.jpg>]
+<figures/ch12/stabilizer6.jpg, id=2666, 481.8pt x 240.14719pt>
+File: figures/ch12/stabilizer6.jpg Graphic file (type jpg)
+<use figures/ch12/stabilizer6.jpg>
+Package pdftex.def Info: figures/ch12/stabilizer6.jpg  used on input line 192.
+(pdftex.def)             Requested size: 284.52756pt x 141.82117pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[166 <./figures/ch12/stabilizer4.jpg> <./figures/ch12/stabilizer5.jpg>]
+<figures/ch12/stabilizer7.jpg, id=2672, 454.69875pt x 447.92343pt>
+File: figures/ch12/stabilizer7.jpg Graphic file (type jpg)
+<use figures/ch12/stabilizer7.jpg>
+Package pdftex.def Info: figures/ch12/stabilizer7.jpg  used on input line 212.
+(pdftex.def)             Requested size: 170.71652pt x 168.1759pt.
+<figures/ch12/stabilizer9.jpg, id=2674, 525.46312pt x 355.3275pt>
+File: figures/ch12/stabilizer9.jpg Graphic file (type jpg)
+<use figures/ch12/stabilizer9.jpg>
+Package pdftex.def Info: figures/ch12/stabilizer9.jpg  used on input line 224.
+(pdftex.def)             Requested size: 284.52756pt x 192.41074pt.
+
+[167 <./figures/ch12/stabilizer6.jpg> <./figures/ch12/stabilizer7.jpg>]
+<figures/ch12/supply_prot1.jpg, id=2684, 340.27126pt x 207.02344pt>
+File: figures/ch12/supply_prot1.jpg Graphic file (type jpg)
+<use figures/ch12/supply_prot1.jpg>
+Package pdftex.def Info: figures/ch12/supply_prot1.jpg  used on input line 240.
+
+(pdftex.def)             Requested size: 170.71652pt x 103.86525pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 241.
+See the caption package documentation for explanation.
+
+<figures/ch12/supply_prot2.jpg, id=2685, 362.10281pt x 225.09094pt>
+File: figures/ch12/supply_prot2.jpg Graphic file (type jpg)
+<use figures/ch12/supply_prot2.jpg>
+Package pdftex.def Info: figures/ch12/supply_prot2.jpg  used on input line 246.
+
+(pdftex.def)             Requested size: 170.71652pt x 106.12247pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 247.
+See the caption package documentation for explanation.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [168 <./figures/ch12/stabilizer9.jpg>]
+<figures/ch12/supply_prot3.jpg, id=2696, 285.31593pt x 281.55188pt>
+File: figures/ch12/supply_prot3.jpg Graphic file (type jpg)
+<use figures/ch12/supply_prot3.jpg>
+Package pdftex.def Info: figures/ch12/supply_prot3.jpg  used on input line 255.
+
+(pdftex.def)             Requested size: 170.71652pt x 168.46414pt.
+) [169 <./figures/ch12/supply_prot1.jpg> <./figures/ch12/supply_prot2.jpg> <./f
+igures/ch12/supply_prot3.jpg>] [170
+
+] [171] [172]
+(./5-digital.tex
+Chapter 13.
+<figures/ch13/switch.jpg, id=2716, 283.81032pt x 127.97812pt>
+File: figures/ch13/switch.jpg Graphic file (type jpg)
+<use figures/ch13/switch.jpg>
+Package pdftex.def Info: figures/ch13/switch.jpg  used on input line 9.
+(pdftex.def)             Requested size: 170.71652pt x 76.98273pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 10.
+See the caption package documentation for explanation.
+
+<figures/ch13/not_gate.jpg, id=2717, 197.98969pt x 219.06844pt>
+File: figures/ch13/not_gate.jpg Graphic file (type jpg)
+<use figures/ch13/not_gate.jpg>
+Package pdftex.def Info: figures/ch13/not_gate.jpg  used on input line 15.
+(pdftex.def)             Requested size: 113.81102pt x 125.92993pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 16.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+
+Underfull \vbox (badness 1803) has occurred while \output is active []
+
+ [173
+
+ <./figures/ch13/switch.jpg> <./figures/ch13/not_gate.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+ []
+
+<figures/ch13/not_gate2.jpg, id=2728, 633.11531pt x 447.92343pt>
+File: figures/ch13/not_gate2.jpg Graphic file (type jpg)
+<use figures/ch13/not_gate2.jpg>
+Package pdftex.def Info: figures/ch13/not_gate2.jpg  used on input line 45.
+(pdftex.def)             Requested size: 227.62204pt x 161.04044pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 46.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (6.29517pt too wide) in paragraph at lines 45--46
+ [][] 
+ []
+
+<figures/ch13/not_gate3.jpg, id=2729, 615.0478pt x 447.92343pt>
+File: figures/ch13/not_gate3.jpg Graphic file (type jpg)
+<use figures/ch13/not_gate3.jpg>
+Package pdftex.def Info: figures/ch13/not_gate3.jpg  used on input line 51.
+(pdftex.def)             Requested size: 227.62204pt x 165.77008pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 52.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (6.29517pt too wide) in paragraph at lines 51--52
+ [][] 
+ []
+
+<figures/ch13/digital_thresholds.jpg, id=2732, 429.10312pt x 316.18124pt>
+File: figures/ch13/digital_thresholds.jpg Graphic file (type jpg)
+<use figures/ch13/digital_thresholds.jpg>
+Package pdftex.def Info: figures/ch13/digital_thresholds.jpg  used on input lin
+e 61.
+(pdftex.def)             Requested size: 231.69258pt x 170.71652pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[174 <./figures/ch13/not_gate2.jpg> <./figures/ch13/not_gate3.jpg>] [175 <./fig
+ures/ch13/digital_thresholds.jpg>] [176
+
+]
+Chapter 14.
+<figures/ch13/buffer_gate.jpg, id=2752, 554.07pt x 145.29282pt>
+File: figures/ch13/buffer_gate.jpg Graphic file (type jpg)
+<use figures/ch13/buffer_gate.jpg>
+Package pdftex.def Info: figures/ch13/buffer_gate.jpg  used on input line 94.
+(pdftex.def)             Requested size: 284.52756pt x 74.61047pt.
+[177 <./figures/ch13/buffer_gate.jpg>]
+<figures/ch13/symbol_not.jpg, id=2757, 403.5075pt x 234.1247pt>
+File: figures/ch13/symbol_not.jpg Graphic file (type jpg)
+<use figures/ch13/symbol_not.jpg>
+Package pdftex.def Info: figures/ch13/symbol_not.jpg  used on input line 105.
+(pdftex.def)             Requested size: 113.81102pt x 66.03674pt.
+<figures/ch13/symbol_and.jpg, id=2758, 153.57375pt x 81.30376pt>
+File: figures/ch13/symbol_and.jpg Graphic file (type jpg)
+<use figures/ch13/symbol_and.jpg>
+Package pdftex.def Info: figures/ch13/symbol_and.jpg  used on input line 129.
+(pdftex.def)             Requested size: 113.81102pt x 60.25314pt.
+<figures/ch13/symbol_or.jpg, id=2759, 153.57375pt x 81.30376pt>
+File: figures/ch13/symbol_or.jpg Graphic file (type jpg)
+<use figures/ch13/symbol_or.jpg>
+Package pdftex.def Info: figures/ch13/symbol_or.jpg  used on input line 157.
+(pdftex.def)             Requested size: 113.81102pt x 60.25314pt.
+<figures/ch13/symbol_xor.jpg, id=2760, 153.57375pt x 81.30376pt>
+File: figures/ch13/symbol_xor.jpg Graphic file (type jpg)
+<use figures/ch13/symbol_xor.jpg>
+Package pdftex.def Info: figures/ch13/symbol_xor.jpg  used on input line 185.
+(pdftex.def)             Requested size: 113.81102pt x 60.25314pt.
+<figures/ch13/symbol_nand.jpg, id=2761, 153.57375pt x 81.30376pt>
+File: figures/ch13/symbol_nand.jpg Graphic file (type jpg)
+<use figures/ch13/symbol_nand.jpg>
+Package pdftex.def Info: figures/ch13/symbol_nand.jpg  used on input line 213.
+(pdftex.def)             Requested size: 113.81102pt x 60.25314pt.
+<figures/ch13/symbol_nor.jpg, id=2762, 153.57375pt x 81.30376pt>
+File: figures/ch13/symbol_nor.jpg Graphic file (type jpg)
+<use figures/ch13/symbol_nor.jpg>
+Package pdftex.def Info: figures/ch13/symbol_nor.jpg  used on input line 241.
+(pdftex.def)             Requested size: 113.81102pt x 60.25314pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 242.
+See the caption package documentation for explanation.
+
+<figures/ch13/truth_table.jpg, id=2765, 264.23718pt x 289.83281pt>
+File: figures/ch13/truth_table.jpg Graphic file (type jpg)
+<use figures/ch13/truth_table.jpg>
+Package pdftex.def Info: figures/ch13/truth_table.jpg  used on input line 270.
+(pdftex.def)             Requested size: 170.71652pt x 187.2525pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[178 <./figures/ch13/symbol_not.jpg> <./figures/ch13/symbol_and.jpg> <./figures
+/ch13/symbol_or.jpg> <./figures/ch13/symbol_xor.jpg> <./figures/ch13/symbol_nan
+d.jpg> <./figures/ch13/symbol_nor.jpg>]
+<figures/ch13/combinatorial1.jpg, id=2778, 466.74374pt x 195.73125pt>
+File: figures/ch13/combinatorial1.jpg Graphic file (type jpg)
+<use figures/ch13/combinatorial1.jpg>
+Package pdftex.def Info: figures/ch13/combinatorial1.jpg  used on input line 29
+8.
+(pdftex.def)             Requested size: 284.52756pt x 119.32121pt.
+<figures/ch13/combinatorial2.jpg, id=2779, 553.31718pt x 213.04594pt>
+File: figures/ch13/combinatorial2.jpg Graphic file (type jpg)
+<use figures/ch13/combinatorial2.jpg>
+Package pdftex.def Info: figures/ch13/combinatorial2.jpg  used on input line 30
+5.
+(pdftex.def)             Requested size: 341.43306pt x 131.46295pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/ch13/combinatorial3.jpg, id=2781, 796.47563pt x 155.83218pt>
+File: figures/ch13/combinatorial3.jpg Graphic file (type jpg)
+<use figures/ch13/combinatorial3.jpg>
+Package pdftex.def Info: figures/ch13/combinatorial3.jpg  used on input line 31
+4.
+(pdftex.def)             Requested size: 341.43306pt x 66.80203pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/ch13/combinatorial4.jpg, id=2782, 808.52063pt x 188.95593pt>
+File: figures/ch13/combinatorial4.jpg Graphic file (type jpg)
+<use figures/ch13/combinatorial4.jpg>
+Package pdftex.def Info: figures/ch13/combinatorial4.jpg  used on input line 32
+1.
+(pdftex.def)             Requested size: 341.43306pt x 79.79631pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[179 <./figures/ch13/truth_table.jpg> <./figures/ch13/combinatorial1.jpg>]
+<figures/ch13/mux1.jpg, id=2792, 207.77625pt x 181.42781pt>
+File: figures/ch13/mux1.jpg Graphic file (type jpg)
+<use figures/ch13/mux1.jpg>
+Package pdftex.def Info: figures/ch13/mux1.jpg  used on input line 333.
+(pdftex.def)             Requested size: 142.26378pt x 124.22746pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 334.
+See the caption package documentation for explanation.
+
+<figures/ch13/mux2.jpg, id=2793, 410.2828pt x 447.92343pt>
+File: figures/ch13/mux2.jpg Graphic file (type jpg)
+<use figures/ch13/mux2.jpg>
+Package pdftex.def Info: figures/ch13/mux2.jpg  used on input line 339.
+(pdftex.def)             Requested size: 113.81102pt x 124.24896pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 340.
+See the caption package documentation for explanation.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [180 <./figures/ch13/combinatorial2.jpg> <./figures/ch13/combinatorial3.jpg> <
+./figures/ch13/combinatorial4.jpg>]
+<figures/ch13/mux3.jpg, id=2803, 642.90187pt x 225.09094pt>
+File: figures/ch13/mux3.jpg Graphic file (type jpg)
+<use figures/ch13/mux3.jpg>
+Package pdftex.def Info: figures/ch13/mux3.jpg  used on input line 355.
+(pdftex.def)             Requested size: 284.52756pt x 99.62076pt.
+<figures/ch13/nand_gate.jpg, id=2807, 271.0125pt x 319.1925pt>
+File: figures/ch13/nand_gate.jpg Graphic file (type jpg)
+<use figures/ch13/nand_gate.jpg>
+Package pdftex.def Info: figures/ch13/nand_gate.jpg  used on input line 365.
+(pdftex.def)             Requested size: 142.26378pt x 167.55908pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 366.
+See the caption package documentation for explanation.
+
+<figures/ch13/nor_gate.jpg, id=2808, 271.0125pt x 319.1925pt>
+File: figures/ch13/nor_gate.jpg Graphic file (type jpg)
+<use figures/ch13/nor_gate.jpg>
+Package pdftex.def Info: figures/ch13/nor_gate.jpg  used on input line 371.
+(pdftex.def)             Requested size: 142.26378pt x 167.55908pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 372.
+See the caption package documentation for explanation.
+
+
+Underfull \vbox (badness 8113) has occurred while \output is active []
+
+ [181 <./figures/ch13/mux1.jpg> <./figures/ch13/mux2.jpg> <./figures/ch13/mux3.
+jpg>]
+<figures/ch13/cmos1.jpg, id=2817, 200.24812pt x 233.37187pt>
+File: figures/ch13/cmos1.jpg Graphic file (type jpg)
+<use figures/ch13/cmos1.jpg>
+Package pdftex.def Info: figures/ch13/cmos1.jpg  used on input line 382.
+(pdftex.def)             Requested size: 113.81102pt x 132.63875pt.
+
+[182 <./figures/ch13/nand_gate.jpg> <./figures/ch13/nor_gate.jpg> <./figures/ch
+13/cmos1.jpg>]
+<figures/ch13/xor_gate.jpg, id=2826, 261.97874pt x 319.94531pt>
+File: figures/ch13/xor_gate.jpg Graphic file (type jpg)
+<use figures/ch13/xor_gate.jpg>
+Package pdftex.def Info: figures/ch13/xor_gate.jpg  used on input line 421.
+(pdftex.def)             Requested size: 170.71652pt x 208.49411pt.
+ [183 <./figures/ch13/xor_gate.jpg>]
+<figures/ch13/inhib1.jpg, id=2836, 208.52907pt x 329.73187pt>
+File: figures/ch13/inhib1.jpg Graphic file (type jpg)
+<use figures/ch13/inhib1.jpg>
+Package pdftex.def Info: figures/ch13/inhib1.jpg  used on input line 433.
+(pdftex.def)             Requested size: 107.96799pt x 170.71652pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 434.
+See the caption package documentation for explanation.
+
+<figures/ch13/inhib2.jpg, id=2837, 144.54pt x 309.40594pt>
+File: figures/ch13/inhib2.jpg Graphic file (type jpg)
+<use figures/ch13/inhib2.jpg>
+Package pdftex.def Info: figures/ch13/inhib2.jpg  used on input line 439.
+(pdftex.def)             Requested size: 53.16797pt x 113.81102pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 440.
+See the caption package documentation for explanation.
+
+<figures/ch13/inhib3.jpg, id=2839, 201.75375pt x 308.65312pt>
+File: figures/ch13/inhib3.jpg Graphic file (type jpg)
+<use figures/ch13/inhib3.jpg>
+Package pdftex.def Info: figures/ch13/inhib3.jpg  used on input line 448.
+(pdftex.def)             Requested size: 130.19327pt x 199.16928pt.
+[184 <./figures/ch13/inhib1.jpg> <./figures/ch13/inhib2.jpg> <./figures/ch13/in
+hib3.jpg>]
+<figures/ch13/karnaugh1.jpg, id=2847, 149.05687pt x 90.3375pt>
+File: figures/ch13/karnaugh1.jpg Graphic file (type jpg)
+<use figures/ch13/karnaugh1.jpg>
+Package pdftex.def Info: figures/ch13/karnaugh1.jpg  used on input line 464.
+(pdftex.def)             Requested size: 85.35826pt x 51.73274pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 465.
+See the caption package documentation for explanation.
+
+<figures/ch13/karnaugh2.jpg, id=2848, 219.82124pt x 115.93312pt>
+File: figures/ch13/karnaugh2.jpg Graphic file (type jpg)
+<use figures/ch13/karnaugh2.jpg>
+Package pdftex.def Info: figures/ch13/karnaugh2.jpg  used on input line 470.
+(pdftex.def)             Requested size: 142.26378pt x 75.0319pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 471.
+See the caption package documentation for explanation.
+
+<figures/ch13/karnaugh3.jpg, id=2851, 257.46187pt x 174.6525pt>
+File: figures/ch13/karnaugh3.jpg Graphic file (type jpg)
+<use figures/ch13/karnaugh3.jpg>
+Package pdftex.def Info: figures/ch13/karnaugh3.jpg  used on input line 488.
+(pdftex.def)             Requested size: 170.71652pt x 115.80933pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[185 <./figures/ch13/karnaugh1.jpg> <./figures/ch13/karnaugh2.jpg>]
+<figures/ch13/adder1.jpg, id=2864, 132.495pt x 142.25778pt>
+File: figures/ch13/adder1.jpg Graphic file (type jpg)
+<use figures/ch13/adder1.jpg>
+Package pdftex.def Info: figures/ch13/adder1.jpg  used on input line 504.
+(pdftex.def)             Requested size: 113.81102pt x 122.1982pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 505.
+See the caption package documentation for explanation.
+
+<figures/ch13/adder2.jpg, id=2865, 365.86688pt x 364.36125pt>
+File: figures/ch13/adder2.jpg Graphic file (type jpg)
+<use figures/ch13/adder2.jpg>
+Package pdftex.def Info: figures/ch13/adder2.jpg  used on input line 510.
+(pdftex.def)             Requested size: 142.26378pt x 141.67776pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 511.
+See the caption package documentation for explanation.
+
+<figures/ch13/adder3.jpg, id=2866, 365.11406pt x 128.73094pt>
+File: figures/ch13/adder3.jpg Graphic file (type jpg)
+<use figures/ch13/adder3.jpg>
+Package pdftex.def Info: figures/ch13/adder3.jpg  used on input line 517.
+(pdftex.def)             Requested size: 170.71652pt x 60.19121pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 518.
+See the caption package documentation for explanation.
+
+<figures/ch13/adder4.jpg, id=2867, 362.85562pt x 128.73094pt>
+File: figures/ch13/adder4.jpg Graphic file (type jpg)
+<use figures/ch13/adder4.jpg>
+Package pdftex.def Info: figures/ch13/adder4.jpg  used on input line 523.
+(pdftex.def)             Requested size: 170.71652pt x 60.56639pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 524.
+See the caption package documentation for explanation.
+
+<figures/ch13/adder6.jpg, id=2870, 305.64188pt x 112.92188pt>
+File: figures/ch13/adder6.jpg Graphic file (type jpg)
+<use figures/ch13/adder6.jpg>
+Package pdftex.def Info: figures/ch13/adder6.jpg  used on input line 532.
+(pdftex.def)             Requested size: 199.16928pt x 73.58443pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 533.
+See the caption package documentation for explanation.
+
+<figures/ch13/adder5.jpg, id=2871, 302.63063pt x 213.79875pt>
+File: figures/ch13/adder5.jpg Graphic file (type jpg)
+<use figures/ch13/adder5.jpg>
+Package pdftex.def Info: figures/ch13/adder5.jpg  used on input line 538.
+(pdftex.def)             Requested size: 199.16928pt x 140.70633pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 539.
+See the caption package documentation for explanation.
+
+
+Underfull \vbox (badness 3138) has occurred while \output is active []
+
+ [186 <./figures/ch13/karnaugh3.jpg> <./figures/ch13/adder1.jpg> <./figures/ch1
+3/adder2.jpg> <./figures/ch13/adder3.jpg> <./figures/ch13/adder4.jpg>]
+<figures/ch13/adder7.jpg, id=2884, 422.32782pt x 233.37187pt>
+File: figures/ch13/adder7.jpg Graphic file (type jpg)
+<use figures/ch13/adder7.jpg>
+Package pdftex.def Info: figures/ch13/adder7.jpg  used on input line 550.
+(pdftex.def)             Requested size: 199.16928pt x 110.05869pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 551.
+See the caption package documentation for explanation.
+
+<figures/ch13/adder8.jpg, id=2885, 417.05812pt x 273.27094pt>
+File: figures/ch13/adder8.jpg Graphic file (type jpg)
+<use figures/ch13/adder8.jpg>
+Package pdftex.def Info: figures/ch13/adder8.jpg  used on input line 556.
+(pdftex.def)             Requested size: 199.16928pt x 130.50555pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 557.
+See the caption package documentation for explanation.
+
+[187 <./figures/ch13/adder6.jpg> <./figures/ch13/adder5.jpg> <./figures/ch13/ad
+der7.jpg> <./figures/ch13/adder8.jpg>] [188
+
+]
+Chapter 15.
+
+Overfull \hbox (7.2928pt too wide) in paragraph at lines 563--565
+\OT1/cmr/m/n/10.95 In this chap-ter, we will dis-cuss the most im-por-tant of t
+hese BJT dig-i-tal tech-nolo-gies: \OT1/cmr/m/it/10.95 Transistor-
+ []
+
+<figures/ch15/rtl.jpg, id=2899, 201.00093pt x 172.39406pt>
+File: figures/ch15/rtl.jpg Graphic file (type jpg)
+<use figures/ch15/rtl.jpg>
+Package pdftex.def Info: figures/ch15/rtl.jpg  used on input line 570.
+(pdftex.def)             Requested size: 142.26378pt x 122.01657pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 571.
+See the caption package documentation for explanation.
+
+<figures/ch15/rtl4.jpg, id=2900, 447.92343pt x 369.63094pt>
+File: figures/ch15/rtl4.jpg Graphic file (type jpg)
+<use figures/ch15/rtl4.jpg>
+Package pdftex.def Info: figures/ch15/rtl4.jpg  used on input line 576.
+(pdftex.def)             Requested size: 199.16928pt x 164.35269pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 577.
+See the caption package documentation for explanation.
+
+[189 <./figures/ch15/rtl.jpg> <./figures/ch15/rtl4.jpg>]
+<figures/ch15/rtl2.jpg, id=2909, 352.31625pt x 243.91125pt>
+File: figures/ch15/rtl2.jpg Graphic file (type jpg)
+<use figures/ch15/rtl2.jpg>
+Package pdftex.def Info: figures/ch15/rtl2.jpg  used on input line 585.
+(pdftex.def)             Requested size: 199.16928pt x 137.88454pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 586.
+See the caption package documentation for explanation.
+
+<figures/ch15/rtl3.jpg, id=2910, 253.69781pt x 194.97844pt>
+File: figures/ch15/rtl3.jpg Graphic file (type jpg)
+<use figures/ch15/rtl3.jpg>
+Package pdftex.def Info: figures/ch15/rtl3.jpg  used on input line 591.
+(pdftex.def)             Requested size: 199.16928pt x 153.07625pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 592.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 596--598
+
+ []
+
+<figures/ch15/ttl1.jpg, id=2914, 254.45062pt x 217.5628pt>
+File: figures/ch15/ttl1.jpg Graphic file (type jpg)
+<use figures/ch15/ttl1.jpg>
+Package pdftex.def Info: figures/ch15/ttl1.jpg  used on input line 608.
+(pdftex.def)             Requested size: 199.16928pt x 170.30249pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 609.
+See the caption package documentation for explanation.
+
+<figures/ch15/ttl2.jpg, id=2915, 258.9675pt x 216.81pt>
+File: figures/ch15/ttl2.jpg Graphic file (type jpg)
+<use figures/ch15/ttl2.jpg>
+Package pdftex.def Info: figures/ch15/ttl2.jpg  used on input line 614.
+(pdftex.def)             Requested size: 199.16928pt x 166.75233pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 615.
+See the caption package documentation for explanation.
+
+[190 <./figures/ch15/rtl2.jpg> <./figures/ch15/rtl3.jpg>]
+<figures/ch15/totem1.jpg, id=2926, 259.7203pt x 176.15813pt>
+File: figures/ch15/totem1.jpg Graphic file (type jpg)
+<use figures/ch15/totem1.jpg>
+Package pdftex.def Info: figures/ch15/totem1.jpg  used on input line 626.
+(pdftex.def)             Requested size: 199.16928pt x 135.08844pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 627.
+See the caption package documentation for explanation.
+
+<figures/ch15/totem2.jpg, id=2927, 392.96812pt x 314.67563pt>
+File: figures/ch15/totem2.jpg Graphic file (type jpg)
+<use figures/ch15/totem2.jpg>
+Package pdftex.def Info: figures/ch15/totem2.jpg  used on input line 632.
+(pdftex.def)             Requested size: 199.16928pt x 159.49332pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 633.
+See the caption package documentation for explanation.
+
+[191 <./figures/ch15/ttl1.jpg> <./figures/ch15/ttl2.jpg> <./figures/ch15/totem1
+.jpg> <./figures/ch15/totem2.jpg>]
+<figures/ch15/totem_high.jpg, id=2936, 615.80063pt x 212.29312pt>
+File: figures/ch15/totem_high.jpg Graphic file (type jpg)
+<use figures/ch15/totem_high.jpg>
+Package pdftex.def Info: figures/ch15/totem_high.jpg  used on input line 651.
+(pdftex.def)             Requested size: 455.24408pt x 156.94543pt.
+
+Overfull \hbox (12.59033pt too wide) in paragraph at lines 651--652
+ [][] 
+ []
+
+<figures/ch15/totem_low.jpg, id=2938, 796.47563pt x 257.46187pt>
+File: figures/ch15/totem_low.jpg Graphic file (type jpg)
+<use figures/ch15/totem_low.jpg>
+Package pdftex.def Info: figures/ch15/totem_low.jpg  used on input line 660.
+(pdftex.def)             Requested size: 455.24408pt x 147.15549pt.
+
+Overfull \hbox (12.59033pt too wide) in paragraph at lines 660--661
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/ch15/schottky_transistor.jpg, id=2940, 228.855pt x 231.86626pt>
+File: figures/ch15/schottky_transistor.jpg Graphic file (type jpg)
+<use figures/ch15/schottky_transistor.jpg>
+Package pdftex.def Info: figures/ch15/schottky_transistor.jpg  used on input li
+ne 669.
+(pdftex.def)             Requested size: 142.26378pt x 144.14122pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[192 <./figures/ch15/totem_high.jpg>] [193 <./figures/ch15/totem_low.jpg> <./fi
+gures/ch15/schottky_transistor.jpg>]
+<figures/ch15/ecl1.jpg, id=2957, 500.62032pt x 337.26pt>
+File: figures/ch15/ecl1.jpg Graphic file (type jpg)
+<use figures/ch15/ecl1.jpg>
+Package pdftex.def Info: figures/ch15/ecl1.jpg  used on input line 688.
+(pdftex.def)             Requested size: 284.52756pt x 191.68954pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 697--698
+
+ []
+
+<figures/ch15/ecl2.jpg, id=2959, 552.56438pt x 407.27156pt>
+File: figures/ch15/ecl2.jpg Graphic file (type jpg)
+<use figures/ch15/ecl2.jpg>
+Package pdftex.def Info: figures/ch15/ecl2.jpg  used on input line 705.
+(pdftex.def)             Requested size: 227.62204pt x 167.76543pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/ch15/ecl3.jpg, id=2960, 481.04718pt x 444.91219pt>
+File: figures/ch15/ecl3.jpg Graphic file (type jpg)
+<use figures/ch15/ecl3.jpg>
+Package pdftex.def Info: figures/ch15/ecl3.jpg  used on input line 716.
+(pdftex.def)             Requested size: 227.62204pt x 210.5276pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[194 <./figures/ch15/ecl1.jpg>]
+<figures/ch15/schmidt1.jpg, id=2969, 500.62032pt x 177.66376pt>
+File: figures/ch15/schmidt1.jpg Graphic file (type jpg)
+<use figures/ch15/schmidt1.jpg>
+Package pdftex.def Info: figures/ch15/schmidt1.jpg  used on input line 729.
+(pdftex.def)             Requested size: 227.62204pt x 80.7802pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 730.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (6.29517pt too wide) in paragraph at lines 729--730
+ [][] 
+ []
+
+<figures/ch15/schmidt2.jpg, id=2970, 210.03468pt x 194.22563pt>
+File: figures/ch15/schmidt2.jpg Graphic file (type jpg)
+<use figures/ch15/schmidt2.jpg>
+Package pdftex.def Info: figures/ch15/schmidt2.jpg  used on input line 735.
+(pdftex.def)             Requested size: 170.71652pt x 157.86719pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 736.
+See the caption package documentation for explanation.
+
+<figures/ch15/schmidt3.jpg, id=2971, 791.20593pt x 136.25906pt>
+File: figures/ch15/schmidt3.jpg Graphic file (type jpg)
+<use figures/ch15/schmidt3.jpg>
+Package pdftex.def Info: figures/ch15/schmidt3.jpg  used on input line 742.
+(pdftex.def)             Requested size: 455.24408pt x 78.40031pt.
+
+Overfull \hbox (12.59033pt too wide) in paragraph at lines 742--743
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [195 <./figures/ch15/ecl2.jpg> <./figures/ch15/ecl3.jpg>]
+<figures/ch15/schmidt4.jpg, id=2982, 241.65282pt x 240.9pt>
+File: figures/ch15/schmidt4.jpg Graphic file (type jpg)
+<use figures/ch15/schmidt4.jpg>
+Package pdftex.def Info: figures/ch15/schmidt4.jpg  used on input line 751.
+(pdftex.def)             Requested size: 199.16928pt x 198.55746pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 752.
+See the caption package documentation for explanation.
+
+<figures/ch15/schmidt6.jpg, id=2983, 383.93437pt x 202.50656pt>
+File: figures/ch15/schmidt6.jpg Graphic file (type jpg)
+<use figures/ch15/schmidt6.jpg>
+Package pdftex.def Info: figures/ch15/schmidt6.jpg  used on input line 757.
+(pdftex.def)             Requested size: 227.62204pt x 120.06183pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 758.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (6.29517pt too wide) in paragraph at lines 757--758
+ [][] 
+ []
+
+<figures/ch15/schmidt5.jpg, id=2984, 789.70032pt x 147.55125pt>
+File: figures/ch15/schmidt5.jpg Graphic file (type jpg)
+<use figures/ch15/schmidt5.jpg>
+Package pdftex.def Info: figures/ch15/schmidt5.jpg  used on input line 764.
+(pdftex.def)             Requested size: 455.24408pt x 85.05968pt.
+
+Overfull \hbox (12.59033pt too wide) in paragraph at lines 764--765
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[196 <./figures/ch15/schmidt1.jpg> <./figures/ch15/schmidt2.jpg> <./figures/ch1
+5/schmidt3.jpg> <./figures/ch15/schmidt4.jpg> <./figures/ch15/schmidt6.jpg>]
+<figures/ch15/schmidt7.jpg, id=2998, 292.84406pt x 271.0125pt>
+File: figures/ch15/schmidt7.jpg Graphic file (type jpg)
+<use figures/ch15/schmidt7.jpg>
+Package pdftex.def Info: figures/ch15/schmidt7.jpg  used on input line 785.
+(pdftex.def)             Requested size: 199.16928pt x 184.32741pt.
+
+[197 <./figures/ch15/schmidt5.jpg> <./figures/ch15/schmidt7.jpg>]
+<figures/ch15/schmidt8.jpg, id=3011, 342.5297pt x 322.95656pt>
+File: figures/ch15/schmidt8.jpg Graphic file (type jpg)
+<use figures/ch15/schmidt8.jpg>
+Package pdftex.def Info: figures/ch15/schmidt8.jpg  used on input line 804.
+(pdftex.def)             Requested size: 199.16928pt x 187.79294pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 805.
+See the caption package documentation for explanation.
+
+<figures/ch15/schmidt9.jpg, id=3012, 356.83313pt x 331.99031pt>
+File: figures/ch15/schmidt9.jpg Graphic file (type jpg)
+<use figures/ch15/schmidt9.jpg>
+Package pdftex.def Info: figures/ch15/schmidt9.jpg  used on input line 810.
+(pdftex.def)             Requested size: 227.62204pt x 211.77399pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 811.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (6.29517pt too wide) in paragraph at lines 810--811
+ [][] 
+ []
+
+<figures/ch15/schmidt10.jpg, id=3015, 334.24875pt x 73.77562pt>
+File: figures/ch15/schmidt10.jpg Graphic file (type jpg)
+<use figures/ch15/schmidt10.jpg>
+Package pdftex.def Info: figures/ch15/schmidt10.jpg  used on input line 820.
+(pdftex.def)             Requested size: 256.0748pt x 56.52483pt.
+[198 <./figures/ch15/schmidt8.jpg> <./figures/ch15/schmidt9.jpg>] [199 <./figur
+es/ch15/schmidt10.jpg>] [200
+
+]
+Chapter 16.
+[201]) (./6-advanceddigital.tex [202]
+Chapter 17.
+<figures/ch17/mem_element.jpg, id=3040, 332.74312pt x 161.85469pt>
+File: figures/ch17/mem_element.jpg Graphic file (type jpg)
+<use figures/ch17/mem_element.jpg>
+Package pdftex.def Info: figures/ch17/mem_element.jpg  used on input line 9.
+(pdftex.def)             Requested size: 256.0748pt x 124.5692pt.
+<figures/ch17/SR_FF.jpg, id=3045, 311.66437pt x 161.85469pt>
+File: figures/ch17/SR_FF.jpg Graphic file (type jpg)
+<use figures/ch17/SR_FF.jpg>
+Package pdftex.def Info: figures/ch17/SR_FF.jpg  used on input line 21.
+(pdftex.def)             Requested size: 227.62204pt x 118.2122pt.
+<figures/ch17/SR_FF2.jpg, id=3049, 262.73157pt x 203.25937pt>
+File: figures/ch17/SR_FF2.jpg Graphic file (type jpg)
+<use figures/ch17/SR_FF2.jpg>
+Package pdftex.def Info: figures/ch17/SR_FF2.jpg  used on input line 31.
+(pdftex.def)             Requested size: 113.81102pt x 88.04802pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 32.
+See the caption package documentation for explanation.
+
+<figures/ch17/SR_FF3.jpg, id=3050, 467.49657pt x 176.91093pt>
+File: figures/ch17/SR_FF3.jpg Graphic file (type jpg)
+<use figures/ch17/SR_FF3.jpg>
+Package pdftex.def Info: figures/ch17/SR_FF3.jpg  used on input line 37.
+(pdftex.def)             Requested size: 170.71652pt x 64.60298pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 38.
+See the caption package documentation for explanation.
+
+[203
+
+ <./figures/ch17/mem_element.jpg>] [204 <./figures/ch17/SR_FF.jpg> <./figures/c
+h17/SR_FF2.jpg> <./figures/ch17/SR_FF3.jpg>]
+<figures/ch17/SR_FF4.jpg, id=3065, 365.11406pt x 202.50656pt>
+File: figures/ch17/SR_FF4.jpg Graphic file (type jpg)
+<use figures/ch17/SR_FF4.jpg>
+Package pdftex.def Info: figures/ch17/SR_FF4.jpg  used on input line 45.
+(pdftex.def)             Requested size: 142.26378pt x 78.90306pt.
+<figures/ch17/D_FF1.jpg, id=3068, 502.12593pt x 176.15813pt>
+File: figures/ch17/D_FF1.jpg Graphic file (type jpg)
+<use figures/ch17/D_FF1.jpg>
+Package pdftex.def Info: figures/ch17/D_FF1.jpg  used on input line 62.
+(pdftex.def)             Requested size: 227.62204pt x 79.85638pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 63.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (6.29517pt too wide) in paragraph at lines 62--63
+ [][] 
+ []
+
+<figures/ch17/D_FF2.jpg, id=3069, 222.07968pt x 183.68625pt>
+File: figures/ch17/D_FF2.jpg Graphic file (type jpg)
+<use figures/ch17/D_FF2.jpg>
+Package pdftex.def Info: figures/ch17/D_FF2.jpg  used on input line 68.
+(pdftex.def)             Requested size: 85.35826pt x 70.6003pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 69.
+See the caption package documentation for explanation.
+
+<figures/ch17/D_FF3.jpg, id=3070, 291.33844pt x 213.04594pt>
+File: figures/ch17/D_FF3.jpg Graphic file (type jpg)
+<use figures/ch17/D_FF3.jpg>
+Package pdftex.def Info: figures/ch17/D_FF3.jpg  used on input line 77.
+(pdftex.def)             Requested size: 85.35826pt x 62.41888pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 78.
+See the caption package documentation for explanation.
+
+<figures/ch17/D_FF4.jpg, id=3071, 298.11375pt x 210.7875pt>
+File: figures/ch17/D_FF4.jpg Graphic file (type jpg)
+<use figures/ch17/D_FF4.jpg>
+Package pdftex.def Info: figures/ch17/D_FF4.jpg  used on input line 83.
+(pdftex.def)             Requested size: 113.81102pt x 80.47318pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 84.
+See the caption package documentation for explanation.
+
+[205 <./figures/ch17/SR_FF4.jpg> <./figures/ch17/D_FF1.jpg> <./figures/ch17/D_F
+F2.jpg> <./figures/ch17/D_FF3.jpg> <./figures/ch17/D_FF4.jpg>]
+<figures/ch17/D_FF5.jpg, id=3084, 691.08188pt x 210.7875pt>
+File: figures/ch17/D_FF5.jpg Graphic file (type jpg)
+<use figures/ch17/D_FF5.jpg>
+Package pdftex.def Info: figures/ch17/D_FF5.jpg  used on input line 92.
+(pdftex.def)             Requested size: 398.33858pt x 121.49777pt.
+<figures/ch17/edge_trigger1.jpg, id=3086, 691.08188pt x 216.05719pt>
+File: figures/ch17/edge_trigger1.jpg Graphic file (type jpg)
+<use figures/ch17/edge_trigger1.jpg>
+Package pdftex.def Info: figures/ch17/edge_trigger1.jpg  used on input line 105
+.
+(pdftex.def)             Requested size: 341.43306pt x 106.74586pt.
+<figures/ch17/edge_trigger2.jpg, id=3089, 566.115pt x 101.62968pt>
+File: figures/ch17/edge_trigger2.jpg Graphic file (type jpg)
+<use figures/ch17/edge_trigger2.jpg>
+Package pdftex.def Info: figures/ch17/edge_trigger2.jpg  used on input line 115
+.
+(pdftex.def)             Requested size: 341.43306pt x 61.29617pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/ch17/edge_trigger3.jpg, id=3091, 566.115pt x 101.62968pt>
+File: figures/ch17/edge_trigger3.jpg Graphic file (type jpg)
+<use figures/ch17/edge_trigger3.jpg>
+Package pdftex.def Info: figures/ch17/edge_trigger3.jpg  used on input line 124
+.
+(pdftex.def)             Requested size: 341.43306pt x 61.29617pt.
+[206 <./figures/ch17/D_FF5.jpg> <./figures/ch17/edge_trigger1.jpg>]
+<figures/ch17/edge_trigger4.jpg, id=3100, 514.92375pt x 228.855pt>
+File: figures/ch17/edge_trigger4.jpg Graphic file (type jpg)
+<use figures/ch17/edge_trigger4.jpg>
+Package pdftex.def Info: figures/ch17/edge_trigger4.jpg  used on input line 134
+.
+(pdftex.def)             Requested size: 341.43306pt x 151.75015pt.
+ [207 <./figures/ch17/edge_trigger2.jpg> <./figures/ch17/edge_trigger3.jpg> <./
+figures/ch17/edge_trigger4.jpg>]
+<figures/ch17/JK_FF2.jpg, id=3111, 271.76532pt x 211.54031pt>
+File: figures/ch17/JK_FF2.jpg Graphic file (type jpg)
+<use figures/ch17/JK_FF2.jpg>
+Package pdftex.def Info: figures/ch17/JK_FF2.jpg  used on input line 145.
+(pdftex.def)             Requested size: 113.81102pt x 88.59131pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 146.
+See the caption package documentation for explanation.
+
+<figures/ch17/JK_FF1.jpg, id=3112, 436.63126pt x 186.6975pt>
+File: figures/ch17/JK_FF1.jpg Graphic file (type jpg)
+<use figures/ch17/JK_FF1.jpg>
+Package pdftex.def Info: figures/ch17/JK_FF1.jpg  used on input line 151.
+(pdftex.def)             Requested size: 142.26378pt x 60.82979pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 152.
+See the caption package documentation for explanation.
+
+<figures/ch17/JK_FF3.jpg, id=3115, 368.87813pt x 207.02344pt>
+File: figures/ch17/JK_FF3.jpg Graphic file (type jpg)
+<use figures/ch17/JK_FF3.jpg>
+Package pdftex.def Info: figures/ch17/JK_FF3.jpg  used on input line 163.
+(pdftex.def)             Requested size: 170.71652pt x 95.81001pt.
+<figures/ch17/JK_FF4.jpg, id=3116, 796.47563pt x 323.70938pt>
+File: figures/ch17/JK_FF4.jpg Graphic file (type jpg)
+<use figures/ch17/JK_FF4.jpg>
+Package pdftex.def Info: figures/ch17/JK_FF4.jpg  used on input line 170.
+(pdftex.def)             Requested size: 341.43306pt x 138.76753pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/ch17/counter2.jpg, id=3119, 127.22531pt x 397.485pt>
+File: figures/ch17/counter2.jpg Graphic file (type jpg)
+<use figures/ch17/counter2.jpg>
+Package pdftex.def Info: figures/ch17/counter2.jpg  used on input line 187.
+(pdftex.def)             Requested size: 63.75032pt x 199.16928pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 188.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 180--191
+$[]$ $[]$ 
+ []
+
+<figures/ch17/counter1.jpg, id=3120, 553.31718pt x 152.82094pt>
+File: figures/ch17/counter1.jpg Graphic file (type jpg)
+<use figures/ch17/counter1.jpg>
+Package pdftex.def Info: figures/ch17/counter1.jpg  used on input line 194.
+(pdftex.def)             Requested size: 341.43306pt x 94.30026pt.
+
+Underfull \vbox (badness 6032) has occurred while \output is active []
+
+ [208 <./figures/ch17/JK_FF2.jpg> <./figures/ch17/JK_FF1.jpg> <./figures/ch17/J
+K_FF3.jpg>]
+<figures/ch17/register1.jpg, id=3130, 238.64156pt x 424.58624pt>
+File: figures/ch17/register1.jpg Graphic file (type jpg)
+<use figures/ch17/register1.jpg>
+Package pdftex.def Info: figures/ch17/register1.jpg  used on input line 210.
+(pdftex.def)             Requested size: 142.26378pt x 253.10812pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 211.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (46.7014pt too wide) in paragraph at lines 202--214
+$[]$ $[]$ 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [209 <./figures/ch17/JK_FF4.jpg> <./figures/ch17/counter2.jpg> <./figures/ch17
+/counter1.jpg>]
+<figures/ch17/design1.jpg, id=3137, 356.83313pt x 420.82219pt>
+File: figures/ch17/design1.jpg Graphic file (type jpg)
+<use figures/ch17/design1.jpg>
+Package pdftex.def Info: figures/ch17/design1.jpg  used on input line 230.
+(pdftex.def)             Requested size: 168.88222pt x 199.16928pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 231.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 218--234
+$[]$ $[]$ 
+ []
+
+<figures/ch17/design2.jpg, id=3139, 796.47563pt x 237.13594pt>
+File: figures/ch17/design2.jpg Graphic file (type jpg)
+<use figures/ch17/design2.jpg>
+Package pdftex.def Info: figures/ch17/design2.jpg  used on input line 239.
+(pdftex.def)             Requested size: 341.43306pt x 101.65527pt.
+[210 <./figures/ch17/register1.jpg> <./figures/ch17/design1.jpg>]
+<figures/ch17/design3.jpg, id=3151, 668.4975pt x 270.25969pt>
+File: figures/ch17/design3.jpg Graphic file (type jpg)
+<use figures/ch17/design3.jpg>
+Package pdftex.def Info: figures/ch17/design3.jpg  used on input line 249.
+(pdftex.def)             Requested size: 256.0748pt x 103.52863pt.
+<figures/ch17/design4.jpg, id=3155, 444.91219pt x 365.86688pt>
+File: figures/ch17/design4.jpg Graphic file (type jpg)
+<use figures/ch17/design4.jpg>
+Package pdftex.def Info: figures/ch17/design4.jpg  used on input line 259.
+(pdftex.def)             Requested size: 156.49014pt x 128.68616pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 260.
+See the caption package documentation for explanation.
+
+<figures/ch17/design5.jpg, id=3156, 484.81125pt x 421.575pt>
+File: figures/ch17/design5.jpg Graphic file (type jpg)
+<use figures/ch17/design5.jpg>
+Package pdftex.def Info: figures/ch17/design5.jpg  used on input line 265.
+(pdftex.def)             Requested size: 156.49014pt x 136.0775pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 266.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 255--269
+[]$$[]$ 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [211 <./figures/ch17/design2.jpg> <./figures/ch17/design3.jpg>]
+<figures/ch17/design6.jpg, id=3167, 347.04657pt x 108.405pt>
+File: figures/ch17/design6.jpg Graphic file (type jpg)
+<use figures/ch17/design6.jpg>
+Package pdftex.def Info: figures/ch17/design6.jpg  used on input line 278.
+(pdftex.def)             Requested size: 199.16928pt x 62.21494pt.
+<figures/ch17/design7.jpg, id=3168, 147.55125pt x 138.5175pt>
+File: figures/ch17/design7.jpg Graphic file (type jpg)
+<use figures/ch17/design7.jpg>
+Package pdftex.def Info: figures/ch17/design7.jpg  used on input line 285.
+(pdftex.def)             Requested size: 113.81102pt x 106.84479pt.
+<figures/ch17/design8.jpg, id=3169, 100.12407pt x 89.58469pt>
+File: figures/ch17/design8.jpg Graphic file (type jpg)
+<use figures/ch17/design8.jpg>
+Package pdftex.def Info: figures/ch17/design8.jpg  used on input line 293.
+(pdftex.def)             Requested size: 85.35826pt x 76.37697pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 294.
+See the caption package documentation for explanation.
+
+<figures/ch17/design9.jpg, id=3170, 100.12407pt x 89.58469pt>
+File: figures/ch17/design9.jpg Graphic file (type jpg)
+<use figures/ch17/design9.jpg>
+Package pdftex.def Info: figures/ch17/design9.jpg  used on input line 299.
+(pdftex.def)             Requested size: 85.35826pt x 76.37697pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 300.
+See the caption package documentation for explanation.
+
+Excluding 'comment' comment.
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 290--306
+[]$$[]$ 
+ []
+
+[212 <./figures/ch17/design4.jpg> <./figures/ch17/design5.jpg> <./figures/ch17/
+design6.jpg> <./figures/ch17/design7.jpg>]
+<figures/ch17/design10.jpg, id=3180, 224.33812pt x 247.67531pt>
+File: figures/ch17/design10.jpg Graphic file (type jpg)
+<use figures/ch17/design10.jpg>
+Package pdftex.def Info: figures/ch17/design10.jpg  used on input line 315.
+(pdftex.def)             Requested size: 142.26378pt x 157.068pt.
+<figures/ch17/design11.jpg, id=3181, 198.7425pt x 156.585pt>
+File: figures/ch17/design11.jpg Graphic file (type jpg)
+<use figures/ch17/design11.jpg>
+Package pdftex.def Info: figures/ch17/design11.jpg  used on input line 322.
+(pdftex.def)             Requested size: 113.81102pt x 89.67249pt.
+<figures/ch17/design12.jpg, id=3183, 509.65407pt x 143.03438pt>
+File: figures/ch17/design12.jpg Graphic file (type jpg)
+<use figures/ch17/design12.jpg>
+Package pdftex.def Info: figures/ch17/design12.jpg  used on input line 329.
+(pdftex.def)             Requested size: 284.52756pt x 79.85643pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[213 <./figures/ch17/design8.jpg> <./figures/ch17/design9.jpg> <./figures/ch17/
+design10.jpg> <./figures/ch17/design11.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 346--352
+
+ []
+
+[214 <./figures/ch17/design12.jpg>]) (./8-converters.tex [215] [216
+
+]
+Chapter 18.
+<figures/ch18/intro1.jpg, id=3213, 587.94656pt x 236.38312pt>
+File: figures/ch18/intro1.jpg Graphic file (type jpg)
+<use figures/ch18/intro1.jpg>
+Package pdftex.def Info: figures/ch18/intro1.jpg  used on input line 15.
+(pdftex.def)             Requested size: 398.33858pt x 160.15047pt.
+<figures/ch18/intro2.jpg, id=3215, 605.26125pt x 197.98969pt>
+File: figures/ch18/intro2.jpg Graphic file (type jpg)
+<use figures/ch18/intro2.jpg>
+Package pdftex.def Info: figures/ch18/intro2.jpg  used on input line 23.
+(pdftex.def)             Requested size: 341.43306pt x 111.68915pt.
+<figures/ch18/intro3.jpg, id=3216, 647.41875pt x 210.7875pt>
+File: figures/ch18/intro3.jpg Graphic file (type jpg)
+<use figures/ch18/intro3.jpg>
+Package pdftex.def Info: figures/ch18/intro3.jpg  used on input line 30.
+(pdftex.def)             Requested size: 341.43306pt x 111.16362pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[217]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [218 <./figures/ch18/intro1.jpg> <./figures/ch18/intro2.jpg> <./figures/ch18/i
+ntro3.jpg>]
+<figures/ch18/dac_char1.jpg, id=3230, 334.24875pt x 267.24844pt>
+File: figures/ch18/dac_char1.jpg Graphic file (type jpg)
+<use figures/ch18/dac_char1.jpg>
+Package pdftex.def Info: figures/ch18/dac_char1.jpg  used on input line 46.
+(pdftex.def)             Requested size: 227.62204pt x 181.99976pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 47.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (6.29517pt too wide) in paragraph at lines 46--47
+ [][] 
+ []
+
+<figures/ch18/dac_char2.jpg, id=3231, 334.24875pt x 267.24844pt>
+File: figures/ch18/dac_char2.jpg Graphic file (type jpg)
+<use figures/ch18/dac_char2.jpg>
+Package pdftex.def Info: figures/ch18/dac_char2.jpg  used on input line 52.
+(pdftex.def)             Requested size: 227.62204pt x 181.99976pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 53.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (6.29517pt too wide) in paragraph at lines 52--53
+ [][] 
+ []
+
+<figures/ch18/dac_char3.jpg, id=3233, 509.65407pt x 444.91219pt>
+File: figures/ch18/dac_char3.jpg Graphic file (type jpg)
+<use figures/ch18/dac_char3.jpg>
+Package pdftex.def Info: figures/ch18/dac_char3.jpg  used on input line 60.
+(pdftex.def)             Requested size: 227.62204pt x 198.7083pt.
+<figures/ch18/inl.jpg, id=3236, 315.42844pt x 261.97874pt>
+File: figures/ch18/inl.jpg Graphic file (type jpg)
+<use figures/ch18/inl.jpg>
+Package pdftex.def Info: figures/ch18/inl.jpg  used on input line 67.
+(pdftex.def)             Requested size: 199.16928pt x 165.41924pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 68.
+See the caption package documentation for explanation.
+
+<figures/ch18/dnl.jpg, id=3237, 315.42844pt x 261.97874pt>
+File: figures/ch18/dnl.jpg Graphic file (type jpg)
+<use figures/ch18/dnl.jpg>
+Package pdftex.def Info: figures/ch18/dnl.jpg  used on input line 73.
+(pdftex.def)             Requested size: 199.16928pt x 165.41924pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 74.
+See the caption package documentation for explanation.
+
+<figures/ch18/adc_char1.jpg, id=3239, 315.42844pt x 274.02374pt>
+File: figures/ch18/adc_char1.jpg Graphic file (type jpg)
+<use figures/ch18/adc_char1.jpg>
+Package pdftex.def Info: figures/ch18/adc_char1.jpg  used on input line 80.
+(pdftex.def)             Requested size: 227.62204pt x 197.74434pt.
+Excluding 'comment' comment.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [219 <./figures/ch18/dac_char1.jpg> <./figures/ch18/dac_char2.jpg>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/ch18/adc_char3.jpg, id=3251, 777.65532pt x 349.305pt>
+File: figures/ch18/adc_char3.jpg Graphic file (type jpg)
+<use figures/ch18/adc_char3.jpg>
+Package pdftex.def Info: figures/ch18/adc_char3.jpg  used on input line 97.
+(pdftex.def)             Requested size: 398.33858pt x 178.92668pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/ch18/SH1.jpg, id=3254, 366.61969pt x 218.31563pt>
+File: figures/ch18/SH1.jpg Graphic file (type jpg)
+<use figures/ch18/SH1.jpg>
+Package pdftex.def Info: figures/ch18/SH1.jpg  used on input line 106.
+(pdftex.def)             Requested size: 227.62204pt x 135.54749pt.
+[220 <./figures/ch18/dac_char3.jpg> <./figures/ch18/inl.jpg> <./figures/ch18/dn
+l.jpg>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/ch18/SH2.jpg, id=3263, 697.8572pt x 295.1025pt>
+File: figures/ch18/SH2.jpg Graphic file (type jpg)
+<use figures/ch18/SH2.jpg>
+Package pdftex.def Info: figures/ch18/SH2.jpg  used on input line 114.
+(pdftex.def)             Requested size: 398.33858pt x 168.4443pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 5316) has occurred while \output is active []
+
+ [221 <./figures/ch18/adc_char1.jpg> <./figures/ch18/adc_char3.jpg>]
+<figures/ch18/dac1.jpg, id=3274, 283.0575pt x 447.92343pt>
+File: figures/ch18/dac1.jpg Graphic file (type jpg)
+<use figures/ch18/dac1.jpg>
+Package pdftex.def Info: figures/ch18/dac1.jpg  used on input line 127.
+(pdftex.def)             Requested size: 199.16928pt x 315.1846pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 128.
+See the caption package documentation for explanation.
+
+<figures/ch18/dac2.jpg, id=3275, 302.63063pt x 307.1475pt>
+File: figures/ch18/dac2.jpg Graphic file (type jpg)
+<use figures/ch18/dac2.jpg>
+Package pdftex.def Info: figures/ch18/dac2.jpg  used on input line 133.
+(pdftex.def)             Requested size: 142.26378pt x 144.38745pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 134.
+See the caption package documentation for explanation.
+
+[222 <./figures/ch18/SH1.jpg> <./figures/ch18/SH2.jpg>]
+<figures/ch18/dac3.jpg, id=3282, 288.3272pt x 447.92343pt>
+File: figures/ch18/dac3.jpg Graphic file (type jpg)
+<use figures/ch18/dac3.jpg>
+Package pdftex.def Info: figures/ch18/dac3.jpg  used on input line 142.
+(pdftex.def)             Requested size: 256.0748pt x 397.83727pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 143.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 6125) in paragraph at lines 147--150
+\OT1/cmr/m/n/10.95 for the switch set-tings can
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 147--150
+\OT1/cmr/m/n/10.95 (and only one path) be-tween
+ []
+
+
+Underfull \hbox (badness 5985) in paragraph at lines 147--150
+\OT1/cmr/m/n/10.95 work but re-quires $\OMS/cmsy/m/n/10.95 ^^X \OT1/cmr/m/n/10.
+95 2[]$
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [223 <./figures/ch18/dac1.jpg> <./figures/ch18/dac2.jpg>]
+<figures/ch18/dac4.jpg, id=3291, 353.06906pt x 447.92343pt>
+File: figures/ch18/dac4.jpg Graphic file (type jpg)
+<use figures/ch18/dac4.jpg>
+Package pdftex.def Info: figures/ch18/dac4.jpg  used on input line 160.
+(pdftex.def)             Requested size: 170.71652pt x 216.57962pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 161.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (37.91905pt too wide) in paragraph at lines 160--161
+ [][] 
+ []
+
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 152--164
+[]$[]$ $[]$ 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [224 <./figures/ch18/dac3.jpg>]
+<figures/ch18/dac5.jpg, id=3297, 692.5875pt x 447.92343pt>
+File: figures/ch18/dac5.jpg Graphic file (type jpg)
+<use figures/ch18/dac5.jpg>
+Package pdftex.def Info: figures/ch18/dac5.jpg  used on input line 168.
+(pdftex.def)             Requested size: 398.33858pt x 257.62915pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
+
+ []
+
+[225 <./figures/ch18/dac4.jpg> <./figures/ch18/dac5.jpg>]
+<figures/ch18/dac6.jpg, id=3305, 658.71094pt x 260.47313pt>
+File: figures/ch18/dac6.jpg Graphic file (type jpg)
+<use figures/ch18/dac6.jpg>
+Package pdftex.def Info: figures/ch18/dac6.jpg  used on input line 179.
+(pdftex.def)             Requested size: 341.43306pt x 135.01358pt.
+<figures/ch18/dac7.jpg, id=3307, 209.28188pt x 143.78719pt>
+File: figures/ch18/dac7.jpg Graphic file (type jpg)
+<use figures/ch18/dac7.jpg>
+Package pdftex.def Info: figures/ch18/dac7.jpg  used on input line 198.
+(pdftex.def)             Requested size: 199.16928pt x 136.8384pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 199.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 189--204
+[]$[]$ $[]$ 
+ []
+
+[226 <./figures/ch18/dac6.jpg> <./figures/ch18/dac7.jpg>]
+<figures/ch18/dac8.jpg, id=3316, 796.47563pt x 226.59656pt>
+File: figures/ch18/dac8.jpg Graphic file (type jpg)
+<use figures/ch18/dac8.jpg>
+Package pdftex.def Info: figures/ch18/dac8.jpg  used on input line 209.
+(pdftex.def)             Requested size: 455.24408pt x 129.51404pt.
+
+Overfull \hbox (12.59033pt too wide) in paragraph at lines 209--210
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
+
+ []
+
+<figures/ch18/dac9.jpg, id=3318, 636.12656pt x 246.9225pt>
+File: figures/ch18/dac9.jpg Graphic file (type jpg)
+<use figures/ch18/dac9.jpg>
+Package pdftex.def Info: figures/ch18/dac9.jpg  used on input line 220.
+(pdftex.def)             Requested size: 341.43306pt x 132.52985pt.
+[227 <./figures/ch18/dac8.jpg> <./figures/ch18/dac9.jpg>]
+<figures/ch18/adc1.jpg, id=3326, 715.17188pt x 237.13594pt>
+File: figures/ch18/adc1.jpg Graphic file (type jpg)
+<use figures/ch18/adc1.jpg>
+Package pdftex.def Info: figures/ch18/adc1.jpg  used on input line 250.
+(pdftex.def)             Requested size: 398.33858pt x 132.08238pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[228]
+<figures/ch18/adc2.jpg, id=3337, 615.80063pt x 353.06906pt>
+File: figures/ch18/adc2.jpg Graphic file (type jpg)
+<use figures/ch18/adc2.jpg>
+Package pdftex.def Info: figures/ch18/adc2.jpg  used on input line 263.
+(pdftex.def)             Requested size: 398.33858pt x 228.39313pt.
+<figures/ch18/adc3.jpg, id=3338, 629.35126pt x 298.86656pt>
+File: figures/ch18/adc3.jpg Graphic file (type jpg)
+<use figures/ch18/adc3.jpg>
+Package pdftex.def Info: figures/ch18/adc3.jpg  used on input line 270.
+(pdftex.def)             Requested size: 398.33858pt x 189.16249pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
+
+ []
+
+<figures/ch18/adc4a.jpg, id=3340, 423.83344pt x 286.06876pt>
+File: figures/ch18/adc4a.jpg Graphic file (type jpg)
+<use figures/ch18/adc4a.jpg>
+Package pdftex.def Info: figures/ch18/adc4a.jpg  used on input line 281.
+(pdftex.def)             Requested size: 256.0748pt x 172.84296pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 282.
+See the caption package documentation for explanation.
+
+<figures/ch18/adc4b.jpg, id=3341, 340.27126pt x 318.43968pt>
+File: figures/ch18/adc4b.jpg Graphic file (type jpg)
+<use figures/ch18/adc4b.jpg>
+Package pdftex.def Info: figures/ch18/adc4b.jpg  used on input line 287.
+(pdftex.def)             Requested size: 170.71652pt x 159.76366pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 288.
+See the caption package documentation for explanation.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [229 <./figures/ch18/adc1.jpg>]
+Overfull \vbox (45.09827pt too high) has occurred while \output is active []
+
+
+[230 <./figures/ch18/adc2.jpg> <./figures/ch18/adc3.jpg> <./figures/ch18/adc4a.
+jpg> <./figures/ch18/adc4b.jpg>]
+<figures/ch18/adc5.jpg, id=3358, 291.33844pt x 447.92343pt>
+File: figures/ch18/adc5.jpg Graphic file (type jpg)
+<use figures/ch18/adc5.jpg>
+Package pdftex.def Info: figures/ch18/adc5.jpg  used on input line 304.
+(pdftex.def)             Requested size: 199.16928pt x 306.22424pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 305.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 297--308
+$[]$ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--308
+
+ []
+
+<figures/ch18/adc6.jpg, id=3360, 611.28375pt x 223.58531pt>
+File: figures/ch18/adc6.jpg Graphic file (type jpg)
+<use figures/ch18/adc6.jpg>
+Package pdftex.def Info: figures/ch18/adc6.jpg  used on input line 313.
+(pdftex.def)             Requested size: 398.33858pt x 145.69717pt.
+[231 <./figures/ch18/adc5.jpg>]
+<figures/ch18/adc7.jpg, id=3370, 796.47563pt x 183.68625pt>
+File: figures/ch18/adc7.jpg Graphic file (type jpg)
+<use figures/ch18/adc7.jpg>
+Package pdftex.def Info: figures/ch18/adc7.jpg  used on input line 325.
+(pdftex.def)             Requested size: 426.79134pt x 98.42671pt.
+ [232 <./figures/ch18/adc6.jpg> <./figures/ch18/adc7.jpg>]) [233] [234
+
+] (./9-appendix.tex Excluding 'comment' comment. [235]
+[236
+
+]
+Appendix A.
+[237]) [238] (./main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: ED3355032426882E2B6E81046C0872A1;32540.
+ ) 
+Here is how much of TeX's memory you used:
+ 42932 strings out of 480247
+ 980750 string characters out of 5896150
+ 1508222 words of memory out of 5000000
+ 58917 multiletter control sequences out of 15000+600000
+ 482437 words of font info for 85 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 99i,19n,103p,1541b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/koen/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600p
+k></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/doubl
+estroke/dsrom10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/esint-typ
+e1/esint10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbo
+ls/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbol
+s/msbm10.pfb>
+Output written on main.pdf (238 pages, 16160401 bytes).
+PDF statistics:
+ 3809 PDF objects out of 4296 (max. 8388607)
+ 3146 compressed objects within 32 object streams
+ 1017 named destinations out of 1200 (max. 500000)
+ 3197 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,109 @@
+\documentclass[a4paper,11pt]{book}
+\usepackage{a4wide}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{ esint } % surface integrals
+\usepackage{circuitikz}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{pdfpages}
+\usepackage{caption}
+\usepackage{ dsfont }
+\usepackage{lipsum} % to insert dummy text 
+\usepackage{comment}
+\usepackage{circledsteps}
+\usepackage{ amssymb }
+\usepackage[export]{adjustbox} % to align figures left or right
+\usepackage{units} % for 1/2 symbol
+
+%\usepackage{draftwatermark}
+%\SetWatermarkText{Draft}
+%\SetWatermarkScale{5}
+
+\title{ES222 - Notes de cours}
+\author{Koen Boeckx}
+%\date{October 2021}
+
+\begin{document}
+	
+% Title page
+\thispagestyle{empty}
+~
+\vspace{-2cm}
+\begin{center}
+	\includegraphics[height=4cm]{erm.jpg}\\[0.5cm]
+	{\bf\huge{Ecole Royale Militaire}}\\[0.1cm]
+	%  \huge{Signal and Image Centre} \\[0.1cm]
+	\Large{Bruxelles --- Belgique}
+\end{center}
+\vfill
+\vfill
+\begin{center}
+	{\bf\Huge{ES222\\[0.2cm] Electronique}}\\[0.3cm]
+	
+	{\Large Koen Boeckx} \\[0.1cm]
+	\vspace{0.6cm}
+	{\large \today}
+\end{center}
+\vfill
+\vfill
+\vfill
+
+\newpage
+
+
+%\maketitle
+\tableofcontents
+\nocite{*} % includes all references, even if not cited
+\input{0-introduction}
+\input{0b-circuit_theory}
+\part{Components}
+\input{1-semiconductors}
+\input{1b-pn-junction}
+\input{1c-transistors}
+\part{Analog Electronics}
+\input{2-analog}
+\input{2b-amplifiers}
+\input{3-highfreq}
+%\input{4-advancedanalog}
+\input{4a-power_amplifiers}
+\input{4b-feedback}
+\input{4c-oscillators}
+\input{4d-dc_generators}
+\part{Digital Electronics}
+\input{5-digital}
+\input{6-advanceddigital}
+\input{8-converters}
+
+\begin{thebibliography}{9}
+	\bibitem{alexander2007}
+	Alexander, Charles K., and Matthew Sadiku. \textbf{Fundamentals of Electric Circuits}. Boston: McGraw-Hill Higher Education, 2007.\\
+	\emph{Good reference for analysis of electric circuits.}
+	
+	\bibitem{kittel2018}
+	Kittel, Charles, and Paul McEuen. \textbf{Introduction to Solid State Physics}. John Wiley \& Sons, 2018.\\
+	\emph{Classic reference book on solid-state physics.}
+	
+	\bibitem{tsze2021}
+	Sze, Simon M., Yiming Li, and Kwok K. Ng. \textbf{Physics of Semiconductor Devices}. John wiley \& sons, 2021.\\
+	\emph{Classic reference book on electronic devices.}
+	
+	\bibitem{razavi2021}
+	Razavi, Behzad. \textbf{Fundamentals of Microelectronics}. John Wiley \& Sons, 2021.\\
+	\emph{Modern reference book on microelectronics.}
+	
+	\bibitem{schilling1980}
+	Schilling, Donald L., Charles Belove. \textbf{Electronic Circuits: Discrete and Integrated.} New York: McGraw-Hill, 1989.\\
+	\emph{Another, older reference which overlaps with this course.}
+	
+	\bibitem{horowitz2002}
+	Horowitz, Paul, and Winfield Hill. \textbf{The Art of Electronics.} Cambridge: Cambridge university press, 2002.\\
+	\emph{Focused on applications, with lots of tips \& tricks for engineers.}
+	
+\end{thebibliography}
+
+\input{9-appendix}
+
+\end{document}
