@@ -3,7 +3,7 @@
 Dans ce chapitre, nous réitérons plusieurs éléments de la théorie des circuits élémentaires qui sont nécessaires pour comprendre les circuits électroniques de base. Ces éléments comprennent des composants passifs tels que les résistances, les condensateurs et les bobines, les lois de Kirchhoff, la représentation de phasor et l'impédance complexe, ainsi que plusieurs transformations de circuit pour faciliter l'analyse.
 
 \section{Composants Passifs}
-Dans les circuits électroniques que nous étudierons, nous rencontrons quatre types d'éléments :
+Dans les circuits électroniques que nous étudierons, nous rencontrons quatre types d'éléments:
 \begin{itemize}
 	\item Sources : ce sont des systèmes relativement complexes avec deux bornes qui fournissent soit une tension, soit un courant. Les sources peuvent être constantes, c'est-à-dire que le courant ou la tension générée ne varie pas avec le temps, ou elles peuvent générer un courant ou une tension qui varie dans le temps. Dans le premier cas, nous les appelons sources de courant continu (DC), dans le second cas, nous parlons de sources de courant alternatif (AC), généralement avec une valeur moyenne de zéro.
 	\item Éléments linéaires : ceux-ci peuvent être passifs, tels que les résistances, les condensateurs ou les bobines, ou actifs, tels que les sources de courant ou de tension dépendantes. Ces dernières sont des sources qui dépendent linéairement d'autres courants ou tensions dans le circuit.
@@ -157,7 +157,7 @@ Supposons qu'un signal sinusoïdal avec une fréquence $f = \omega/2\pi$ soit ap
 \begin{itemize}
 	\item Pour une résistance : $V_R = R ; I_R$
 	\item Pour un condensateur : $V_C = \frac{1}{C} \int I_L \; dt = \frac{1}{C} \int I_0 e^{j\omega t} \; dt = \frac{1}{j\omega C} I_0 e^{j\omega t} = \frac{1}{j\omega C} \; I_C$
-	\item Pour une inductance : $V_L = L \frac{dI_L}{dt} = L \frac{d(I_0 e^{j\omega t})}{dt} = j \omega L ; I_0 e^{j\omega t} = j \omega L ; I_L$
+	\item Pour une inductance : $V_L = L \frac{dI_L}{dt} = L \frac{d(I_0 e^{j\omega t})}{dt} = j \omega L \; I_0 e^{j\omega t} = j \omega L \; I_L$
 \end{itemize}
 Ces relations sont la représentation en phaseur d'un signal sinusoïdal, ou les transformations de Steinmetz. Elles sont résumées dans la figure \ref{fig:steinmetz}.
 
@@ -184,19 +184,19 @@ $$
 $$
 avec $s$ la variable de Laplace complexe : $s = \sigma + j\omega$. Comme exemple, calculons $\mathcal{L}[\frac{dx(t)}{dt}]$ :
 \begin{align*}
-	\mathcal{L}[\frac{dx(t)}{dt}] &= \int_{t = 0}^{+\infty} e^{-st} \frac{dx}{dt} dt \
-	&= e^{-st} x(t) |{t = 0}^{+\infty} - \int{t = -\infty}^{+\infty} x(t) \frac{d(e^{-st})}{dt} dt \
-	&= \int_{t = 0}^{+\infty} s;x(t) e^{-st} dt - x(0^+)\
+	\mathcal{L}[\frac{dx(t)}{dt}] &= \int_{t = 0}^{+\infty} e^{-st} \frac{dx}{dt} dt \\
+	&= e^{-st} x(t) |_{t = 0}^{+\infty} - \int_{t = -\infty}^{+\infty} x(t) \frac{d(e^{-st})}{dt} dt \\
+	&= \int_{t = 0}^{+\infty} s \; x(t) e^{-st} dt - x(0^+)\\
 	&= s X(s) - x(0^+)
 \end{align*}
 Lorsque nous supposons que $x(0^+) = 0$, nous trouvons que $\mathcal{L}[\frac{dx(t)}{dt}] = s X(s)$. Un système linéaire avec une entrée $x(t)$ et une sortie $y(t)$ peut être décrit par une équation différentielle linéaire d'ordre supérieur :
 \begin{align*}
-	y(t) &= a_0 x(t) + a_1 \frac{dx}{dt} + a_2 \frac{d^2 x}{dt^2} + \ldots + b_1 \frac{dy}{dt} + b_2 \frac{d^2 y}{dt^2} + \ldots\
+	y(t) &= a_0 x(t) + a_1 \frac{dx}{dt} + a_2 \frac{d^2 x}{dt^2} + \ldots + b_1 \frac{dy}{dt} + b_2 \frac{d^2 y}{dt^2} + \ldots \\
 	\Rightarrow \frac{Y(s)}{X(s)} &= \frac{a_0 + a_1 s + a_2 s^2 + \ldots}{1 - b_1 s - b_2 s^2 - \ldots}
 \end{align*}
 Ainsi, la transformée de Laplace de tout système linéaire peut être écrite comme le rapport de deux polynômes en $s$. Supposons que nous avons un système du premier ordre :
 \begin{align}
-	\frac{dy}{dt} &= \alpha ; y(t) + \beta ; x(t)
+	\frac{dy}{dt} &= \alpha \; y(t) + \beta \; x(t)
 	\label{eq:first_order}
 \end{align}
 Si il n'y avait pas d'entrée $x(t)$, la solution serait :
@@ -206,7 +206,7 @@ $$
 Cette sortie reste finie pour $t \rightarrow \infty$ uniquement lorsque $\alpha \le 0$. C'est le critère de stabilité pour un système du premier ordre.\
 Si nous prenons la transformée de Laplace de l'équation \ref{eq:first_order}, nous trouvons :
 \begin{align*}
-	s Y(s) &= \alpha ; Y(s) + \beta ; X(s) \
+	s Y(s) &= \alpha ; Y(s) + \beta ; X(s) \\
 	\Rightarrow \frac{Y(s)}{X(s)} &= \frac{\beta}{s - \alpha}
 \end{align*}
 Les racines du dénominateur sont les \emph{pôles} de la transformée de Laplace. Dans ce cas, nous avons un seul pôle en $s = \alpha$. Nous avons déjà déterminé que le système est stable lorsque $\alpha \le 0$. C'est une règle générale : \textbf{un système $S(s)$ est stable si tous ses pôles se trouvent dans le demi-plan gauche du plan complexe (LHP)}, c'est-à-dire si leur partie réelle est négative.\

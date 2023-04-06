@@ -1,11 +1,11 @@
-\chapter{Basic Analog Circuits}
-In this chapter, we will see how non-linear elements are used in electrical circuits. We discuss the concept of a load line, both static and dynamic, and study the small-signal response of a non-linear element, which essentially requires a linearization around an operating point. Finally, we provide small-signal models for both diodes and transistors at high and low frequencies.
+\chapter{Circuits Analogiques de Base}
+Dans ce chapitre, nous verrons comment les éléments non linéaires sont utilisés dans les circuits électriques. Nous discuterons du concept d'une droite de charge, à la fois statique et dynamique, et étudierons la réponse en petit signal d'un élément non linéaire, ce qui nécessite essentiellement une linéarisation autour d'un point de fonctionnement. Enfin, nous fournirons des modèles en petit signal pour les diodes et les transistors à hautes et basses fréquences.
 
-\section{Non-linear elements in circuits}
+\section{Éléments non linéaires dans les circuits}
 \label{sec:nonlin_circuits}
-In this section, we will see how non-linear elements like diodes and transistors are used in electrical circuits. In principle, adding a non-linear element makes the analysis of the circuit a lot harder, compared to circuits with only linear elements (resistors, capacitors, inductors, \ldots). In practice however, we will rely on a graphical solution method, which simplifies the analysis while still being rigorous.
-\subsection{The Diode as a Circuit Element}
-Let's use a diode as a lumped element in an electronic circuit, as in the  figure below. 
+Dans cette section, nous verrons comment les éléments non linéaires tels que les diodes et les transistors sont utilisés dans les circuits électriques. En principe, l'ajout d'un élément non linéaire rend l'analyse du circuit beaucoup plus difficile que les circuits avec seulement des éléments linéaires (résistances, condensateurs, inductances, \ldots). En pratique cependant, nous nous appuierons sur une méthode de résolution graphique, qui simplifie l'analyse tout en restant rigoureuse.
+\subsection{La Diode comme Élément de Circuit}
+Utilisons une diode comme élément discret dans un circuit électronique, comme dans la figure ci-dessous.
 
 \begin{wrapfigure}{r}{3.5cm}
 	\centering
@@ -13,189 +13,191 @@ Let's use a diode as a lumped element in an electronic circuit, as in the  figur
 	\caption{}
 	\label{fig:diode1}
 \end{wrapfigure}
-By applying KVL, we obtain the equation of the \textbf{load-line}:
+En appliquant la LKV, nous obtenons l'équation de la \textbf{droite de charge}:
 $$
 E - v_D = R \; i_D
 $$
-This equation has to be combined with the diode I-V characteristic:
+Cette équation doit être combinée avec la caractéristique I-V de la diode:
 $$
 i_D = \phi(v_D) = I_S (e^{v_D/v_{th}} - 1)
 $$
-Form a formal point of view, we have two unknowns, $v_D$ and $i_d$, and two equations, so in principle we can solve for both unknowns. However, there is no analytical solution to our problem, so we prefer a graphical method.\\
-In figure \ref{fig:diode2} we combine $i_D = \phi(v_D)$ (the red curve) with the expression of the load line (green line).
+D'un point de vue formel, nous avons deux inconnues, $v_D$ et $i_D$, et deux équations, donc en principe, nous pouvons résoudre pour les deux inconnues. Cependant, il n'y a pas de solution analytique à notre problème, nous préférons donc une méthode graphique.\
+Dans la figure \ref{fig:diode2}, nous combinons $i_D = \phi(v_D)$ (la courbe rouge) avec l'expression de la droite de charge (la ligne verte).
 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=12cm]{figures/ch02/diode2.jpg}
-	\caption{I-V with load line (a) with $E > 0.6 V$ and (b) $E < 0.6$ V}
+	\caption{I-V avec ligne de charge (a) avec $E > 0.6 V$ et (b) $E < 0.6$ V}
 	\label{fig:diode2}
 \end{figure}
-We apply a simplification and assume that $v_D = V_{DQ} \approx 0.6$ V. The operating point\footnote{The letter $Q$ stands for \emph{quiescent}} $Q$ lies at the intersection of both lines. In order for the diode to conduct, we can immediately conclude by comparing both figures that it is necessary that $E > 0.6V = V_{DQ}$. The diode current is easily calculated as
+Nous appliquons une simplification et supposons que $v_D = V_{DQ} \approx 0,6$ V. Le point de fonctionnement\footnote{La lettre $Q$ signifie \emph{quiescent}} $Q$ se situe à l'intersection des deux lignes. Pour que la diode conduise, nous pouvons immédiatement conclure, en comparant les deux figures, qu'il est nécessaire que $E > 0,6$ V $= V_{DQ}$. Le courant dans la diode est facilement calculé comme
 $$
 i_D \approx I_{DQ} = \frac{E - V_{DQ}}{R}
 $$
-We can conclude that the diode will always conduct as long as $E > 0.6$ V. Variations in $E$ only mean that the load line will move parallel. The operating point $(V_{DQ},  I_{DQ})$ can only move vertically because of the nature of $\phi(v_D)$ when $v_D > 0.6$ V. Only when $E$ becomes smaller than $0.6$ V will conduction stop until we reach the Zener region. Remember that the $0.6$ V is specific for silicon.\\
+Nous pouvons conclure que la diode conduira toujours tant que $E > 0,6$ V. Les variations de $E$ signifient seulement que la droite de charge se déplacera parallèlement. Le point de fonctionnement $(V_{DQ}, I_{DQ})$ ne peut se déplacer que verticalement en raison de la nature de $\phi(v_D)$ lorsque $v_D > 0,6$ V. Seulement lorsque $E$ devient inférieur à $0,6$ V la conduction s'arrête jusqu'à ce que nous atteignions la région Zener. Rappelons que le $0,6$ V est spécifique pour le silicium.\\
 
 \begin{minipage}{.6\textwidth}
-	As an example, consider the circuit in figure \ref{fig:diode3}. It is not obvious when the diode will conduct, so let's replace the current source and the resistor by the Thevenin equivalent, namely a resistor $R_{th} = R$ and a voltage source $V_{th} = R I_0$ in \textbf{series} with this resistor. This circuit is identical to the one in figure \ref{fig:diode1} with a load line through the points $(R\;I_0, 0)$ and $(0, I_0)$. We can conclude that the transistor will conduct when $V_{th} = R\;I_0 > 0.6$ V. Furthermore, when $R\rightarrow \infty$ and the resistor become an open circuit, the load line will become a horizontal line through $I_0$.
+	Considérons par exemple le circuit de la figure \ref{fig:diode3}. Il n'est pas évident de savoir quand la diode va conduire, donc remplaçons la source de courant et la résistance par l'équivalent de Thévenin, à savoir une résistance $R_{th} = R$ et une source de tension $V_{th} = R I_0$ en \textbf{série} avec cette résistance. Ce circuit est identique à celui de la figure \ref{fig:diode1} avec une droite de charge passant par les points $(R;I_0, 0)$ et $(0, I_0)$. On peut conclure que la diode va conduire lorsque $V_{th} = R;I_0 > 0,6$ V. De plus, lorsque $R\rightarrow \infty$ et que la résistance devient un circuit ouvert, la droite de charge deviendra une ligne horizontale passant par $I_0$.
 \end{minipage}
 \begin{minipage}{.5\textwidth}
 	\centering
 	\includegraphics[width=5cm]{figures/ch02/diode3.jpg}
-	\captionof{figure}{With current source}
+	\captionof{figure}{Avec source de courant}
 	\label{fig:diode3}
 \end{minipage}%
 
-\subsection{The BJT as a Circuit Element}
-A typical bipolar transistor circuit is shown in figure \ref{fig:bjt_load1}(b). To analyze this circuit, we cut at the entrance of the base and replace the left loop of resistors $R_1$ and $R_2$ and the supply voltage $E$ by the Thevenin equivalent circuit in figure  \ref{fig:bjt_load1}(a).
+\subsection{Le BJT en tant qu'élément de circuit}
+Un circuit typique à transistor bipolaire est représenté sur la figure \ref{fig:bjt_load1}(b). Pour analyser ce circuit, nous effectuons une coupure à l'entrée de la base et remplaçons la boucle de résistances $R_1$ et $R_2$ ainsi que la tension d'alimentation $E$ par le circuit équivalent de Thévenin, représenté sur la figure \ref{fig:bjt_load1}(a).
 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=12cm]{figures/ch02/bjt_load1.jpg}
-	\caption{(a) Transistor circuit and (b) simplified with Thevenin} 
+	\caption{(a) Circuit à transistor et (b) simplifié avec Thévenin}
 	\label{fig:bjt_load1}
 \end{figure}
-The Thevenin voltage $E_B$ and impedance $R_B$ are easily computed by seeing that (a) the voltage at the base is the result of applying a voltage divider to the supply voltage $E$, and (b) that when we ground $E$ (as required by the Thevenin rules) $R_1$ and $R_2$ are in parallel:
+
+La tension de Thévenin $E_B$ et l'impédance $R_B$ peuvent être facilement calculées en observant que (a) la tension à la base est le résultat de l'application d'un diviseur de tension à la tension d'alimentation $E$, et (b) que lorsque nous mettons à la masse la tension $E$ (comme requis par les règles de Thévenin), $R_1$ et $R_2$ sont en parallèle :
 \begin{equation}
 	\begin{split}
 		E_B &= \frac{R_2}{R_1 + R_2} E \\
 		R_B &= R_1 || R_2 = \frac{R_1 R_2}{R_1 + R_2}
 	\end{split}
 \end{equation}
-In this left loop, we can write:
+Dans cette boucle de gauche, nous pouvons écrire :
 \begin{equation}
 	\begin{split}
 		E_B - v_{BE} &= R_B \; i_B \\
 		%E - v_{CE} &= R_C \; i_C
 	\end{split}
 \end{equation}
-Consider the right loop, which consists of resistor $R_C$ and the voltage $v_{CE}$. In this loop, we can write:
+Considérons la boucle de droite, qui est composée de la résistance $R_C$ et de la tension $v_{CE}$. Dans cette boucle, nous pouvons écrire :
 \begin{equation}
 	\begin{split}
 		%E_B - v_{BE} &= R_B \; i_B \\
 		E - v_{CE} &= R_C \; i_C
 	\end{split}
 \end{equation}
-Let's assume that all the currents are constant and we have biased the transistor in its operating point. We indicate this by adding a $Q$ to the currents and voltages, just as for the diode. With this convention, we can rewrite these equations to obtain:
+Supposons que tous les courants sont constants et que le transistor est polarisé dans son point de fonctionnement. Nous indiquons cela en ajoutant un $Q$ aux courants et tensions, tout comme pour la diode. Avec cette convention, nous pouvons réécrire ces équations pour obtenir :
 \begin{equation}
 	\begin{split}
 		I_{BQ} &= \frac{E_B - V_{BEQ}}{R_B}\\
-		V_{CEQ} &= E - R_C \; I_{CQ}
+		V_{CEQ} &= E - R_C ; I_{CQ}
 	\end{split}
 \end{equation}
-with $V_{BEQ} \approx 0.6$ V because we want to bias the base-emitter junction in the forward (conducting) region. From the diode analysis, we know this will be the case when $E_B > 0.6$ V. We also know the relation between $I_{BQ}$ and $I_{CQ}$ (neglecting any leak currents):
+avec $V_{BEQ} \approx 0.6$ V car nous voulons polariser la jonction base-émetteur dans la région avant (conductive). À partir de l'analyse de la diode, nous savons que ce sera le cas lorsque $E_B > 0.6$ V. Nous connaissons également la relation entre $I_{BQ}$ et $I_{CQ}$ (en négligeant tout courant de fuite) :
 \begin{equation}
 	\begin{split}
 		I_{CQ} &= \beta \; I_{BQ}
 	\end{split}
 \end{equation}
-where $\beta$ is given by the manufacturer and is typically very high, but it can vary a lot from one transistor to the next. With this equation, we have enough information to compute all currents and voltages:
+où $\beta$ est donné par le fabricant et est généralement très élevé, mais peut varier beaucoup d'un transistor à l'autre. Avec cette équation, nous avons suffisamment d'informations pour calculer tous les courants et tensions :
 \begin{enumerate}
-	\item We know $R_B$ and $E_B$, and we assume $V_{BEQ} = 0.6$ V, so we can compute $I_{BQ}$.
-	\item We know $\beta$, so we can compute $I_{CQ}$.
-	\item We can now compute $V_{CE}$.
+	\item Nous connaissons $R_B$ et $E_B$, et nous supposons que $V_{BEQ} = 0.6$ V, donc nous pouvons calculer $I_{BQ}$.
+	\item Nous connaissons $\beta$, donc nous pouvons calculer $I_{CQ}$.
+	\item Nous pouvons maintenant calculer $V_{CE}$.
 \end{enumerate}
-All these calculations can all be represented graphically; see the (idealized) BJT characteristic in figure \ref{fig:bjt_load2}.
+Tous ces calculs peuvent être représentés graphiquement ; voir la caractéristique (idéalisée) du BJT dans la figure \ref{fig:bjt_load2}.
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=12cm]{figures/ch02/bjt_load2.jpg}
 	\caption{(a) Transistor circuit and (b) simplified with Thevenin} 
 	\label{fig:bjt_load2}
 \end{figure}
-The figure on the left represents the left loop, with the load line $E_B - v_{BE} = R_B \; i_B $ in green and the $v_{BE}$ junction characteristic in red. The intersection between both functions is the operating point $Q = (V_{BEQ}, I_{BQ})$.\\
-The right loop is shown in the graph on the right; the horizontal line on which the transistor operates is given by $I_{C} = \beta \; I_{B}$ and the load line is given by $V_{CE} = E - R_C \; I_{C}$. Once again, the operating point is there where both lines intersect.\\
-We can reason about the operation of the circuit by thinking about these figures. For example, if $R_B$ would decrease, the slope of the $I_B - V_{BE}$ load-line would increase, so that the operating point $Q$ will move up and $I_{BQ}$ will increase. This increase will cause in increase of $I_{CQ}$ in the graph on the right, and the operating point will move along the load line to a higher $I_{C}$ and a lower $V_{CE}$.\\
-We can conclude that:
+La figure de gauche représente la boucle de gauche, avec la droite de charge $E_B - v_{BE} = R_B ; i_B$ en vert et la caractéristique de la jonction $v_{BE}$ en rouge. L'intersection entre les deux fonctions est le point de fonctionnement $Q = (V_{BEQ}, I_{BQ})$. \
+La boucle de droite est montrée dans le graphique de droite ; la ligne horizontale sur laquelle le transistor fonctionne est donnée par $I_{C} = \beta ; I_{B}$ et la droite de charge est donnée par $V_{CE} = E - R_C ; I_{C}$. Encore une fois, le point de fonctionnement est là où les deux lignes se croisent. \
+Nous pouvons raisonner sur le fonctionnement du circuit en réfléchissant à ces figures. Par exemple, si $R_B$ diminuait, la pente de la droite de charge $I_B - V_{BE}$ augmenterait, de sorte que le point de fonctionnement $Q$ se déplacerait vers le haut et $I_{BQ}$ augmenterait. Cette augmentation provoquera une augmentation de $I_{CQ}$ dans le graphique de droite, et le point de fonctionnement se déplacera le long de la droite de charge vers un $I_C$ plus élevé et un $V_{CE}$ plus bas. \
+Nous pouvons en conclure que :
 \begin{itemize}
-	\item The left loop determines $I_{BQ}$.
-	\item By assumption, we are in the normal working domain and $I_{CQ} = \beta I_{BQ}$.
-	\item The right loop gives  $V_{CEQ}$.
-	\item Given $Q = (V_{CEQ}, \; I_{CQ})$, we verify we are in the normal working domain.
+	\item La boucle de gauche détermine $I_{BQ}$.
+	\item Par hypothèse, nous sommes dans le domaine de fonctionnement normal et $I_{CQ} = \beta I_{BQ}$.
+	\item La boucle de droite donne $V_{CEQ}$.
+	\item Étant donné $Q = (V_{CEQ}, ; I_{CQ})$, nous vérifions que nous sommes dans le domaine de fonctionnement normal.
 \end{itemize}
-Let's discuss a couple of edge cases:
+Discutons maintenant de quelques cas limites :
 \begin{itemize}
-	\item If $E_{B} < 0.6$ V then $V_{BEQ} < 0.6$ V. Then $I_{BQ} \approx 0$ and $I_{CQ} \approx 0$ (neglecting leakage current). See figure \ref{fig:bjt_load3}(a). If that's the case, the operating point is $Q = (V_{CEQ} = E, 0)$ and the transistor is blocked (\emph{cut-off mode}). 
+	\item Si $E_B < 0,6$ V, alors $V_{BEQ} < 0,6$ V. Alors $I_{BQ} \approx 0$ et $I_{CQ} \approx 0$ (en négligeant le courant de fuite). Voir la figure \ref{fig:bjt_load3}(a). Dans ce cas, le point de fonctionnement est $Q = (V_{CEQ} = E, 0)$ et le transistor est bloqué (\emph{mode de coupure}).
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=14cm]{figures/ch02/bjt_load3.jpg}
-		\caption{(a) $V_{BEQ} < 0.6$V and (b) $V_{CEQ} \approx V_{CE, Sat}$} 
+		\caption{(a) $V_{BEQ} < 0.6$V et (b) $V_{CEQ} \approx V_{CE, Sat}$}
 		\label{fig:bjt_load3}
 	\end{figure}
-	\item As $V_{BEQ}$ and $I_{BQ}$ keep increasing, $I_{CQ}$ will become larger and eventually $V_{CEQ}$ will become too small to keep the transistor in active mode. Then $I_{CQ} \ne \beta \;I_{BQ}$ and $V_{CEQ} \approx V_{CE, Sat}$. So, in that case, $I_{CQ} = \frac{E-V_{CE,Sat}}{R_C}$. The transistor is \emph{saturated}.
+	\item Au fur et à mesure que $V_{BEQ}$ et $I_{BQ}$ augmentent, $I_{CQ}$ deviendra plus grand et éventuellement $V_{CEQ}$ deviendra trop petit pour maintenir le transistor en mode actif. Ensuite, $I_{CQ} \ne \beta ;I_{BQ}$ et $V_{CEQ} \approx V_{CE, Sat}$. Dans ce cas, $I_{CQ} = \frac{E-V_{CE,Sat}}{R_C}$. Le transistor est \emph{saturé}.
 \end{itemize}
-\subsection{The MOSFET as a Circuit Element}
-Just as for the BJT, we consider a biasing circuit for the n-channel MOSFET transistor as in figure \ref{fig:mos_load1}(a) and we simplify the circuit with a Thevenin equivalent circuit - like we did before - as in figure \ref{fig:mos_load1}(b).
+
+\subsection{Le MOSFET en tant qu'élément de circuit}
+Tout comme pour le BJT, nous considérons un circuit de polarisation pour le transistor MOSFET à canal n tel que présenté dans la figure \ref{fig:mos_load1}(a) et nous simplifions le circuit avec un circuit équivalent de Thévenin - comme nous l'avons fait auparavant - comme dans la figure \ref{fig:mos_load1}(b).
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=10cm]{figures/ch02/mos_load1.jpg}
-	\caption{(a) MOS Transistor circuit and (b) simplified with Thevenin} 
+	\caption{(a) Circuit de transistor MOS et (b) simplifié avec Thévenin}
 	\label{fig:mos_load1}
 \end{figure}
-with 
+avec
 \begin{equation}
 	\begin{split}
 		E_B-G &= \frac{R_2}{R_1 + R_2} E \\
 		R_G &= R_1 || R_2 = \frac{R_1 R_2}{R_1 + R_2}
 	\end{split}
 \end{equation}
-Note that the gate current $I_G = 0$ as the gate is a capacitor where the DC current is zero. And just as for the BJT, we can express an equation for the left and right loop:
+Notez que le courant de la grille $I_G = 0$ car la grille est un condensateur où le courant continu est nul. Et tout comme pour le BJT, nous pouvons exprimer une équation pour la boucle gauche et droite :
 \begin{equation}
 	\begin{split}
-		V_{GSQ} &= E_G \text{ because } I_{G} = 0\\
-		I_{DSQ} &= \frac{\mu_n C_{ox}}{2} \frac{W}{L} (V_{GSQ} - V_T)^2 \text{ if } V_{GSQ} > V_T\\
-		V_{DSQ} &= E - R_D \; I_{DSQ} \text{ if } V_{DSQ} > V_{GSQ} - V_T
+		V_{GSQ} &= E_G \text{ car } I_{G} = 0\\
+		I_{DSQ} &= \frac{\mu_n C_{ox}}{2} \frac{W}{L} (V_{GSQ} - V_T)^2 \text{ si } V_{GSQ} > V_T\\
+		V_{DSQ} &= E - R_D ; I_{DSQ} \text{ si } V_{DSQ} > V_{GSQ} - V_T
 	\end{split}
 \end{equation}
- The last condition is required for the transistor to be saturated, which is similar to the active mode for a BJT.\\
- We can also represent these equations graphically. Figure \ref{fig:mos_load2}(a) represents the quadratic relation between $I_{DS}$ and $V_{GS}$ to determine $V_{GSQ}$. As long as $V_{DS} > V_{GSQ} - V_T$, figure \ref{fig:mos_load2}(b) gives the value of $V_{DSQ}$.
- \begin{figure}[h!]
- 	\centering
- 	\includegraphics[width=14cm]{figures/ch02/mos_load2.jpg}
- 	\caption{(a) $i_{DS} = f(v_{DS})$ and (b) $I_{DS} = f(V_{DS})$}
- 	\label{fig:mos_load2}
- \end{figure}
+La dernière condition est requise pour que le transistor soit saturé, ce qui est similaire au mode actif pour un BJT.\\
+Nous pouvons également représenter ces équations graphiquement. La figure \ref{fig:mos_load2}(a) représente la relation quadratique entre $I_{DS}$ et $V_{GS}$ pour déterminer $V_{GSQ}$. Tant que $V_{DS} > V_{GSQ} - V_T$, la figure \ref{fig:mos_load2}(b) donne la valeur de $V_{DSQ}$.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=14cm]{figures/ch02/mos_load2.jpg}
+	\caption{(a) $i_{DS} = f(v_{DS})$ et (b) $I_{DS} = f(V_{DS})$}
+	\label{fig:mos_load2}
+\end{figure}
 
 
- \subsection{Additional remarks}
- For both type of transistors, there are three working domains, as in figure \ref{fig:transistor_overview}:
- \begin{itemize}
- 	\item MOSFET: blocked, saturated, linear
- 	\item BJT: blocked, normal (or active), saturated
- \end{itemize}
+\subsection{Remarques supplémentaires}
+Pour les deux types de transistors, il y a trois domaines de fonctionnement, comme indiqué dans la figure \ref{fig:transistor_overview}:
+\begin{itemize}
+	\item MOSFET : bloqué, saturé, linéaire
+	\item BJT : bloqué, normal (ou actif), saturé
+\end{itemize}
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=12cm]{figures/ch02/overview.jpg}
-	\caption{(a) $i_{DS} = f(v_{DS})$ and (b) $I_{DS} = f(V_{DS})$}
+	\caption{(a) $i_{DS} = f(v_{DS})$ et (b) $I_{DS} = f(V_{DS})$}
 	\label{fig:transistor_overview}
 \end{figure}
-\subsection{A more general circuit}
+\subsection{Un circuit plus général}
 \label{sec:general_circuit}
-To improve the linearity (see the chapter on feedback) and biasing of the circuit, an emitter resistance $R_E$ is often added, as in figure \ref{fig:general1a}. Just as before, the left side is simplified with the Thevenin equivalent (see \ref{fig:general1b}).
+Pour améliorer la linéarité (voir le chapitre sur la rétroaction) et le polarisation du circuit, une résistance d'émetteur $R_E$ est souvent ajoutée, comme indiqué dans la figure \ref{fig:general1a}. Tout comme précédemment, le côté gauche est simplifié avec l'équivalent de Thévenin (voir \ref{fig:general1b}).
 
 \begin{figure}[h!]
 	\centering
 	\begin{minipage}{.5\textwidth}
 		\centering
 		\includegraphics[width=4cm]{figures/ch02/general1a.jpg}
-		\captionof{figure}{General circuit}
+		\captionof{figure}{Circuit général}
 		\label{fig:general1a}
 	\end{minipage}%
 	\begin{minipage}{.5\textwidth}
 		\centering
 		\includegraphics[width=5cm]{figures/ch02/general1b.jpg}
-		\captionof{figure}{Thevenin simplification}
+		\captionof{figure}{Simplification de Thévenin}
 		\label{fig:general1b}
 	\end{minipage}
-	%	\label{fig:explore}
+	% \label{fig:explore}
 \end{figure}
-Once again, we can write the KVL in left and right loop:
+Encore une fois, nous pouvons écrire la LKC dans la boucle gauche et droite :
 \begin{equation}
 	\begin{split}
 		E_B - V_{BEQ} &= R_B I_{BQ} + R_E I_{EQ} = R_B I_{BQ} + R_E (\beta + 1) I_{BQ} \\
 		E_B - V_{BEQ} &= R_B \frac{I_{CQ}}{\beta} + R_E (\beta + 1) \frac{I_{CQ}}{\beta} \approx \frac{R_B}{\beta} I_{CQ} + R_E I_{EQ}
 	\end{split}
 \end{equation}
-where we have used $I_{CQ} = \beta I_{BQ}$ because we suppose we're working in the normal operating region. These equations lead to expressions for current $I_{CQ}$ and voltage $V_{CEQ}$:
+où nous avons utilisé $I_{CQ} = \beta I_{BQ}$ car nous supposons que nous travaillons dans la région de fonctionnement normal. Ces équations conduisent à des expressions pour le courant $I_{CQ}$ et la tension $V_{CEQ}$ :
 \begin{equation}
 	\begin{split}
 		I_{CQ} &= \frac{E_B - V_{BEQ}}{\frac{R_B}{\beta} + R_E}\\
@@ -203,15 +205,16 @@ where we have used $I_{CQ} = \beta I_{BQ}$ because we suppose we're working in t
 	\end{split}
 	\label{eq:four_resitors1}
 \end{equation}
-They can be plotted on the different I-V characteristics as in figure \ref{fig:general2}. Notice that the figure on the left gives $i_C$ as function of $v_{BE}$. Since the relation between $i_B$ and $v_{BE}$ is the exponential diode characteristic, the same goes goes for the relation between $i_C = \beta i_B$ and $v_{BE}$.
+Ils peuvent être tracés sur les différentes caractéristiques I-V comme sur la figure \ref{fig:general2}. Remarquez que la figure de gauche donne $i_C$ en fonction de $v_{BE}$. Puisque la relation entre $i_B$ et $v_{BE}$ est la caractéristique exponentielle de la diode, il en va de même pour la relation entre $i_C = \beta i_B$ et $v_{BE}$.
+
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=12cm]{figures/ch02/general2.jpg}
-	\caption{(a) Load line: $I_{CQ} = \frac{E_B - V_{BEQ}}{\frac{R_B}{\beta} + R_E}$ (b) $V_{CEQ} = E - (R_C + R_E) I_{CQ}$}
+	\caption{(a) Droite de charge : $I_{CQ} = \frac{E_B - V_{BEQ}}{\frac{R_B}{\beta} + R_E}$ (b) $V_{CEQ} = E - (R_C + R_E) I_{CQ}$}
 	\label{fig:general2}
 \end{figure}
 
-We can apply the same reasoning to the $4$-resistor MOSFET circuit form figure \ref{fig:mos_load3}, for which we also can simplify the left loop with the Thévenin equivalent of figure \ref{fig:mos_load4}.
+On peut appliquer le même raisonnement au circuit MOSFET à $4$ résistances de la figure \ref{fig:mos_load3}, pour lequel nous pouvons également simplifier la boucle de gauche avec l'équivalent de Thévenin de la figure \ref{fig:mos_load4}.
 \begin{figure}[h!]
 	\centering
 	\begin{minipage}{.5\textwidth}
@@ -228,17 +231,17 @@ We can apply the same reasoning to the $4$-resistor MOSFET circuit form figure \
 	\end{minipage}
 	%	\label{fig:explore}
 \end{figure}
-The operating  point $Q$ is determined by:
+Le point de fonctionnement $Q$ est déterminé par:
 \begin{align*}
-	&\text{The equation of the left loop: } E_G - V_{GSQ} = R_S I_{DSQ} \\
-	&\text{The transistor characteristic: } I_{DSQ} = \frac{K}{2}\frac{W}{L} (V_{GSQ} - V_T)^2 \\
-	&\text{The equation of the right loop: } V_{DSQ} = E - (R_D + R_S)I_{DSQ}
+	&\text{L'équation de la boucle de gauche: } E_G - V_{GSQ} = R_S I_{DSQ} \
+	&\text{La caractéristique du transistor: } I_{DSQ} = \frac{K}{2}\frac{W}{L} (V_{GSQ} - V_T)^2 \
+	&\text{L'équation de la boucle de droite: } V_{DSQ} = E - (R_D + R_S)I_{DSQ}
 \end{align*}
-To find $V_{GSQ}$ and $I_{DSQ}$, use the first two equations; only one root is valid for $V_{GSQ}$. $V_{DSQ}$ follows immediately from the third equation.
-\section{Small-Signal Response}
+Pour trouver $V_{GSQ}$ et $I_{DSQ}$, utilisez les deux premières équations ; seule une racine est valide pour $V_{GSQ}$. $V_{DSQ}$ découle immédiatement de la troisième équation.
+\section{Réponse en petit signal}
 \label{sec:small_signal_response}
-In this section, we will introduce the concept of a small-signal response, namely how do voltage and currents in a circuit change when we apply only a small change to the input values. The general idea is that we design the circuit such that it operates at an operating point $Q$, and we linearize the circuit around this operating point to study only small deviations. We will use the diode as an example. in section \ref{sec:small_signal_model} we apply the same reasoning to transistors.\\
-First, we introduce some notation to distinguish large-signal from small signal quantities. 
+Dans cette section, nous allons introduire le concept de réponse en petit signal, c'est-à-dire comment les tensions et les courants dans un circuit changent lorsque nous appliquons une petite variation aux valeurs d'entrée. L'idée générale est que nous concevons le circuit de sorte qu'il fonctionne à un point de fonctionnement $Q$, et nous linéarisons le circuit autour de ce point de fonctionnement pour n'étudier que de petites déviations. Nous utiliserons la diode comme exemple. Dans la section \ref{sec:small_signal_model}, nous appliquons le même raisonnement aux transistors.\
+Tout d'abord, nous introduisons une notation pour distinguer les quantités de grand signal des quantités de petit signal.
 
 \begin{figure}[h!]
 	\centering
@@ -246,16 +249,15 @@ First, we introduce some notation to distinguish large-signal from small signal 
 	\caption{Signal quantities}
 	\label{fig:small_signal_resp1}
 \end{figure}
-
 \begin{itemize}
-	\item $x_A$: measure of a specific variable,
-	\item $X_A$: the average value of this specific variable,
-	\item $x_a$: variation of the specific variable around average $X_A$.
+	\item $x_A$: mesure d'une variable spécifique,
+	\item $X_A$: la valeur moyenne de cette variable spécifique,
+	\item $x_a$: variation de la variable spécifique autour de la moyenne $X_A$.
 \end{itemize}
-Refer to figure \ref{fig:small_signal_resp1} for a visual representation of these variables. Note that only $x_A$ and $x_a$ vary with time, and that the average value of $x_a$ is zero: $\mathds{E}[x_a] = 0$.
+Consultez la figure \ref{fig:small_signal_resp1} pour une représentation visuelle de ces variables. Notez que seuls $x_A$ et $x_a$ varient dans le temps et que la valeur moyenne de $x_a$ est nulle : $\mathds{E}[x_a] = 0$.
 
 \begin{minipage}{.6\textwidth}
-	Let's apply this to the simple diode circuit. In figure \ref{fig:small_signal_resp2}, the supply has two components: a fixed voltage $E$, and a varying voltage $e$ with average value $\mathds{E}[e(t)] = 0$. The quantities we're looking for, $v_D$ and $i_D$, can be split in two components: an average value and a variation around this average.
+	Appliquons cela au circuit diode simple. Dans la figure \ref{fig:small_signal_resp2}, l'alimentation comporte deux composantes : une tension fixe $E$, et une tension variable $e$ avec une valeur moyenne $\mathds{E}[e(t)] = 0$. Les quantités que nous recherchons, $v_D$ et $i_D$, peuvent être divisées en deux composantes : une valeur moyenne et une variation autour de cette moyenne.
 	\begin{equation}
 		\begin{split}
 			v_D &= V_D + v_d\\
@@ -268,16 +270,16 @@ Refer to figure \ref{fig:small_signal_resp1} for a visual representation of thes
 	\includegraphics[width=5cm]{figures/ch02/small_signal_resp2.jpg}
 	\captionof{figure}{}
 	\label{fig:small_signal_resp2}
-\end{minipage}%
+\end{minipage}
 
-Assume that $e=0$, i.e. we study the system with no variations. If $E > 0.6V$, we can write - as we've done before - that:
+Supposons que $e=0$, c'est-à-dire que nous étudions le système sans variations. Si $E>0.6V$, nous pouvons écrire - comme nous l'avons fait précédemment - que :
 \begin{equation}
 	\begin{split}
 		V_{DQ} &= 0.6V\\
 		I_{DQ} &= \frac{E-V_{DQ}}{R}
 	\end{split}
 \end{equation}
-In this way, we determine the operating point as the intersection between the load line and the diode characteristic, as in figure \ref{fig:small_signal_resp4}.
+Ainsi, nous déterminons le point de fonctionnement comme l'intersection entre la droite de charge et la caractéristique de la diode, comme dans la figure \ref{fig:small_signal_resp4}..
 
 \begin{figure}[h!]
 	\centering
@@ -296,65 +298,65 @@ In this way, we determine the operating point as the intersection between the lo
 	%	\label{fig:explore}
 \end{figure}
 
-
-Now assume $e \ne 0$. This changes the equation for the load line:
+Maintenant, supposons que $e\neq 0$. Cela modifie l'équation de la droite de charge :
 \begin{equation}
-	E+e - v_D = R\;i_D
+	E+e - v_D = R;i_D
 \end{equation}
-This equation can be rewritten as:
+Cette équation peut être réécrite comme :
 $$
 (E+e) - (V_{DQ} + v_d) = R (I_{DQ} + i_d)
 $$
-or, since $E - V_{DQ} = R\;I_{DQ} $:
+ou, puisque $E - V_{DQ} = R;I_{DQ}$ :
 \begin{equation}
-	e - v_d = R\;i_d
+	e - v_d = R;i_d
 \end{equation}
-This is the equation of the small-signal load line, where the center of the coordinate system is translated to the operating point $Q = (V_{DQ}, I_{DQ})$. Figure \ref{fig:small_signal_resp6} shows what happens: small variations of $e$ move the load line parallel to the original load line $E - V_{BEQ} = R\;I_{DQ}$. As this moving load line intersects with the diode characteristic, small voltage variations $v_d$ and current variations $i_d$ appear across the diode. We can determine the relation between $v_d$ and $i_d$:
-\begin{equation}
-	\begin{split}
-		i_D  &= \phi(v_D) \approx I_S e^{v_D/v_{th}}\\
-		di_D &= \frac{I_S}{v_{th}}  e^{v_D/v_{th}} dv_D \\
-\Rightarrow	i_d  &= \frac{i_D}{v_{th}} v_d
-	\end{split}
-\end{equation}
-and finally
+C'est l'équation de la droite de charge petit signal, où le centre du système de coordonnées est déplacé vers le point de fonctionnement $Q = (V_{DQ}, I_{DQ})$. La figure \ref{fig:small_signal_resp6} montre ce qui se passe : de petites variations de $e$ déplacent la droite de charge parallèlement à la droite de charge originale $E - V_{BEQ} = R;I_{DQ}$. Lorsque cette droite de charge en mouvement intersecte la caractéristique de la diode, de petites variations de tension $v_d$ et de courant $i_d$ apparaissent aux bornes de la diode. Nous pouvons déterminer la relation entre $v_d$ et $i_d$ :
 \begin{equation}
 	\begin{split}
-		v_d = \rho_d\;i_d \text{ with } \rho_d = \frac{v_{th}}{I_{DQ}}
+		i_D &= \phi(v_D) \approx I_S e^{v_D/v_{th}}\\
+		di_D &= \frac{I_S}{v_{th}} e^{v_D/v_{th}} dv_D \\
+		\Rightarrow i_d &= \frac{i_D}{v_{th}} v_d
 	\end{split}
 \end{equation}
-We have effectively linearized the diode characteristic around the operating point. Locally, for small variations, the diode operates as a resistor with resistance $\rho_d$.\\
-By doing this, we have transformed the original problem into two subproblems:
+et finalement
+\begin{equation}
+	\begin{split}
+		v_d = \rho_d;i_d \text{ avec } \rho_d = \frac{v_{th}}{I_{DQ}}
+	\end{split}
+\end{equation}
+Nous avons effectivement linéarisé la caractéristique de la diode autour du point de fonctionnement. Localement, pour de petites variations, la diode fonctionne comme une résistance de valeur $\rho_d$.\
+En faisant cela, nous avons transformé le problème original en deux sous-problèmes :
 \begin{enumerate}
-	\item Determine the DC solution by solving (graphically) the equations on the left of figure \ref{fig:small_signal_resp7}.	This solution determines $Q$ and the so-called small signal parameters, like $\rho_d$.
-	\item Solve a linear circuit where the nonlinear element has been replaced by the small-signal equivalent - a resistor in the case of our diode. See the right part of figure \ref{fig:small_signal_resp7}.
+	\item Déterminer la solution en courant continu en résolvant (graphiquement) les équations à gauche de la figure \ref{fig:small_signal_resp7}. Cette solution détermine $Q$ et les paramètres de petit signal, tels que $\rho_d$.
+	\item Résoudre un circuit linéaire où l'élément non linéaire a été remplacé par l'équivalent petit signal - une résistance dans le cas de notre diode. Voir la partie droite de la figure \ref{fig:small_signal_resp7}.
 \end{enumerate}
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=12cm]{figures/ch02/small_signal_resp7.jpg}
-	\caption{Signal quantities}
+	\caption{Quantités de signal}
 	\label{fig:small_signal_resp7}
 \end{figure}
 
-However, to be correct, the small-signal equivalent model of a diode is not just a resistor. A pn-junction creates a space-charge region on its interface. As the voltage across the junction changes, charges (both $n$ and $p$) have to be transported to and from the junction to increase or decrease the SCR. This means that a diode - or any pn-junction - is also capacitive. This phenomenon of depletion capacitance was already explained in section \ref{sec:depletion_capacitance}.\\
-To model this behavior, we replace a diode in as small-signal equivalent circuit by:
+Cependant, pour être exact, le modèle équivalent petit signal d'une diode n'est pas juste une résistance. Une jonction pn crée une région de charge d'espace sur son interface. Lorsque la tension aux bornes de la jonction change, des charges (à la fois $n$ et $p$) doivent être transportées vers et depuis la jonction pour augmenter ou diminuer le courant de saturation inverse. Cela signifie qu'une diode - ou toute jonction pn - est également capacitive. Ce phénomène de capacité de déplétion a déjà été expliqué dans la section \ref{sec:depletion_capacitance}.\
+Pour modéliser ce comportement, nous remplaçons une diode dans un circuit équivalent petit signal par :
 \begin{enumerate}
-	\item A dynamic resistance $\rho_d$, in parallel with
-	\item A junction capacitance $C_j$, as in figure \ref{fig:small_signal_resp8} (with $\alpha=1/2$). This capacitance can be neglected for small frequencies. 
+	\item Une résistance dynamique $\rho_d$, en parallèle avec
+	\item Une capacité de jonction $C_j$, comme dans la figure \ref{fig:small_signal_resp8} (avec $\alpha = 1/2$). Cette capacité peut être négligée pour de faibles fréquences.
 \end{enumerate}
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=10cm]{figures/ch02/small_signal_resp8.jpg}
-	\caption{Small-signal model of a diode}
+	\caption{Modèle petit signal d'une diode}
 	\label{fig:small_signal_resp8}
 \end{figure}
 
-Finally, to establish the small-signal equivalent circuit:
+Enfin, pour établir le circuit équivalent petit signal :
 \begin{itemize}
-	\item We replace all nonlinear devices by their small-signal model (like the one in \ref{fig:small_signal_resp8} for the diode).
-	\item We replace all independent voltage source by a short-circuit (i.e. $E=0$) because we assume they don't vary with time.
-	\item For the same reason, we replace all independent current source by an open circuit (i.e. $I=0$).
+	\item Nous remplaçons tous les dispositifs non linéaires par leur modèle petit signal (comme celui de la figure \ref{fig:small_signal_resp8} pour la diode).
+	\item Nous remplaçons toutes les sources de tension indépendantes par un court-circuit (c'est-à-dire $E=0$) car nous supposons qu'elles ne varient pas dans le temps.
+	\item Pour la même raison, nous remplaçons toutes les sources de courant indépendantes par un circuit ouvert (c'est-à-dire $I=0$).
 \end{itemize}
+
 \section{Static and Dynamic Load lines}
 In section \ref{sec:nonlin_circuits}, we saw the concept of a load line. However, there is more to it than we've seen up to now. The reason is the fundamental difference between the operating point $Q$ and the small-signal response. The former is fundamentally a DC concept, because there are no time-varying quantities involved. The small-signal response at the other hand deals with AC signals: signals that vary in time and thus have a non-zero frequency. Let's thus study a circuit that contains frequency-dependent components like capacitors or inductors.\\
 Consider the circuit in figure \ref{fig:loadline1}, where a load charge $R_L$ is connected to the original diode circuit through a capacitor $C$. To compute the operating point $Q$, we assume $e=0$. Since the are no variations, the capacitor $C$ is an open circuit and the circuit is reduced to the one in figure \ref{fig:loadline2}. This is the same circuit as before, so we conclude that $V_{DQ} = 0.6$ V and the load line is $E-V_{DQ} = R\; I_{DQ}$. The operating point allows us to compute the small-signal resistance $\rho_d$ of the diode.

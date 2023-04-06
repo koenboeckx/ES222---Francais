@@ -1,23 +1,24 @@
-\chapter{Transistors}
+\chapter{Les Transistors}
 
 %\section{Chapter Overview}
-A transistor is a semiconductor device used to amplify or switch electrical signals and power.  It is a component with (at least) three terminals. A voltage or current applied to one of the  terminals controls the current through another pair of terminals. Because the controlled (output) power can be higher than the controlling (input) power, a transistor can amplify a signal.\\
+Un transistor est un dispositif à semi-conducteur utilisé pour amplifier ou commuter des signaux électriques et de puissance. C'est un composant avec (au moins) trois terminaux. Une tension ou un courant appliqué à l'un des terminaux contrôle le courant à travers une autre paire de terminaux. Comme la puissance contrôlée (sortie) peut être supérieure à la puissance de contrôle (entrée), un transistor peut amplifier un signal.\\
 %We will discuss the bipolar junction transistor (BJT) and two transistors based on the field-effect, namely the junction FET and the Metal-Oxide-Semiconductor Field Effect transistor (MOSFET).
-We will discuss the two most prevalent transistors: the Bipolar Junction Transistor (BJT) and the Metal-Oxide-Semiconductor Field Effect transistor (MOSFET).
-\section{Bipolar Junction Transistor}
+Nous discuterons des deux transistors les plus courants : le transistor bipolaire à jonction (BJT) et le transistor à effet de champ à semiconducteur métal-oxyde (MOSFET).
+
+\section{Transistor bipolaire à jonction}
 \label{sec:bipolar_junction}
-A bipolar junction transistor (BJT) is formed by placing a n-type semiconductor between two p-type semiconductors (pnp) - or vice versa (npn), as shown in figure \ref{fig:bjt1}. In the case of the pnp transistor, the heavily doped $p^+$-region is called the \emph{emitter} (E). The narrow central $n$-region is the \emph{base} (B). Its width is small compared with the diffusion length of the minority carriers. The lightly doped $p$-region is the \emph{collector} (C). Figure \ref{fig:bjt1} also shows the circuit symbols for the two BJT transistors, together with the conventional directions for voltages and currents.\\
-We will discuss the pnp-transistor in some detail; the reasoning for the npn-transistor is similar and left as an exercise.
+Un transistor bipolaire à jonction (BJT) est formé en plaçant un semi-conducteur de type n entre deux semi-conducteurs de type p (pnp) - ou vice versa (npn), comme le montre la figure \ref{fig:bjt1}. Dans le cas du transistor pnp, la région fortement dopée $p^+$ est appelée l'\emph{émetteur} (E). La région $n$ centrale étroite est la \emph{base} (B). Sa largeur est petite par rapport à la longueur de diffusion des porteurs minoritaires. La région $p$ légèrement dopée est le \emph{collecteur} (C). La figure \ref{fig:bjt1} montre également les symboles de circuit pour les deux transistors BJT, ainsi que les directions conventionnelles pour les tensions et les courants.\
+Nous discuterons en détail du transistor pnp ; le raisonnement pour le transistor npn est similaire et sera laissé en exercice.
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=12cm]{figures/ch01/bjt1.jpg}
-\caption{(a) Idealized one-dimensional schematic of a p-n-p bipolar transistor and (b) its circuit symbol. (c) Idealized one- dimensional schematic of an n-p-n bipolar transistor and (d) its circuit symbol.} 
+\caption{(a) Schéma idéalisé unidimensionnel d'un transistor bipolaire p-n-p et (b) son symbole de circuit. (c) Schéma idéalisé unidimensionnel d'un transistor bipolaire n-p-n et (d) son symbole de circuit.} 
 \label{fig:bjt1}
 \end{figure}
 
-\subsection{Operation in Active Mode}
-First consider the pnp-transitor with the three terminals (emitter, base and collector) connected to ground as in figure \ref{fig:bjt2} (a). Under these circumstances we can construct the charge profile like we did for the pn-junction. Notice that the space-charge regions at both junctions extend deeper in the lower doped regions (base in E-B junction, collector in B-C junction).
+\subsection{Fonctionnement en mode actif}
+Considérons d'abord le transistor pnp avec les trois bornes (émetteur, base et collecteur) connectées à la masse comme le montre la figure \ref{fig:bjt2} (a). Dans ces circonstances, nous pouvons construire le profil de charge comme nous l'avons fait pour la jonction pn. Remarquez que les régions de charge d'espace aux deux jonctions s'étendent plus profondément dans les régions moins dopées (base dans la jonction E-B, collecteur dans la jonction B-C).
 
 \begin{figure}[h!]
 \centering
@@ -25,9 +26,9 @@ First consider the pnp-transitor with the three terminals (emitter, base and col
 \caption{(a) pnp transistor with all leads grounded (b) Charge profile in equilibrium (c) Electric field (d) Energy band diagram.} 
 \label{fig:bjt2}
 \end{figure}
-As for the pn-junction, the electric field that emerges in the space-charge region is such that it in equilibrium with the diffusion current due to the concentration gradients at the junctions. Figure \ref{fig:bjt2}(d) shows the band diagram in equilibrium. Since there is no current, the Fermi-level $E_F$ is constant in the three regions.\\
-We will polarize the transistor in the so-called active mode. This is the most commonly used mode in practice. We do this by applying a positive voltage $V_{EB} > 0$ between emitter and base, and a negative voltage $V_{CB} < 0$ between collector and base. The pn-junction between emitter and base is thus forward-biased, while the junction between collector and base is reversed biased.\\
-Since we apply a positive voltage to the emitter and a negative voltage to the collector (while keeping the base grounded; this is a \emph{common-base} configuration), we lower the energy bands in the emitter and raise them in the collector (just as in the pn-junction) - see figure \ref{fig:bjt3}(d). As a consequence, the potential barrier between emitter and base is lowered so majority carriers of the emitter side (i.e. holes) can diffuse through the space-charge region to the base. If the base would be a lot larger than the diffusion length, almost all injected holes would recombine with electrons in the base and generate a base current, just like in an ordinary pn-junction. However, since the base is small, most injected holes do not recombine but diffuse into the space-charge region between base and collector. There they are swept by the electrical field to the collector. As a consequence, most holes leaving the emitter end up in the collector. This phenomenon is called the \emph{transistor action}. It is important to realize that the collector current depends on the emitter current and thus on the height of the emitter-base barrier and $V_{EB}$, but not on the base-collector voltage $V_{CB}$ (as long as the base-collector junction is reversed biased).
+Comme pour la jonction pn, le champ électrique qui apparaît dans la région de charge d'espace est tel qu'il est en équilibre avec le courant de diffusion dû aux gradients de concentration aux jonctions. La figure \ref{fig:bjt2}(d) montre le diagramme de bande en équilibre. Étant donné qu'il n'y a pas de courant, le niveau de Fermi $E_F$ est constant dans les trois régions.\
+Nous allons polariser le transistor en mode actif. C'est le mode le plus couramment utilisé en pratique. Nous le faisons en appliquant une tension positive $V_{EB} > 0$ entre l'émetteur et la base, et une tension négative $V_{CB} < 0$ entre le collecteur et la base. La jonction pn entre l'émetteur et la base est ainsi polarisée directement, tandis que la jonction entre le collecteur et la base est polarisée en inverse.\
+Puisque nous appliquons une tension positive à l'émetteur et une tension négative au collecteur (tout en gardant la base à la masse ; ceci est une configuration \emph{base commune}), nous abaissons les bandes d'énergie dans l'émetteur et les élevons dans le collecteur (tout comme dans la jonction pn) - voir la figure \ref{fig:bjt3}(d). Par conséquent, la barrière de potentiel entre l'émetteur et la base est abaissée, de sorte que les porteurs majoritaires du côté émetteur (c'est-à-dire les trous) peuvent diffuser à travers la région de charge d'espace jusqu'à la base. Si la base était beaucoup plus grande que la longueur de diffusion, presque tous les trous injectés se recombineraient avec des électrons dans la base et généreraient un courant de base, tout comme dans une jonction pn ordinaire. Cependant, comme la base est petite, la plupart des trous injectés ne se recombinent pas mais diffusent dans la région de charge d'espace entre la base et le collecteur. Là, ils sont balayés par le champ électrique vers le collecteur. En conséquence, la plupart des trous quittant l'émetteur se retrouvent dans le collecteur. Ce phénomène est appelé \emph{action du transistor}. Il est important de réaliser que le courant de collecteur dépend du courant d'émetteur et donc de la hauteur de la barrière émetteur-base et de $V_{EB}$, mais pas de la tension base-collecteur $V_{CB}$ (tant que la jonction base-collecteur est polarisée en inverse).
 
 \begin{figure}[h!]
 \centering
@@ -36,30 +37,30 @@ Since we apply a positive voltage to the emitter and a negative voltage to the c
 \label{fig:bjt3}
 \end{figure}
 
-\subsection{Currents in Active Mode}
-For each terminal, we can identify the carrier flows that contribute to the currents $I_E$, $I_C$ and $I_B$.
+\subsection{Courants en mode actif}
+Pour chaque terminal, nous pouvons identifier les flux de porteurs qui contribuent aux courants $I_E$, $I_C$ et $I_B$.
 \begin{enumerate}
-    \item At the emitter:
-    \begin{itemize}
-        \item a hole current from emitter to the base $I_{Ep}$
-        \item an electron flow from base to emitter $I_{En}$
-    \end{itemize}
-    Thus $I_E = I_{Ep} + I_{En}$
-    \item At the base:
-    \begin{itemize}
-        \item a current $I_{BB}$ due to recombination of injected holes with electrons (which have to be resupplied by the battery). This current equals the difference between $I_{Ep}$ and $I_{Cp}$: $I_{BB} = I_{Ep} - I_{Cp}$
-        \item an electron flow from base to emitter $I_{En}$
-        \item an electron flow from collector to base: $I_{Cn}$ (i.e. the leakage current from the reversed biased B-C junction)
-    \end{itemize}
-    Thus $I_B = I_{En} + (I_{Ep} - I_{Cp}) - I_{Cn}$
-    \item At the collector:
-    \begin{itemize}
-        \item a current $I_{Cp}$ that is what remains of $I_{Ep}$ after transition through the base.
-        \item an electron flow from collector to base through the reversed biased B-C junction: $I_{Cn}$ 
-    \end{itemize}
-    Thus $I_C = I_{Cp} + I_{Cn}$
+	\item À l'émetteur :
+	\begin{itemize}
+		\item un courant de trous de l'émetteur vers la base $I_{Ep}$
+		\item un flux d'électrons de la base vers l'émetteur $I_{En}$
+	\end{itemize}
+	Ainsi, $I_E = I_{Ep} + I_{En}$
+	\item À la base :
+	\begin{itemize}
+		\item un courant $I_{BB}$ dû à la recombinaison de trous injectés avec des électrons (qui doivent être réapprovisionnés par la batterie). Ce courant équivaut à la différence entre $I_{Ep}$ et $I_{Cp}$ : $I_{BB} = I_{Ep} - I_{Cp}$
+		\item un flux d'électrons de la base vers l'émetteur $I_{En}$
+		\item un flux d'électrons du collecteur vers la base : $I_{Cn}$ (c'est-à-dire le courant de fuite de la jonction B-C polarisée en inverse)
+	\end{itemize}
+	Ainsi, $I_B = I_{En} + (I_{Ep} - I_{Cp}) - I_{Cn}$
+	\item Au collecteur :
+	\begin{itemize}
+		\item un courant $I_{Cp}$ qui est ce qui reste de $I_{Ep}$ après le passage par la base.
+		\item un flux d'électrons du collecteur vers la base par la jonction B-C polarisée en inverse : $I_{Cn}$
+	\end{itemize}
+	Ainsi, $I_C = I_{Cp} + I_{Cn}$
 \end{enumerate}
-These currents are represented in figure \ref{fig:bjt4}. As the figure implies, $I_{Ep}$ is the major current in the device.
+Ces courants sont représentés sur la figure \ref{fig:bjt4}. Comme le suggère la figure, $I_{Ep}$ est le courant principal dans le dispositif.
 
 \begin{figure}[h!]
 \centering
@@ -68,106 +69,106 @@ These currents are represented in figure \ref{fig:bjt4}. As the figure implies, 
 \label{fig:bjt4}
 \end{figure}
 
-We characterize the transistor by the \emph{common-base current gain} $\alpha_0$, which is the ratio between $I_{Cp}$ and the emitter current:
+Nous caractérisons le transistor par le \emph{gain de courant en mode commun} $\alpha_0$, qui est le rapport entre $I_{Cp}$ et le courant d'émetteur :
 $$
 \alpha_0 \equiv \frac{I_{CP}}{I_E}
 $$
-We can rewrite this as:
+Nous pouvons réécrire ceci comme :
 $$
 \alpha_0 = \frac{I_{Cp}}{I_{En} + I_{Ep}} = \Big(\frac{I_{Ep}}{I_{En} + I_{Ep}}\Big)  \Big(\frac{I_{Cp}}{I_{Ep}}\Big) = \alpha_T \; \gamma
 $$
-with $\alpha_T $ the \emph{base transfer factor} and $\gamma$ the \emph{emitter efficiency}. For proper operation, we require that $I_{Ep} \gg I_{En}$, thus that $\alpha_T \approx 1$. This can be accomplished by requiring that the emitter doping level be much greater than that of the base. The factor $\gamma$ can be increased by decreasing the length of the base.\\
-We can rewrite the collector current $I_C$ as:
+avec $\alpha_T$ le \emph{facteur de transfert de base} et $\gamma$ l'\emph{efficacité d'émetteur}. Pour un fonctionnement correct, nous exigeons que $I_{Ep} \gg I_{En}$, donc $\alpha_T \approx 1$. Cela peut être accompli en exigeant que le niveau de dopage de l'émetteur soit beaucoup plus élevé que celui de la base. Le facteur $\gamma$ peut être augmenté en diminuant la longueur de la base.\
+Nous pouvons réécrire le courant de collecteur $I_C$ comme :
 \begin{equation}
-    \begin{split}
-        I_C &= I_{Cp} + I_{Cn} = \alpha_T I_{Ep} = \alpha_0 I_E + I_{Cn} \\
-            &= \alpha_0 I_E + I_{CB0} \\
-    \end{split}
-    \label{eq:bjt1}
+	\begin{split}
+		I_C &= I_{Cp} + I_{Cn} = \alpha_T I_{Ep} = \alpha_0 I_E + I_{Cn} \\
+		&= \alpha_0 I_E + I_{CB0}
+	\end{split}
+	\label{eq:bjt1}
 \end{equation}
-where $I_{CB0} $ is the leakage current between collector and base with the emitter-base junction open. This expresses that the collector current is a fraction ($0 < \alpha_0 < 1$) of the emitter current, plus a leakage current.
+où $I_{CB0}$ est le courant de fuite entre le collecteur et la base avec la jonction émetteur-base ouverte. Cela exprime que le courant de collecteur est une fraction ($0 < \alpha_0 < 1$) du courant d'émetteur, plus un courant de fuite.
 
-\subsection{Carrier distribution in Active Mode}
-In order to compute the different currents, we first need to determine the carrier distribution in each region. We will assume the following:
+\subsection{Distribution de porteurs en mode actif}
+Afin de calculer les différents courants, nous devons d'abord déterminer la distribution de porteurs dans chaque région. Nous supposerons ce qui suit :
 \begin{enumerate}
-    \item Uniform doping in each region
-    \item No hole drift current in base
-    \item Collector saturation current is negligible
-    \item Only low-level injection
-    \item No generation-recombination in the depletion zone
-    \item No series resistance in the device
+	\item Dopage uniforme dans chaque région
+	\item Pas de courant de dérive de trous dans la base
+	\item Le courant de saturation du collecteur est négligeable
+	\item Seulement une injection de faible niveau
+	\item Pas de génération-recombinaison dans la zone de déplétion
+	\item Pas de résistance série dans le dispositif
 \end{enumerate}
 
-We will assume that the $x=0$ corresponds to the end of the emitter-base depletion zone, and $x=W$ to the start of the base-collector depletion zone. Starting from the continuity equation for minority carriers in the base region:
+Nous supposerons que $x=0$ correspond à la fin de la zone de déplétion émetteur-base, et $x=W$ au début de la zone de déplétion base-collecteur. À partir de l'équation de continuité pour les porteurs minoritaires dans la région de base:
 $$
-\frac{dp_n}{dt} = - \frac{(p_n-p_{n0})}{t_p} - \frac{1}{q} \frac{d J_p}{dx} + g \text{ with }  J_p = q \mu_p p E + q D_p \frac{dp_n}{dx}
+\frac{dp_n}{dt} = - \frac{(p_n-p_{n0})}{t_p} - \frac{1}{q} \frac{d J_p}{dx} + g \text{ avec }  J_p = q \mu_p p E + q D_p \frac{dp_n}{dx}
 $$
-If we assume steady-state, no electric field and no other generation mechanisms, the equation reduces to:
+Si nous supposons un état stationnaire, sans champ électrique et sans autres mécanismes de génération, l'équation se réduit à:
 $$
 D_p \frac{d^2 p_n}{dx^2} = \frac{(p_n-p_{n0})}{t_p}
 $$
-This equation has as general solution
+Cette équation a comme solution générale
 $$
 p_n(x) = p_{n0} + C_1  \; e^{x/L_p} + C_2 \;  e^{-x/L_p}
 $$
-with $L_p = \sqrt{D_p t_p}$ the so-called \emph{diffusion length} of the holes in the n-type semiconductor. Constants $C_1$ and $C_2$ can be determined by the boundary conditions:
+avec $L_p = \sqrt{D_p t_p}$ la soi-disant \emph{longueur de diffusion} des trous dans le semi-conducteur de type n. Les constantes $C_1$ et $C_2$ peuvent être déterminées par les conditions aux limites:
 \begin{itemize}
-    \item $p_n(0) = p_{n0} \;  e^{qV_{EB}/kT}$ because this the standard concentration at the boundary of the depletion region, as in equation \ref{eq:density_junction} of chapter \ref{ch:pnjunction},
-    \item $p_n(W) = 0$ because all holes at $x=W$ will be swept through the base-collector space-charge region by the induced electric field.
+	\item $p_n(0) = p_{n0} ; e^{qV_{EB}/kT}$ car c'est la concentration standard à la limite de la région de déplétion, comme dans l'équation \ref{eq:density_junction} du chapitre \ref{ch:pnjunction},
+	\item $p_n(W) = 0$ car tous les trous à $x=W$ seront balayés à travers la région de charge d'espace base-collecteur par le champ électrique induit.
 \end{itemize}
-Solving for $C_1$ and $C_2$ leads to a rather complex distribution. However, if $W/L_p \ll 1$ we can simplify and obtain:
+La résolution pour $C_1$ et $C_2$ conduit à une distribution assez complexe. Cependant, si $W/L_p \ll 1$, nous pouvons simplifier et obtenir:
 $$
 p_n(x) = p_{n0}\; e^{qV_{EB}/kT} \; \Big(1 - \frac{x}{W} \Big)
 $$
-The minority carrier concentration decreases thus linearly in the base. In a similar manner, we can find an expression for the minority carriers (electrons) in emitter and collector. The results are:
+La concentration de porteurs minoritaires diminue donc linéairement dans la base. De manière similaire, nous pouvons trouver une expression pour les porteurs minoritaires (électrons) dans l'émetteur et le collecteur. Les résultats sont:
 \begin{equation}
     \begin{split}
         n_E(x) &= n_{E0} + n_{E0} (e^{qV_{EB}/kT} - 1) e^{(x+x_E)/L_E}\\
         n_C(x) &= n_{C0} - n_{C0} e^{(x-x_C)/L_C}
     \end{split}
 \end{equation}
-These distributions are also represented in figure \ref{fig:bjt5}. Once the carrier concentrations are known, the currents are easily computed as they are proportional to the concentration gradient:
+Ces distributions sont également représentées dans la figure \ref{fig:bjt5}. Une fois que les concentrations de porteurs sont connues, les courants sont facilement calculés car ils sont proportionnels au gradient de concentration :
 \begin{itemize}
     \item $I_{Ep} = A \Big(-q D_p \frac{dp_n}{dx}|_{x=0}\Big) = \frac{qAD_p \; p_{n0}}{W} e^{qV_{EB}/kT}$
     \item $I_{En} = A \Big(-q D_E \frac{dn_E}{dx}|_{x=-x_E}\Big) = \frac{qAD_E \; n_{E0}}{L_E} (e^{qV_{EB}/kT}-1)$
     \item \ldots
 \end{itemize}
-By combining these results, we obtain expressions for the three terminal currents:
+En combinant ces résultats, on obtient les expressions pour les trois courants terminaux :
 \begin{itemize}
-    \item $I_E = a_{11} (e^{qV_{EB}/kT} - 1) + a_{12}$
-    \item $I_C = a_{12} (e^{qV_{EB}/kT} - 1) + a_{22}$
-    \item $I_B = I_E - I_C$
+	\item $I_E = a_{11} (e^{qV_{EB}/kT} - 1) + a_{12}$
+	\item $I_C = a_{12} (e^{qV_{EB}/kT} - 1) + a_{22}$
+	\item $I_B = I_E - I_C$
 \end{itemize}
-where all the $a_{ij}$ depend on the transistor characteristics like doping concentrations and dimensions.
+où tous les $a_{ij}$ dépendent des caractéristiques du transistor comme les concentrations de dopage et les dimensions. 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=10cm]{figures/ch01/bjt5.jpg}
-\caption{Minority carrier distribution in active mode} 
+\caption{Distribution de porteurs minoritaires en mode actif.} 
 \label{fig:bjt5}
 \end{figure}
 
-\subsection{Modes of Operation and Ebers-Moll Equations}
-\label{sec:modes_of_operation}
-Based on the signs of $V_{EB}$ and $V_{CB}$, we can distinguish $4$ different modes of operation. We already studied the case where $V_{EB} > 0$ and $V_{CB} < 0$, namely the active mode. The other modes are represented in figure \ref{fig:bjt_modes}, together with the minority carrier distribution in emitter, base and collector.
+\subsection{Modes de fonctionnement et équations d'Ebers-Moll}
+\label{sec:modes_de_fonctionnement}
+En fonction des signes de $V_{EB}$ et $V_{CB}$, nous pouvons distinguer $4$ modes de fonctionnement différents. Nous avons déjà étudié le cas où $V_{EB} > 0$ et $V_{CB} < 0$, à savoir le mode actif. Les autres modes sont représentés sur la figure \ref{fig:bjt_modes}, ainsi que la distribution des porteurs minoritaires dans l'émetteur, la base et le collecteur.
 \begin{figure}[h!]
-\centering
-\includegraphics[width=12cm]{figures/ch01/bjt_modes.jpg}
-\caption{Modes of operation} 
-\label{fig:bjt_modes}
+	\centering
+	\includegraphics[width=12cm]{figures/ch01/bjt_modes.jpg}
+	\caption{Modes de fonctionnement}
+	\label{fig:bjt_modes}
 \end{figure}
-In saturation mode, both junctions are forward biased. The minority-carrier distribution at the edge of each depletion region is not zero, as in the active mode. Small biasing voltages lead to a large output current. The transistor acts a closed switch.\\
-In cuttoff mode, both junctions are reversed biased. Only a small current will flow. The transistor is an open switch.\\
-In inverted mode, emitter and collector are reversed. The behavior is however not exactly like in the active mode, because the doping levels in emitter and collector are different.\\
-All these modes can be analyzed in a similar way as we have done for the active mode. This analysis leads to the \emph{Ebers-Moll equations} which are used to model the BJT in simulators like SPICE.\\
-\textbf{TODO: Add Ebers-Moll equations and equivalent circuits}
+En mode saturation, les deux jonctions sont polarisées directement. La distribution de porteurs minoritaires à la limite de chaque région de déplétion n'est pas nulle, comme dans le mode actif. De faibles tensions de polarisation conduisent à un courant de sortie élevé. Le transistor agit comme un interrupteur fermé.\\
+En mode coupure, les deux jonctions sont polarisées inversement. Seul un faible courant circulera. Le transistor est un interrupteur ouvert.\\
+En mode inversé, l'émetteur et le collecteur sont inversés. Le comportement n'est cependant pas exactement comme dans le mode actif, car les niveaux de dopage dans l'émetteur et le collecteur sont différents.\\
+Tous ces modes peuvent être analysés de manière similaire à ce que nous avons fait pour le mode actif. Cette analyse conduit aux \emph{équations d'Ebers-Moll} qui sont utilisées pour modéliser le BJT dans des simulateurs comme SPICE.\\
+\textbf{TODO : Ajouter les équations d'Ebers-Moll et les circuits équivalents.}
 
-\subsection{Common-Emitter configuration}
-Up until now, we have kept the base at a fixed voltage. However, the most common use of the bipolar transistor is with the emitter at a fixed voltage as in figure \ref{fig:bjt6}(a). This configuration has $V_{EB}$ and $I_B$ as inputs, and $I_C$ and $V_{EC}$ as outputs.\\
-We can express $I_C$ as function of $I_{B}$ by substituting $I_E = I_B + I_C$ in equation \ref{eq:bjt1}:
+\subsection{Configuration Émetteur Commun}
+Jusqu'à présent, nous avons maintenu la base à une tension fixe. Cependant, l'utilisation la plus courante du transistor bipolaire est avec l'émetteur à une tension fixe comme dans la figure \ref{fig:bjt6}(a). Cette configuration a $V_{EB}$ et $I_B$ en entrée, et $I_C$ et $V_{EC}$ en sortie.\
+Nous pouvons exprimer $I_C$ en fonction de $I_B$ en substituant $I_E = I_B + I_C$ dans l'équation \ref{eq:bjt1}:
 $$
 I_C = \alpha_0 (I_B + I_C) + I_{CBO}
 $$
-Solving for $I_C$ gives:
+La résolution de l'équation \ref{eq:bjt1} pour $I_C$ donne:
 \begin{equation}
     \begin{split}
         I_C &= \frac{\alpha_0}{1-\alpha_0} I_B + \frac{I_{CB0}}{1 - \alpha_0}\\
@@ -175,9 +176,9 @@ Solving for $I_C$ gives:
         \label{eq:bjt2}
     \end{split}
 \end{equation}
-with $\beta_0 = \frac{\alpha_0}{1-\alpha_0}$ the \emph{common-emitter current gain} and $I_{CE0} = \frac{I_{CB0}}{1-\alpha_0}$ the collector-emitter leakage current. This current is always present, even if $I_B=0$ and thus makes the bipolar transistor a very bad switch because it will leak current when closed.\\
-In the previous, common-base configuration, and with $\alpha_0 \approx 1$, a change in emitter current $I_E$ produces a changes of approximately the same amount in the collector current $I_C$ and a much smaller change in the base current (factor of $1-\alpha_0$). To achieve current amplification, the change is initiated in the base current rather than in the emitter current. This causes the collector current to change by a factor of $\frac{\alpha_0}{1 - \alpha_0} = \beta_0$.\\
-When $\alpha_0$ is close to one, $\beta_0$ becomes very large. This is a good thing because it allows us to amplify the base current $I_B$. However, $\beta_0$ can change a lot from transistor to transistor. This is why we will explore polarisation techniques that mitigate the variability of $\beta_0$.
+où $\beta_0 = \frac{\alpha_0}{1-\alpha_0}$ est le \emph{gain de courant commun-émetteur} et $I_{CE0} = \frac{I_{CB0}}{1-\alpha_0}$ est le courant de fuite collecteur-émetteur. Ce courant est toujours présent, même si $I_B = 0$, et rend le transistor bipolaire très mauvais comme interrupteur car il fuira du courant quand il est fermé.\\
+Dans la configuration précédente, base commune, et avec $\alpha_0 \approx 1$, un changement du courant d'émetteur $I_E$ produit un changement d'environ la même quantité dans le courant de collecteur $I_C$ et un changement beaucoup plus petit dans le courant de base (facteur de $1-\alpha_0$). Pour obtenir une amplification de courant, le changement est initié dans le courant de base plutôt que dans le courant d'émetteur. Cela fait changer le courant de collecteur par un facteur de $\frac{\alpha_0}{1 - \alpha_0} = \beta_0$.\\
+Lorsque $\alpha_0$ est proche de un, $\beta_0$ devient très grand. C'est une bonne chose car cela nous permet d'amplifier le courant de base $I_B$. Cependant, $\beta_0$ peut beaucoup varier d'un transistor à l'autre. C'est pourquoi nous explorerons des techniques de polarisation qui atténuent la variabilité de $\beta_0$.
 
 
 \begin{figure}[h!]
@@ -187,17 +188,18 @@ When $\alpha_0$ is close to one, $\beta_0$ becomes very large. This is a good th
 \label{fig:bjt6}
 \end{figure}
 
-The defining I-V characteristic of a common-emitter configuration is shown in \ref{fig:bjt6}(b). If $V_{EC}$ is too low, $V_{CB}$ is positive and the base-collector junction is not reversed biased. The transistor in saturation mode. Thus $V_{EC}$ must be higher than some threshold to put the transistor in the active mode. This value is called $V_{EC, Sat}$ and is about $0.2$ V.\\
-When $V_{EC} > V_{EC, Sat}$, we can say based on equation \ref{eq:bjt2} that $I_C \approx \beta_0 I_B$ and hence independent of $V_{EC}$. This is the ideal behavior, because we now control output current $I_C$ with input current $I_B$ and not with the output voltage $V_{EB}$. However, as can be seen from the figure, the I-V characteristics are not entirely flat and thus still depend on $V_{EB}$. This is due to the \emph{Early-effect} and will be addressed in the next section.\\
-If $V_{EB}$ is lower than $0.6$ V, the emitter-base junction is not forward biased and $I_B$ is very small. We say that the transistor is in cut-off. The only current that still flows from emitter to collector is the leakage current $I_{CE0}$.
+La caractéristique I-V définissant une configuration émetteur commun est montrée dans la figure \ref{fig:bjt6}(b). Si $V_{EC}$ est trop faible, $V_{CB}$ est positif et la jonction base-collecteur n'est pas polarisée en inverse. Le transistor est en mode saturation. Ainsi, $V_{EC}$ doit être supérieur à un certain seuil pour mettre le transistor en mode actif. Cette valeur est appelée $V_{EC, Sat}$ et est d'environ $0,2$ V.\
+Lorsque $V_{EC} > V_{EC, Sat}$, nous pouvons dire, sur la base de l'équation \ref{eq:bjt2}, que $I_C \approx \beta_0 I_B$ et donc indépendant de $V_{EC}$. C'est un comportement idéal, car nous contrôlons maintenant le courant de sortie $I_C$ avec le courant d'entrée $I_B$ et non avec la tension de sortie $V_{EB}$. Cependant, comme on peut le voir sur la figure, les caractéristiques I-V ne sont pas entièrement plates et dépendent donc encore de $V_{EB}$. Cela est dû à l'effet Early et sera abordé dans la prochaine section.\
+Si $V_{EB}$ est inférieur à $0,6$ V, la jonction émetteur-base n'est pas polarisée en direct et $I_B$ est très faible. On dit que le transistor est en coupure. Le seul courant qui continue de circuler de l'émetteur vers le collecteur est le courant de fuite $I_{CE0}$.
 
-\subsection{Early Effect}
-In principle, $I_C$ should be independent of the base-collector junction voltage $V_{BC}$. However, as $V_{BC}$ increases, the width of the space-charge region between base and collector increases, as predicted by equation \ref{eq:SCR_width_bias} where $V_F = -V_{BC}$. This means that the effective length of the base decreases and this in turn has two effects:
+\subsection{Effet Early}
+En principe, $I_C$ devrait être indépendant de la tension de la jonction base-collecteur $V_{BC}$. Cependant, lorsque $V_{BC}$ augmente, la largeur de la région de charge d'espace entre la base et le collecteur augmente, comme prédit par l'équation \ref{eq:SCR_width_bias} où $V_F = -V_{BC}$. Cela signifie que la longueur effective de la base diminue et cela a deux effets :
 \begin{enumerate}
-    \item More holes coming from the emitter will reach the collector because there is less room for recombination. Effectively, the base transfer factor $\alpha_T$ increases.
-    \item The hole current is determined by the slope of the hole concentration in the base, as seen previously. As $W$ decreases - while the boundary conditions remain the same - the diffusion hole current $I_{Ep}$ increases. The increase of slope (in absolute terms) is shown in figure \ref{fig:bjt7}(a).
+	\item Plus de trous provenant de l'émetteur atteindront le collecteur car il y a moins de place pour la recombinaison. Effectivement, le facteur de transfert de base $\alpha_T$ augmente.
+	\item Le courant de trou est déterminé par la pente de la concentration de trous dans la base, comme vu précédemment. Lorsque $W$ diminue, tout en maintenant les conditions aux limites, le courant de diffusion de trou $I_{Ep}$ augmente. L'augmentation de la pente (en termes absolus) est montrée dans la figure \ref{fig:bjt7}(a).
 \end{enumerate}
-Both effects contribute to an increase in $I_C$ when $V_{CB}$ (or $V_{EC}$ in common-emitter) increases and $I_B$ remains constant. This phenomenon is called the \emph{Early effect}. We can show that all those non-flat current curves in the I-V characteristic (see \ref{fig:bjt7}(b)) pass through the same point on the V-axis when extended. The corresponding voltage is the Early voltage $V_A$.
+
+Les deux effets contribuent à une augmentation de $I_C$ lorsque $V_{CB}$ (ou $V_{EC}$ en configuration émetteur commun) augmente et que $I_B$ reste constant. Ce phénomène est appelé l'\emph{effet Early}. Nous pouvons montrer que toutes ces courbes de courant non plates dans la caractéristique I-V (voir figure \ref{fig:bjt7}(b)) passent par le même point sur l'axe V lorsqu'elles sont étendues. La tension correspondante est la tension Early $V_A$.
 
 \begin{figure}[h!]
 \centering
@@ -214,10 +216,10 @@ Both effects contribute to an increase in $I_C$ when $V_{CB}$ (or $V_{EC}$ in co
 \newpage
 \section{MOSFET}
 \label{sec:mosfet}
-The metal–oxide–semiconductor field-effect transistor or \emph{MOSFET} is a transistor based on the field-effect. It has an insulated gate, made of a conductor like a metal or poly-silicon. This terminal is isolated from the rest of the device by a narrow layer of $SiO_2$ which serves as dielectric. The voltage applied at the gate determines the conductivity of the device and hence can control the current between the two other terminals named source and drain. This ability to change conductivity with the amount of applied voltage can be used for amplifying or switching electronic signals. Figure \ref{fig:mosfet1}(a) shows the structure of a MOSFET, while Figure \ref{fig:mosfet1}(c) shows its symbols together with the three terminals.
-\subsection{Description and Operation}
-Figure \ref{fig:mosfet1}(b) shows the cross-section of an n-channel MOSFET. Source (S) and drain (D) are both $n^+$ contacts and are isolated from each other by the p-type substrate. As the voltage on the gate increases, the holes in the p-type material are expelled and the region below the gate becomes depleted of charge carriers. If the gate voltage increases even further, electrons which are present in the p-type bulk as minority carriers are attracted to the region below the gate. A narrow layer of electrons between source and drain is formed and conduction of electrons between source and drain becomes possible. If the electron density below the gate is equal to the hole concentration in the bulk, inversion has happened and we say that a channel has formed. The gate voltage at which this inversion from p-type to n-type happens, is called the threshold voltage $V_T$.\\
-To have a current flow from source to drain, we don't only need a channel but also a positive voltage difference between drain and source. As we increase the voltage at the drain, the current increases, but at the same time the depth of the channel at the drain decreases because $V_{GD} < V_{GS}$. At a certain moment the voltage difference between gate and drain is no longer enough to sustain an n-type channel ($V_{GD} = V_T$). We call this \emph{pinch-off} and say that the transistor is saturated. The current between drain and source no longer increases as the drain voltages increases but remains constant.
+Le transistor à effet de champ métal-oxyde-semi-conducteur, ou \emph{MOSFET}, est un transistor basé sur l'effet de champ. Il possède une grille isolée, constituée d'un conducteur tel que du métal ou du poly-silicium. Cette borne est isolée du reste du dispositif par une fine couche de $SiO_2$ qui sert de diélectrique. La tension appliquée à la grille détermine la conductivité du dispositif et peut donc contrôler le courant entre les deux autres bornes nommées source et drain. Cette capacité à modifier la conductivité en fonction de la tension appliquée peut être utilisée pour amplifier ou commuter des signaux électroniques. La Figure \ref{fig:mosfet1}(a) montre la structure d'un MOSFET, tandis que la Figure \ref{fig:mosfet1}(c) montre ses symboles ainsi que les trois bornes.
+\subsection{Description et fonctionnement}
+La Figure \ref{fig:mosfet1}(b) montre la section transversale d'un MOSFET à canal n. La source (S) et le drain (D) sont tous deux des contacts $n^+$ et sont isolés l'un de l'autre par le substrat de type p. Lorsque la tension sur la grille augmente, les trous dans le matériau de type p sont expulsés et la région sous la grille devient appauvrie en porteurs de charge. Si la tension de la grille augmente encore plus, les électrons présents dans le volume de type p en tant que porteurs minoritaires sont attirés vers la région sous la grille. Une couche étroite d'électrons entre la source et le drain est formée et la conduction d'électrons entre la source et le drain devient possible. Si la densité électronique sous la grille est égale à la concentration en trous dans le volume, une inversion s'est produite et nous disons qu'un canal s'est formé. La tension de la grille à laquelle cette inversion de type p à type n se produit est appelée tension seuil $V_T$.\
+Pour qu'un courant s'écoule de la source au drain, nous avons besoin non seulement d'un canal, mais également d'une différence de tension positive entre le drain et la source. À mesure que nous augmentons la tension au niveau du drain, le courant augmente, mais en même temps, la profondeur du canal au niveau du drain diminue car $V_{GD} < V_{GS}$. À un certain moment, la différence de tension entre la grille et le drain n'est plus suffisante pour maintenir un canal de type n ($V_{GD} = V_T$). Nous appelons cela \emph{pinch-off} et disons que le transistor est saturé. Le courant entre le drain et la source n'augmente plus à mesure que la tension de drain augmente mais reste constant.
 
 \begin{figure}[h!]
 \centering
@@ -226,12 +228,13 @@ To have a current flow from source to drain, we don't only need a channel but al
 \label{fig:mosfet1}
 \end{figure}
 
-The dimensions of a MOSFET can become very small; a typical gate oxide thickness $t_{ox}$ is about $15 \AA$ and shrinks with every new generation. The channel length $L$ is typically multiple tens of nanometers.
+Les dimensions d'un MOSFET peuvent devenir très petites ; l'épaisseur typique de l'oxyde de grille $t_{ox}$ est d'environ $15 \AA$ et diminue avec chaque nouvelle génération. La longueur du canal $L$ est généralement de plusieurs dizaines de nanomètres.
 
-\subsection{MOS Capacitor}
-The region below the gate is a called a MOS capacitor. In integrated circuits, it can store charges and forms the basis building block for charge-coupled devices (CCD). A MOSFET can thus be seen as a MOS capacitor and two pn-junctions placed immediately adjacent to it. We will briefly see how charge builds up in the semiconductor as a voltage is applied to the metal gate.\\
-Figure  \ref{fig:moscap} represents a MOS capacitor with the gate on the left and the p-type semiconductor on the right of the oxide. If a negative voltage $V < 0$ is applied to the metal plate of the gate, as in \ref{fig:moscap}(a), positive carriers are attracted to the $SiO_2 - Si$ interface. No current flows in the device, so the Fermi level remains constant. The carrier distribution depends on the difference $E_i - E_F$: $p_p = n_i e^{(E_i - E_F)/kT}$ so the conduction and valence bands at the interface have to bend upward to increase $E_i - E_F$ because $E_F$ is constant. The holes "float" up to the maximum in the valence band and accumulate at the interface.\\
-If $V > 0$, as in  \ref{fig:moscap}(b), holes are repelled from the interface and the bands bend up. Initially, all acceptor donors are exposed and a charge layer of depth $W$ is created inside the semiconductor. The induced charge density per unit area is $Q_d = q N_A W$. We call this process \emph{depletion}. If $V$ increases further and the bands bend even more, the intrinsic Fermi level will fall below the true Fermi level as in \ref{fig:moscap}(c) and electrons will swarm to the interface because the exponent in expression $n_p = n_i e^{(E_F - E_i)/kT}$ becomes positive. This process is called \emph{inversion} and is the condition needed to form a channel in a MOSFET. The channel is a highly charged region just right of the interface (see the charge distribution), separated from the p-type semiconductor by a relatively wide depletion region. The voltage where the Fermi levels cross is the threshold voltage $V_T$ and we denote the associated charge $Q_n$.
+\subsection{Condensateur MOS}
+La région sous la grille est appelée un condensateur MOS. Dans les circuits intégrés, il peut stocker des charges et constitue la base de construction pour les dispositifs à transfert de charges (CCD). Un MOSFET peut donc être considéré comme un condensateur MOS et deux jonctions pn placées immédiatement adjacentes. Nous verrons brièvement comment la charge s'accumule dans le semi-conducteur lorsqu'une tension est appliquée à la grille métallique.\
+La figure \ref{fig:moscap} représente un condensateur MOS avec la grille à gauche et le semi-conducteur de type p à droite de l'oxyde. Si une tension négative $V < 0$ est appliquée à la plaque métallique de la grille, comme dans \ref{fig:moscap}(a), les porteurs positifs sont attirés vers l'interface $SiO_2 - Si$. Aucun courant ne circule dans le dispositif, donc le niveau de Fermi reste constant. La distribution des porteurs dépend de la différence $E_i - E_F$: $p_p = n_i e^{(E_i - E_F)/kT}$, donc les bandes de conduction et de valence à l'interface doivent se courber vers le haut pour augmenter $E_i - E_F$ car $E_F$ est constant. Les trous "flottent" vers le maximum dans la bande de valence et s'accumulent à l'interface.\
+Si $V > 0$, comme dans \ref{fig:moscap}(b), les trous sont repoussés de l'interface et les bandes se courbent vers le haut. Au départ, tous les donneurs accepteurs sont exposés et une couche de charge de profondeur $W$ est créée à l'intérieur du semi-conducteur. La densité de charge induite par unité de surface est $Q_d = q N_A W$. Nous appelons ce processus \emph{déplétion}. Si $V$ augmente encore et que les bandes se courbent encore plus, le niveau de Fermi intrinsèque tombera en dessous du niveau de Fermi réel comme dans \ref{fig:moscap}(c) et les électrons afflueront vers l'interface car l'exposant dans l'expression $n_p = n_i e^{(E_F - E_i)/kT}$ devient positif. Ce processus est appelé \emph{inversion} et est la condition nécessaire pour former un canal dans un MOSFET. Le canal est une région très chargée juste à droite de l'interface (voir la distribution de charge), séparée du semi-conducteur de type p par une région de déplétion relativement large. La tension où les niveaux de Fermi se croisent est la tension de seuil $V_T$ et nous désignons la charge associée $Q_n$.
+
 \begin{figure}[h!]
 \centering
 \includegraphics[width=7cm]{figures/ch01/moscap.jpg}
@@ -239,35 +242,35 @@ If $V > 0$, as in  \ref{fig:moscap}(b), holes are repelled from the interface an
 \label{fig:moscap}
 \end{figure}
 
-\subsection{I-V characteristic}
+\subsection{Caractéristique I-V}
 \label{sec:MOS_IV}
-If $V$ is the applied voltage difference to the plates of a capacitor, and $C$ is the  capacitance, then the  induced charge is $Q = C V$. In the case of the MOSFET of figure \ref{fig:mosfet1}(b), we are only interested in the mobile charges under the gate, namely the electrons $Q_n$ attracted to the interface in figure \ref{fig:moscap}(c), and not the depletion charge $Q_d = q N_A W$. This means that $V = V_{GS} - V_T$ because no mobile charges exist for $V_{GS} < V_T$\footnote{This assumption will be revised in section \ref{sec:subthreshold_conduction}}. If we assume that the MOS capacitor has a gate capacitance $C_{ox}$ per unit area, this relation becomes
+Si $V$ est la différence de tension appliquée aux plaques d'un condensateur et $C$ la capacitance, alors la charge induite est $Q = CV$. Dans le cas du MOSFET de la figure \ref{fig:mosfet1}(b), nous ne nous intéressons qu'aux charges mobiles sous la grille, c'est-à-dire les électrons $Q_n$ attirés vers l'interface de la figure \ref{fig:moscap}(c), et non à la charge de déplétion $Q_d=qN_AW$. Cela signifie que $V=V_{GS}-V_T$ car aucune charge mobile n'existe pour $V_{GS}<V_T$ \footnote{Cette hypothèse sera révisée dans la section \ref{sec:subthreshold_conduction}}. Si nous supposons que le condensateur MOS a une capacité de grille $C_{ox}$ par unité de surface, cette relation devient
 $$Q_n = W C_{ox} (V_{GS} - V_T)$$
-with $W$ the width of the transistor. Mind that $Q_n$ is a charge density per unit length. As drain and source voltage are not the same, the channel voltage varies along the length of the channel. If we denote the channel potential by $V(x)$, we can rewrite the equation above as:
+avec $W$ la largeur du transistor. Notez que $Q_n$ est une densité de charge par unité de longueur. Comme la tension de drain et de source n'est pas la même, la tension de canal varie le long de la longueur du canal. Si nous désignons le potentiel de canal par $V(x)$, nous pouvons réécrire l'équation ci-dessus comme suit:
 $$Q_n(x) = W C_{ox} (V_{GS} - V(x) - V_T)$$
-where $V(x)$ goes from zero to $V_D$ if the channel is not pinched off (figure \ref{fig:mosfet2}(a)).\\
-We know that the current is the charge density times the velocity of the charges: $I_D = Q_n(x) \cdot v$. The current is a drift current as we apply an electric field $\mathcal{E}$ across the channel. Thus:
+où $V(x)$ va de zéro à $V_D$ si le canal n'est pas étranglé (figure \ref{fig:mosfet2}(a)).\\
+Nous savons que le courant est la densité de charge multipliée par la vitesse des charges: $I_D=Q_n(x)\cdot v$. Le courant est un courant de dérive car nous appliquons un champ électrique $\mathcal{E}$ à travers le canal. Ainsi :
 $$v = -\mu_n \mathcal{E} = \mu_n \frac{dV}{dx}$$
-with $\mu_n$ the electron mobility. Substituting this in the expression for $I_D$, we find:
+avec $\mu_n$ la mobilité des électrons. En substituant cela dans l'expression de $I_D$, nous trouvons :
 $$I_D = W C_{ox} (V_{GS} - V(x) - V_T) \mu_n \frac{dV(x)}{dx}$$
-Multiplying both sides by $dx$ and integrating from $x = 0$ to the channel length  $L$:
+En multipliant les deux côtés par $dx$ et en intégrant de $x = 0$ à la longueur de canal $L$ :
 $$
  \int_{x=0}^{x=L} I_D dx = \int_{V(x)=0}^{V(x)=V_{DS}} \mu_n C_{ox} W (V_{GS}-V(x)-V_T)dV 
 $$
-Because $I_D$ is constant along the channel, we can solve both integrals and express $I_D$ as
+Parce que $I_D$ est constant le long du canal, nous pouvons résoudre les deux intégrales et exprimer $I_D$ comme
 \begin{equation}
 \begin{split}
     I_D = \frac{1}{2} \mu_n C_{ox} \frac{W}{L} [ 2(V_{GS} - V_T) V_{DS} - V_{DS}^2 ]
 \end{split}
 \end{equation}
-This is a parabolic function that reaches a maximum for $V_{DS} = V_{GS} - V_T$:
+Ceci est une fonction parabolique qui atteint un maximum pour $V_{DS} = V_{GS} - V_T$ :
 $$I_{D, max} = \frac{1}{2} \mu_n C_{ox} \frac{W}{L} (V_{GS} - V_T)^2$$
-We already established that the condition for saturation is $V_{GD} = V_T$: from this point on, the current will no longer increase as $V_{DS}$ increases because pinch-off has occurred at the drain. Because $V_{DG} = V_{DS} - V_{GS}$ and at pinch-off $V_{DG} = -V_T$, we can rewrite this condition as  $V_{DS} = V_{GS} - V_T$, i.e. at the maximum of the curve, the transistor goes in saturation. This is the situation in figure \ref{fig:mosfet2}(b) and (c). As $V_{DS}$ increases, the pinch-off point $P$ moves closer to the source. The voltage difference in the shrinking channel at $P$ remains $V_{GS} - V_T$. The transistor is in saturation\footnote{Mind that saturation for a MOSFET is not the same concept as saturation for a BJT} and the drain current is - in a first approximation - equal to:
+Nous avons déjà établi que la condition de saturation est $V_{GD} = V_T$ : à partir de ce point, le courant ne va plus augmenter lorsque $V_{DS}$ augmente car un effet de pincement s'est produit au drain. Étant donné que $V_{DG} = V_{DS} - V_{GS}$ et que lorsqu'un effet de pincement se produit $V_{DG} = -V_T$, nous pouvons réécrire cette condition sous la forme $V_{DS} = V_{GS} - V_T$, c'est-à-dire que le transistor est en saturation au maximum de la courbe. C'est la situation représentée dans la figure \ref{fig:mosfet2}(b) et (c). Lorsque $V_{DS}$ augmente, le point de pincement $P$ se rapproche de la source. La différence de potentiel dans le canal rétrécissant en $P$ reste à $V_{GS} - V_T$. Le transistor est en saturation\footnote{Notez que la saturation pour un MOSFET n'est pas le même concept que la saturation pour un BJT} et le courant de drain est - dans une première approximation - égal à :
 \begin{equation}
     I_{D} = \frac{1}{2} \mu_n C_{ox} \frac{W}{L} (V_{GS} - V_T)^2
     \label{eq:sat_current}
 \end{equation}
-Note that contrary to the BJT, there is no DC current through the gate.\footnote{A note on notation: we will often use $K$ for the product $\mu_n C_{ox}$.}
+Notez que contrairement au BJT, il n'y a pas de courant continu à travers la grille.\footnote{Note sur la notation : nous utiliserons souvent $K$ pour le produit $\mu_n C_{ox}$.}
 
 \begin{figure}[h!]
 \centering
@@ -276,14 +279,14 @@ Note that contrary to the BJT, there is no DC current through the gate.\footnote
 \label{fig:mosfet2}
 \end{figure}
 
-If $V_{DS}$ is relatively small, we can approximate $I_D$ as:
+Si $V_{DS}$ est relativement petit, nous pouvons approximer $I_D$ comme suit :
 $$I_D \approx  \mu_n C_{ox} \frac{W}{L} (V_{GS} - V_T) V_{DS}$$
-This is the expression of a resistor with value:
+Ceci est l'expression d'une résistance avec une valeur:
 $$R_{on} = \frac{1}{\mu_n C_{ox} \frac{W}{L} (V_{GS} - V_T)}$$
-We say that the transistor is in the \emph{linear} or \emph{triode} region. Since the resistance is a function of $V_{GS}$, the MOSFET in this region can be seen as a programmable resistance.
+Nous disons que le transistor est dans la région \emph{linéaire} ou \emph{triode}. Comme la résistance est une fonction de $V_{GS}$, le MOSFET dans cette région peut être considéré comme une résistance programmable.
 %$$I_{D} = \frac{1}{2} \mu_n C_{ox} \frac{W}{L} (V_{GS} - V_T)^2$$
 
-Figure \ref{fig:mosfet3} gives the overall output characteristic of an n-channel MOSFET. Notice how the transition point from linear to saturation depends on $V_{GS}$: for the transistor te be in saturation $V_{DS}$ must be larger than the \emph{overdrive voltage} $V_{ov} = V_{GS} - V_T$, also called the saturation voltage $V_{DS, Sat}$. This is not the case for the BJT, where we used a fixed cutoff $V_{CE,sat}$ with a value of $0.2$ V.
+La figure \ref{fig:mosfet3} donne la caractéristique de sortie globale d'un MOSFET à canal N. Remarquez comment le point de transition de linéaire à saturation dépend de $V_{GS}$ : pour que le transistor soit en saturation, $V_{DS}$ doit être plus grand que la \emph{tension de suralimentation} $V_{ov} = V_{GS} - V_T$, également appelée tension de saturation $V_{DS, Sat}$. Ce n'est pas le cas pour le BJT, où nous avons utilisé une coupure fixe $V_{CE,sat}$ avec une valeur de $0,2$ V.
 
 \begin{figure}[h!]
 \centering
@@ -291,23 +294,23 @@ Figure \ref{fig:mosfet3} gives the overall output characteristic of an n-channel
 \caption{Overall MOSFET $I_D - V_{DS}$ characteristic} 
 \label{fig:mosfet3}
 \end{figure}
-We have studied the n-channel MOSFET or \emph{NMOS}. The study of the p-channel MOSFET or \emph{PMOS} is left as an exercise for the reader.
+Nous avons étudié le MOSFET à canal N ou \emph{NMOS}. L'étude du MOSFET à canal P ou \emph{PMOS} est laissée en exercice pour le lecteur.
 
-\subsection{Second Order Effects}
-We will discuss several second-order effects that will cause the MOSFET to behave differently than the ideal behavior of figure \ref{fig:mosfet3}.
-\subsubsection{Channel-length Modulation}
-Notice that in figure \ref{fig:mosfet3}(c) the effective length of the channel decreases as the drain voltage increases (the pinch-off point moves to the left). We established equation \ref{eq:sat_current} with the implicit assumption that $L$ is constant. If however the effective channel length decreases, current $I_D$ will increase with increasing $V_{DS}$ and the I-V characteristic of figure \ref{fig:mosfet3} is not flat. This is similar to the Early effect in the BJT.\\
-To model this, we assume that $L$ doesn't change, but do include an explicit dependence on $V_{DS}$ in equation \ref{eq:sat_current}:
+\subsection{Effets de Second Ordre}
+Nous discuterons de plusieurs effets de second ordre qui feront que le MOSFET se comportera différemment du comportement idéal de la figure \ref{fig:mosfet3}.
+\subsubsection{Modulation de la longueur du canal}
+Remarquez que dans la figure \ref{fig:mosfet3}(c), la longueur effective du canal diminue à mesure que la tension de drain augmente (le point d'étranglement se déplace vers la gauche). Nous avons établi l'équation \ref{eq:sat_current} avec l'hypothèse implicite que $L$ est constant. Cependant, si la longueur effective du canal diminue, le courant $I_D$ augmentera avec l'augmentation de $V_{DS}$ et la caractéristique I-V de la figure \ref{fig:mosfet3} ne sera pas plate. Ceci est similaire à l'effet Early dans le BJT.\
+Pour modéliser cela, nous supposons que $L$ ne change pas, mais incluons une dépendance explicite de $V_{DS}$ dans l'équation \ref{eq:sat_current} :
 \begin{equation}
     I_{D} = \frac{1}{2} \mu_n C_{ox} \frac{W}{L} (V_{GS} - V_T)^2 \; (1 + \lambda V_{DS})
     \label{eq:sat_current2}
 \end{equation}
-The factor $\lambda$ is the \emph{channel length modulation coefficient}. To decrease $\lambda$, the designer can increase the length of the transistor, because this makes the relative impact of a change in $L$ is smaller.
-\subsubsection{Body Effect}
-Until now, we have supposed that both the p-type substrate and the n-type source are connected to a common ground. This is however not always the case in real circuits, where the source can be tied to voltages higher than the substrate. Even in that case, the pn-junction between source and substrate is still reversed biased and the device still works properly.\\
-However, something does change as the source voltage increases with respect to the bulk: as the source becomes more positive with respect to the substrate, the threshold voltage $V_T$ increases. Called “body effect,” this phenomenon is formulated as
+Le facteur $\lambda$ est le \emph{coefficient de modulation de longueur de canal}. Pour diminuer $\lambda$, le concepteur peut augmenter la longueur du transistor, car cela rend l'impact relatif d'un changement de $L$ plus petit.
+\subsubsection{Effet de corps}
+Jusqu'à présent, nous avons supposé que le substrat de type p et la source de type n étaient connectés à une masse commune. Ce n'est cependant pas toujours le cas dans les circuits réels, où la source peut être connectée à des tensions supérieures à celles du substrat. Même dans ce cas, la jonction pn entre la source et le substrat est toujours polarisée en inverse et le dispositif fonctionne correctement.\\
+Cependant, quelque chose change lorsque la tension de la source augmente par rapport au substrat: lorsque la source devient plus positive par rapport au substrat, la tension de seuil $V_T$ augmente. Appelé "effet de corps", ce phénomène est formulé comme
 $$V_T = V_{T0} + \gamma (|2\phi_F + V_{SB} - |2\phi_F|)$$
-where $V_{SB}$ is the voltage difference between source and  substrate (bulk), $V_{T0}$ the threshold voltage when $V_{SB} = 0$ and $\gamma$ and $\phi_F$ technology-dependent parameters.
-\subsubsection{Subthreshold Conduction}
+où $V_{SB}$ est la différence de tension entre la source et le substrat (bulk), $V_{T0}$ est la tension de seuil lorsque $V_{SB} = 0$ et $\gamma$ et $\phi_F$ sont des paramètres dépendants de la technologie.
+\subsubsection{Conduction sub seuil}
 \label{sec:subthreshold_conduction}
-We have assumed that the MOSFET turns on abruptly when the gate voltage exceeds the threshold voltage. In practice however, the device turns on gradually and there is already a source-drain current before $V_T$ is reached. This current depends exponentially on $V_{GS}$, similarly as in a BJT. Called the \emph{subthreshold conduction}, this effect has become a critical issue in modern MOS devices.
+Nous avons supposé que le MOSFET s'allume brusquement lorsque la tension de la grille dépasse la tension de seuil. En pratique cependant, le dispositif s'allume progressivement et il y a déjà un courant source-drain avant que $V_T$ soit atteint. Ce courant dépend exponentiellement de $V_{GS}$, de manière similaire à un BJT. Appelé la \emph{conduction sub seuil}, cet effet est devenu un problème critique dans les dispositifs MOS modernes.
